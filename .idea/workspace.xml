@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1b6be4d9-bb77-4a09-b66d-69801415129b" name="Default Changelist" comment="" />
+    <list default="true" id="1b6be4d9-bb77-4a09-b66d-69801415129b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hibernate/model/MovieCast.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hibernate/model/Director.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hibernate/model/Director.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hibernate/model/Genres.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hibernate/model/Genres.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hibernate/model/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hibernate/model/Movie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hibernate/model/Movie_cast.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,13 +22,18 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1lYca6OCG07URsoUk54UdzM0VN0" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../PRA2018-2019" />
@@ -45,7 +58,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1607777525847</updated>
-      <workItem from="1607777528889" duration="4309000" />
+      <workItem from="1607777528889" duration="5724000" />
     </task>
     <servers />
   </component>
@@ -57,6 +70,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="178" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1607781233903" />
+    <state x="285" y="237" key="#com.intellij.ide.util.MemberChooser" timestamp="1607785012400">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="285" y="237" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1607785012400" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1607781702888">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
