@@ -4,6 +4,7 @@ import javax.persistence.*;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.Table;
+import java.util.Set;
 
 @Entity
 @Table(name = "Directors")
@@ -12,7 +13,7 @@ public class Director {
     @Id
     @GeneratedValue(generator = "gen")
     @SequenceGenerator(name = "gen", sequenceName = "author_seq")
-    @Column(name = "id")
+    @Column(name = "id", nullable=false)
     private int id;
 
     @Column(nullable = false)
@@ -21,8 +22,20 @@ public class Director {
     @Column(nullable = false)
     String surname;
 
+    @OneToOne(cascade = CascadeType.PERSIST)
+    @JoinColumn(name="add_id", referencedColumnName = "id")
+    Address address;
 
+    @OneToMany(mappedBy="director")
+    private Set<Movie> movies;
 
+    Set<Movie> getMovies() {
+        return movies;
+    }
+
+    void setMovies(Set<Movie> movies) {
+        this.movies=movies;
+    }
 
     public int getId() {
         return id;
@@ -46,6 +59,14 @@ public class Director {
 
     public void setSurname(String city) {
         this.surname = city;
+    }
+
+    public Address getAddress() {
+        return address;
+    }
+
+    public void setAddress(Address address) {
+        this.address = address;
     }
 
 

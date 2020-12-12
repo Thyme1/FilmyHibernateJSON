@@ -1,9 +1,14 @@
 package hibernate.model;
 
+import org.joda.time.DateTime;
+
 import javax.persistence.*;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.Table;
+import java.util.Collection;
+import java.util.HashSet;
+import java.util.Set;
 
 @Entity
 @Table(name = "Movies")
@@ -26,10 +31,41 @@ public class Movie {
     String language;
 
     @Column(nullable = false)
-    String relaseDate;
+    DateTime releaseDate;
 
     @Column(nullable = false)
     String releaseCountry;
+
+    @Column
+    String movieGenre;
+
+
+
+    @ManyToOne
+    @JoinColumn(name="dir")
+    private Director director;
+
+
+
+    @OneToMany(mappedBy="movie")
+    private Set<MovieCast> actors;
+
+    Set<MovieCast> getActors() {
+        return actors;
+    }
+
+    void setActors(Set<MovieCast> actors) {
+        this.actors=actors;
+    }
+
+    String getMovieGenre() {
+        return movieGenre;
+    }
+
+    void setMovieGenre(String movieGenre) {
+        this.movieGenre=movieGenre;
+    }
+
 
 
     public int getId() {
@@ -44,7 +80,7 @@ public class Movie {
         return title;
     }
 
-    public void setTitle(String name) {
+    public void setTitle(String title) {
         this.title = title;
     }
 
@@ -52,7 +88,7 @@ public class Movie {
         return time;
     }
 
-    public void setTime(String city) {
+    public void setTime(String time) {
         this.time = time;
     }
 
@@ -64,12 +100,12 @@ public class Movie {
         this.language = language;
     }
 
-    public String getRelaseDate() {
-        return relaseDate;
+    public DateTime getReleaseDate() {
+        return releaseDate;
     }
 
-    public void setRelaseDate(String relaseDate) {
-        this.relaseDate = relaseDate;
+    public void setReleaseDate(DateTime releaseDate) {
+        this.releaseDate = releaseDate;
     }
 
     public String getReleaseCountry() {
@@ -79,6 +115,13 @@ public class Movie {
     public void setReleaseCountry(String releaseCountry) {
         this.releaseCountry = releaseCountry;
     }
+
+    public Director getDirector(){return director;}
+
+    public void setDirector(Director director) {
+        this.director = director;
+    }
+
 
 
 

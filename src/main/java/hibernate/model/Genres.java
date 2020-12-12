@@ -12,7 +12,7 @@ public class Genres {
     @Id
     @GeneratedValue(generator = "gen")
     @SequenceGenerator(name = "gen", sequenceName = "author_seq")
-    @Column(name = "id")
+    @Column(name = "id",nullable = false)
     private int id;
 
     @Column(nullable = false)
