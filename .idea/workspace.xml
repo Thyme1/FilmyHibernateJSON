@@ -3,30 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="1b6be4d9-bb77-4a09-b66d-69801415129b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Przyrost2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Przyrost2.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log.log" beforeDir="false" afterPath="$PROJECT_DIR$/log.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/result.json" beforeDir="false" afterPath="$PROJECT_DIR$/result.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/hibernate/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hibernate/Manager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hibernate/jackson/ClassLoadingUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hibernate/jackson/JacksonSerialization.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hibernate/jackson/ModelObjectsCreator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hibernate/jackson/Unmarshaller.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hibernate/model/Actors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hibernate/model/Actors.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hibernate/model/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hibernate/model/Address.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hibernate/model/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hibernate/model/Movie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hibernate/queries/Queries.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hibernate/queries/Queries.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/hibernate/Manager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hibernate/Manager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hibernate/jackson/JacksonSerialization$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hibernate/jackson/JacksonSerialization.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hibernate/jackson/ModelObjectsCreator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hibernate/jackson/Unmarshaller$JAXBContextCreator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hibernate/jackson/Unmarshaller.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hibernate/model/Actors.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hibernate/model/Actors.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hibernate/model/Address.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hibernate/model/Address.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hibernate/model/Movie.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hibernate/model/Movie.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/jackson/ClassLoadingUtil.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,22 +125,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1607806585639" />
-    <state width="914" height="281" key="GridCell.Tab.0.bottom" timestamp="1607870991473">
+    <state width="916" height="283" key="GridCell.Tab.0.bottom" timestamp="1607872660951">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607870991473" />
-    <state width="914" height="281" key="GridCell.Tab.0.center" timestamp="1607870991472">
+    <state width="916" height="283" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607872660951" />
+    <state width="916" height="283" key="GridCell.Tab.0.center" timestamp="1607872660950">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607870991472" />
-    <state width="914" height="281" key="GridCell.Tab.0.left" timestamp="1607870991472">
+    <state width="916" height="283" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607872660950" />
+    <state width="916" height="283" key="GridCell.Tab.0.left" timestamp="1607872660950">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607870991472" />
-    <state width="914" height="281" key="GridCell.Tab.0.right" timestamp="1607870991472">
+    <state width="916" height="283" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607872660950" />
+    <state width="916" height="283" key="GridCell.Tab.0.right" timestamp="1607872660950">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607870991472" />
+    <state width="916" height="283" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607872660950" />
     <state width="1877" height="347" key="GridCell.Tab.1.bottom" timestamp="1607868384706">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

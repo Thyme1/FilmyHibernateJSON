@@ -1,19 +1,22 @@
 package hibernate;
 
-
+import com.fasterxml.jackson.databind.ObjectMapper;
 import hibernate.model.Actors;
+import hibernate.model.Address;
 import hibernate.model.Movie;
 //import hibernate.model.MovieCast;
 import hibernate.model.MovieCast;
 import hibernate.queries.Queries;
 import org.joda.time.DateTime;
-
-
 import javax.persistence.*;
+import java.io.File;
 import java.util.List;
 import java.util.Random;
 import java.util.Set;
 import java.util.stream.IntStream;
+
+import static hibernate.json.SerializeJSON.serialize;
+import static hibernate.xml.SerializeXML.serializeXML;
 
 
 public class Manager {
@@ -36,6 +39,8 @@ public class Manager {
             entityManager.getTransaction().begin();
 
 
+
+
             Actors actor1 = new Actors();
             actor1.setName("Johnny");
             actor1.setSurname("Depp");
@@ -50,6 +55,14 @@ public class Manager {
             actor2.setSalary(1142352);
             actor2.setGender("male");
 
+            Address address = new Address();
+            address.setCity("Poznan");
+            address.setStreet("poznanska");
+            address.setNr("1");
+            address.setPostcode("99090");
+
+            actor1.setAddress(address);
+
 
             Movie movie = new Movie();
             movie.setTitle("Pirates of the Caribbean");
@@ -61,25 +74,15 @@ public class Manager {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
             entityManager.persist(movie);
             entityManager.persist(actor1);
             entityManager.persist(actor2);
 
-            System.out.println("TUUUUUUUUUUUUUUUUUUUU\n");
-            getActorByName(entityManager);
-            System.out.println("TUUUUUUUUUUUUUUUUUUUU\n");
 
+            getActorByName(entityManager);
+
+            serialize(actor1);
+            serializeXML(actor1);
 
 
 
@@ -100,12 +103,6 @@ public class Manager {
         System.out.println("I got a person " + actors.get(i).getName());}
     }
 
-    public static void changeFirstGuyToNowak(EntityManager entityManager) {
 
-        List<Actors> actors = new Queries(entityManager).getActorBySurname("Depp");
-
-        actors.get(0).setSurname("NowakPRE" + new Random().nextInt());
-
-    }
 
 }

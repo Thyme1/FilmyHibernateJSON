@@ -1,0 +1,16 @@
+<Actors>
+  <id>52</id>
+  <name>Johnny</name>
+  <surname>Depp</surname>
+  <age>35</age>
+  <gender>male</gender>
+  <salary>12332</salary>
+  <address>
+    <id>102</id>
+    <street>poznanska</street>
+    <city>Poznan</city>
+    <nr>1</nr>
+    <housenr/>
+    <postcode>99090</postcode>
+  </address>
+</Actors>

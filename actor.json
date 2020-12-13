@@ -1,0 +1,16 @@
+{
+  "id" : 52,
+  "name" : "Johnny",
+  "surname" : "Depp",
+  "age" : 35,
+  "gender" : "male",
+  "salary" : 12332,
+  "address" : {
+    "id" : 102,
+    "street" : "poznanska",
+    "city" : "Poznan",
+    "nr" : "1",
+    "housenr" : null,
+    "postcode" : "99090"
+  }
+}
