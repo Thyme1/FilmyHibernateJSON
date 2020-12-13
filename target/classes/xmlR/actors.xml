@@ -1,0 +1,20 @@
+<ArrayList>
+  <item>
+    <id>0</id>
+    <name>Johnny</name>
+    <surname>Depp</surname>
+    <age>35</age>
+    <gender>male</gender>
+    <salary>231</salary>
+    <address/>
+  </item>
+  <item>
+    <id>0</id>
+    <name>Morgan</name>
+    <surname>Freeman</surname>
+    <age>56</age>
+    <gender>male</gender>
+    <salary>1142</salary>
+    <address/>
+  </item>
+</ArrayList>

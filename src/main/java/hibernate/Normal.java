@@ -9,13 +9,15 @@ import org.joda.time.LocalDate;
 
 import javax.persistence.*;
 import java.io.File;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 import java.util.Set;
 import java.util.stream.IntStream;
 
 import static hibernate.json.SerializeJSON.serialize;
-import static hibernate.xml.SerializeXML.serializeXML;
+import static hibernate.xml.SerializeXML.serializexml;
+import static hibernate.xml.SerializeXML.serializexml;
 
 
 public class Normal {
@@ -62,8 +64,6 @@ public class Normal {
             actor1.setGender("male");
 
 
-
-
             Actors actor2 = new Actors();
             actor2.setName("Morgan");
             actor2.setSurname("Freeman");
@@ -96,6 +96,41 @@ public class Normal {
 
             Genres genre = new Genres();
             genre.setName("komedia");
+
+            List<Actors> aktorzy= new ArrayList<>();
+            aktorzy.add(actor1);
+            aktorzy.add(actor2);
+
+            List<Address> adresy = new ArrayList<>();
+            adresy.add(address1);
+            adresy.add(address2);
+
+            List<Director> rezyserowie = new ArrayList<>();
+            rezyserowie.add(director);
+
+            List<Genres> gatunki = new ArrayList<>();
+            gatunki.add(genre);
+
+            List<Movie> filmy = new ArrayList<>();
+            filmy.add(movie);
+
+            List<MovieCast> obsada = new ArrayList<>();
+            obsada.add(cast);
+
+            serialize(aktorzy, "actors");
+            serialize(adresy, "addresses");
+            serialize(rezyserowie, "directors");
+            serialize(gatunki, "genres");
+            serialize(filmy, "movies");
+            serialize(obsada, "cast");
+
+            serializexml(aktorzy, "actors");
+            serializexml(adresy, "addresses");
+            serializexml(rezyserowie, "directors");
+            serializexml(gatunki, "genres");
+            serializexml(filmy, "movies");
+            serializexml(obsada, "cast");
+
 
 
 

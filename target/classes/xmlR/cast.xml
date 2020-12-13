@@ -1,0 +1,26 @@
+<ArrayList>
+  <item>
+    <actorId>0</actorId>
+    <movieId>0</movieId>
+    <role>pirat</role>
+    <actor>
+      <id>0</id>
+      <name>Johnny</name>
+      <surname>Depp</surname>
+      <age>35</age>
+      <gender>male</gender>
+      <salary>231</salary>
+      <address/>
+    </actor>
+    <movie>
+      <id>0</id>
+      <title>Pirates of the Caribbean</title>
+      <time>134</time>
+      <language>English</language>
+      <releaseDate/>
+      <releaseCountry>USA</releaseCountry>
+      <movieGenre>komedia</movieGenre>
+      <director/>
+    </movie>
+  </item>
+</ArrayList>

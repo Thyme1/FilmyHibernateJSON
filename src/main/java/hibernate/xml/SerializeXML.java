@@ -8,26 +8,30 @@ import com.fasterxml.jackson.dataformat.xml.XmlMapper;
 import hibernate.model.Actors;
 
 import java.io.File;
+
+
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.SerializationFeature;
+import hibernate.model.Actors;
+
+import java.io.File;
 import java.io.IOException;
+import java.util.List;
 
 public class SerializeXML {
-    public static void serializeXML(Object actor1){
-        ObjectMapper xmlMapper = new XmlMapper();
-        xmlMapper.enable(SerializationFeature.INDENT_OUTPUT);
+    public static void serializexml(List list, String name) {
+        ObjectMapper mapper=new XmlMapper();
+        mapper.enable(SerializationFeature.INDENT_OUTPUT);
         try {
-            xmlMapper.writeValue(new File("actor.xml"), actor1);
+            mapper.writeValue(new File(name + ".xml"), list);
         } catch (IOException e) {
             e.printStackTrace();
         }
-        String jsonString =null;
-        try {
-            jsonString=xmlMapper.writeValueAsString(actor1);
-        } catch (JsonProcessingException e) {
-            e.printStackTrace();
-        }
-        System.out.println(jsonString);
+
+
     }
-
-
-
 }
+
+
+
