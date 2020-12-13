@@ -5,6 +5,19 @@ import javax.persistence.*;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.Table;
+import javax.xml.bind.annotation.XmlAccessType;
+import javax.xml.bind.annotation.XmlAccessorType;
+import javax.xml.bind.annotation.XmlType;
+
+@XmlAccessorType(XmlAccessType.FIELD)
+@XmlType(name = "address", propOrder = {
+        "id",
+        "street",
+        "city",
+        "nr",
+        "housenr",
+        "postcode"
+})
 
 @Entity
 @Table(name = "ADDRESSES")

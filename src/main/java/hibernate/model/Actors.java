@@ -1,17 +1,37 @@
 package hibernate.model;
-
-import com.fasterxml.jackson.core.JsonProcessingException;
-import org.joda.time.DateTime;
+import org.hibernate.annotations.Type;
+import org.hibernate.annotations.TypeDef;
 
 import javax.persistence.*;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.Table;
-import java.io.IOException;
+import javax.xml.bind.annotation.XmlAccessType;
+import javax.xml.bind.annotation.XmlAccessorType;
+import javax.xml.bind.annotation.XmlType;
 import java.util.*;
 
-@Entity
-@Table(name = "Actors")
+@XmlAccessorType(XmlAccessType.FIELD)
+@XmlType(name = "address", propOrder = {
+        "name",
+        "surname",
+        "age",
+        "gender",
+        "salary",
+        "favGenre",
+        "address",
+        "movies"
+})
+
+
+
+
+
+@Entity(name = "Actors")
+@Table(name = "actors")
+
+
+
 public class Actors {
 
     @Id
@@ -19,6 +39,7 @@ public class Actors {
     @SequenceGenerator(name = "gen", sequenceName = "author_seq")
     @Column(name = "id")
     private int id;
+
 
     @Column(nullable = false)
     String name;
@@ -49,8 +70,9 @@ public class Actors {
 
 
 
-    
 
+
+    private String properties;
 
     Set<MovieCast> getMovies() {
         return movies;

@@ -2,18 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b6be4d9-bb77-4a09-b66d-69801415129b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/hibernate/model/HashMapConverter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Przyrost2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Przyrost2.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log.log" beforeDir="false" afterPath="$PROJECT_DIR$/log.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result.json" beforeDir="false" afterPath="$PROJECT_DIR$/result.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/hibernate/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hibernate/Manager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hibernate/jackson/ClassLoadingUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hibernate/jackson/JacksonSerialization.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hibernate/jackson/ModelObjectsCreator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hibernate/jackson/Unmarshaller.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/hibernate/model/Actors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hibernate/model/Actors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hibernate/model/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hibernate/model/Address.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hibernate/model/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hibernate/model/Movie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hibernate/queries/Queries.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hibernate/queries/Queries.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/hibernate/Manager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hibernate/Manager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hibernate/jackson/JacksonSerialization$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hibernate/jackson/JacksonSerialization.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hibernate/jackson/ModelObjectsCreator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hibernate/jackson/Unmarshaller$JAXBContextCreator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hibernate/jackson/Unmarshaller.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/hibernate/model/Actors.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hibernate/model/Actors.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hibernate/model/Address.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hibernate/model/Address.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/hibernate/model/Movie.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hibernate/model/Movie.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hibernate/queries/Queries.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hibernate/queries/Queries.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jackson/ClassLoadingUtil.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +44,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1lYca6OCG07URsoUk54UdzM0VN0" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -56,7 +71,7 @@
       <recent name="C:\Users\Konrad\IdeaProjects\Przyrost2\src\resources\META-INF" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.JacksonSerialization">
+  <component name="RunManager" selected="Application.Manager">
     <configuration name="JacksonSerialization" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="hibernate.jackson.JacksonSerialization" />
       <module name="Przyrost2" />
@@ -85,8 +100,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.JacksonSerialization" />
         <item itemvalue="Application.Manager" />
+        <item itemvalue="Application.JacksonSerialization" />
       </list>
     </recent_temporary>
   </component>
@@ -110,6 +125,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="1032" y="182" key="#Assign_Data_Sources" timestamp="1607867248778">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1032" y="182" key="#Assign_Data_Sources/0.0.1920.1040@0.0.1920.1040" timestamp="1607867248778" />
     <state x="552" y="178" key="#Project_Structure" timestamp="1607792597162">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -118,50 +137,50 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="285" y="237" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1607863440008" />
-    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1607863538598">
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1607868050002">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607863538598" />
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607868050002" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1607806585639">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1607806585639" />
-    <state width="914" height="282" key="GridCell.Tab.0.bottom" timestamp="1607863576659">
+    <state width="914" height="281" key="GridCell.Tab.0.bottom" timestamp="1607870991473">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607863576659" />
-    <state width="914" height="282" key="GridCell.Tab.0.center" timestamp="1607863576659">
+    <state width="914" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607870991473" />
+    <state width="914" height="281" key="GridCell.Tab.0.center" timestamp="1607870991472">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607863576659" />
-    <state width="914" height="282" key="GridCell.Tab.0.left" timestamp="1607863576659">
+    <state width="914" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607870991472" />
+    <state width="914" height="281" key="GridCell.Tab.0.left" timestamp="1607870991472">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607863576659" />
-    <state width="914" height="282" key="GridCell.Tab.0.right" timestamp="1607863576659">
+    <state width="914" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607870991472" />
+    <state width="914" height="281" key="GridCell.Tab.0.right" timestamp="1607870991472">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607863576659" />
-    <state width="914" height="347" key="GridCell.Tab.1.bottom" timestamp="1607813276636">
+    <state width="914" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607870991472" />
+    <state width="1877" height="347" key="GridCell.Tab.1.bottom" timestamp="1607868384706">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="347" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607813276636" />
-    <state width="914" height="347" key="GridCell.Tab.1.center" timestamp="1607813276636">
+    <state width="1877" height="347" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607868384706" />
+    <state width="1877" height="347" key="GridCell.Tab.1.center" timestamp="1607868384705">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="347" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607813276636" />
-    <state width="914" height="347" key="GridCell.Tab.1.left" timestamp="1607813276636">
+    <state width="1877" height="347" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607868384705" />
+    <state width="1877" height="347" key="GridCell.Tab.1.left" timestamp="1607868384705">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="347" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607813276636" />
-    <state width="914" height="347" key="GridCell.Tab.1.right" timestamp="1607813276636">
+    <state width="1877" height="347" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607868384705" />
+    <state width="1877" height="347" key="GridCell.Tab.1.right" timestamp="1607868384705">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="347" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607813276636" />
-    <state x="10" y="178" key="Maven.ArtifactSearchDialog" timestamp="1607862750082">
+    <state width="1877" height="347" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607868384705" />
+    <state x="10" y="178" key="Maven.ArtifactSearchDialog" timestamp="1607867372603">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="10" y="178" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607862750082" />
+    <state x="10" y="178" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607867372603" />
     <state x="440" y="94" key="SettingsEditor" timestamp="1607782317917">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

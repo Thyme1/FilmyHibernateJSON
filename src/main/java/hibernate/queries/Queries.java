@@ -56,7 +56,7 @@ public class Queries {
 
     }
 
-    public Actors getActorsAtAge(Integer age) {
+    public  Actors getActorsAtAge(Integer age) {
         TypedQuery<Actors> query = entityManager.createQuery(
                 "SELECT c FROM Actors c WHERE c.age LIKE :age", Actors.class);
         return query.setParameter("age", "%" + age + "%").getSingleResult();

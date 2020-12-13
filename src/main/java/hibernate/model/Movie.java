@@ -30,7 +30,7 @@ public class Movie {
     @Column(nullable = false)
     String language;
 
-    @Column(nullable = false)
+    @Column()
     DateTime releaseDate;
 
     @Column(nullable = false)
