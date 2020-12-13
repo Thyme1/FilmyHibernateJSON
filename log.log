@@ -1531,3 +1531,1542 @@
 2020-12-13 16:17:42 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Movies
 2020-12-13 16:17:42 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
 2020-12-13 16:17:42 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:hsqldb:mem:PUBLIC;sql.syntax_ora=true]
+2020-12-13 16:40:33 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2020-12-13 16:40:33 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-dynamic
+	...]
+2020-12-13 16:40:33 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2020-12-13 16:40:33 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2020-12-13 16:40:33 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2020-12-13 16:40:33 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2020-12-13 16:40:33 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-12-13 16:40:33 INFO  connections:127 - HHH10001005: using driver [org.hsqldb.jdbcDriver] at URL [jdbc:hsqldb:mem:PUBLIC;sql.syntax_ora=true]
+2020-12-13 16:40:33 INFO  connections:136 - HHH10001001: Connection properties: {user=sa}
+2020-12-13 16:40:33 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2020-12-13 16:40:33 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-12-13 16:40:33 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
+2020-12-13 16:40:33 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2020-12-13 16:40:34 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: actors
+2020-12-13 16:40:34 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: actors
+2020-12-13 16:40:34 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: ADDRESSES
+2020-12-13 16:40:34 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: ADDRESSES
+2020-12-13 16:40:34 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Directors
+2020-12-13 16:40:34 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Directors
+2020-12-13 16:40:34 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Genres
+2020-12-13 16:40:34 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Genres
+2020-12-13 16:40:34 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: MovieCast
+2020-12-13 16:40:34 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: MovieCast
+2020-12-13 16:40:34 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Movies
+2020-12-13 16:40:34 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Movies
+2020-12-13 16:40:34 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:hsqldb:mem:PUBLIC;sql.syntax_ora=true]
+2020-12-13 16:44:16 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2020-12-13 16:44:16 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-dynamic
+	...]
+2020-12-13 16:44:16 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2020-12-13 16:44:16 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2020-12-13 16:44:16 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2020-12-13 16:44:16 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2020-12-13 16:44:16 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-12-13 16:44:16 INFO  connections:127 - HHH10001005: using driver [org.hsqldb.jdbcDriver] at URL [jdbc:hsqldb:mem:PUBLIC;sql.syntax_ora=true]
+2020-12-13 16:44:16 INFO  connections:136 - HHH10001001: Connection properties: {user=sa}
+2020-12-13 16:44:16 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2020-12-13 16:44:16 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-12-13 16:44:16 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
+2020-12-13 16:44:16 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2020-12-13 16:44:17 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: actors
+2020-12-13 16:44:17 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: actors
+2020-12-13 16:44:17 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: ADDRESSES
+2020-12-13 16:44:17 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: ADDRESSES
+2020-12-13 16:44:17 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Directors
+2020-12-13 16:44:17 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Directors
+2020-12-13 16:44:17 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Genres
+2020-12-13 16:44:17 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Genres
+2020-12-13 16:44:17 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: MovieCast
+2020-12-13 16:44:17 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: MovieCast
+2020-12-13 16:44:17 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Movies
+2020-12-13 16:44:17 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Movies
+2020-12-13 16:44:17 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:hsqldb:mem:PUBLIC;sql.syntax_ora=true]
+2020-12-13 17:43:42 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2020-12-13 17:43:42 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-dynamic
+	...]
+2020-12-13 17:43:42 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2020-12-13 17:43:42 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2020-12-13 17:43:42 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2020-12-13 17:43:42 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2020-12-13 17:43:43 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-12-13 17:43:43 INFO  connections:127 - HHH10001005: using driver [org.hsqldb.jdbcDriver] at URL [jdbc:hsqldb:mem:PUBLIC;sql.syntax_ora=true]
+2020-12-13 17:43:43 INFO  connections:136 - HHH10001001: Connection properties: {user=sa}
+2020-12-13 17:43:43 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2020-12-13 17:43:43 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-12-13 17:43:43 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
+2020-12-13 17:43:43 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2020-12-13 17:43:43 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: actors
+2020-12-13 17:43:43 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: actors
+2020-12-13 17:43:43 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: ADDRESSES
+2020-12-13 17:43:43 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: ADDRESSES
+2020-12-13 17:43:43 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Directors
+2020-12-13 17:43:43 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Directors
+2020-12-13 17:43:43 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Genres
+2020-12-13 17:43:43 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Genres
+2020-12-13 17:43:43 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: MovieCast
+2020-12-13 17:43:43 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: MovieCast
+2020-12-13 17:43:43 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Movies
+2020-12-13 17:43:43 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Movies
+2020-12-13 17:43:43 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:hsqldb:mem:PUBLIC;sql.syntax_ora=true]
+2020-12-13 17:44:52 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2020-12-13 17:44:52 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-dynamic
+	...]
+2020-12-13 17:44:52 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2020-12-13 17:44:52 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2020-12-13 17:44:52 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2020-12-13 17:44:52 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2020-12-13 17:44:52 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-12-13 17:44:52 INFO  connections:127 - HHH10001005: using driver [org.hsqldb.jdbcDriver] at URL [jdbc:hsqldb:mem:PUBLIC;sql.syntax_ora=true]
+2020-12-13 17:44:52 INFO  connections:136 - HHH10001001: Connection properties: {user=sa}
+2020-12-13 17:44:52 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2020-12-13 17:44:52 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-12-13 17:44:52 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
+2020-12-13 17:44:53 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2020-12-13 17:44:53 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: actors
+2020-12-13 17:44:53 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: actors
+2020-12-13 17:44:53 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: ADDRESSES
+2020-12-13 17:44:53 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: ADDRESSES
+2020-12-13 17:44:53 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Directors
+2020-12-13 17:44:53 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Directors
+2020-12-13 17:44:53 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Genres
+2020-12-13 17:44:53 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Genres
+2020-12-13 17:44:53 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: MovieCast
+2020-12-13 17:44:53 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: MovieCast
+2020-12-13 17:44:53 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Movies
+2020-12-13 17:44:53 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Movies
+2020-12-13 17:44:53 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:hsqldb:mem:PUBLIC;sql.syntax_ora=true]
+2020-12-13 17:45:28 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2020-12-13 17:45:28 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-dynamic
+	...]
+2020-12-13 17:45:28 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2020-12-13 17:45:28 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2020-12-13 17:45:28 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2020-12-13 17:45:28 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2020-12-13 17:45:28 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-12-13 17:45:28 INFO  connections:127 - HHH10001005: using driver [org.hsqldb.jdbcDriver] at URL [jdbc:hsqldb:mem:PUBLIC;sql.syntax_ora=true]
+2020-12-13 17:45:28 INFO  connections:136 - HHH10001001: Connection properties: {user=sa}
+2020-12-13 17:45:28 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2020-12-13 17:45:28 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-12-13 17:45:28 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
+2020-12-13 17:45:29 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2020-12-13 17:45:29 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: actors
+2020-12-13 17:45:29 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: actors
+2020-12-13 17:45:29 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: ADDRESSES
+2020-12-13 17:45:29 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: ADDRESSES
+2020-12-13 17:45:29 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Directors
+2020-12-13 17:45:29 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Directors
+2020-12-13 17:45:29 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Genres
+2020-12-13 17:45:29 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Genres
+2020-12-13 17:45:29 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: MovieCast
+2020-12-13 17:45:29 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: MovieCast
+2020-12-13 17:45:29 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Movies
+2020-12-13 17:45:29 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Movies
+2020-12-13 17:45:29 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:hsqldb:mem:PUBLIC;sql.syntax_ora=true]
+2020-12-13 17:46:22 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2020-12-13 17:46:22 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-dynamic
+	...]
+2020-12-13 17:46:22 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2020-12-13 17:46:22 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2020-12-13 17:46:22 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2020-12-13 17:46:22 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2020-12-13 17:46:22 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-12-13 17:46:22 INFO  connections:127 - HHH10001005: using driver [org.hsqldb.jdbcDriver] at URL [jdbc:hsqldb:mem:PUBLIC;sql.syntax_ora=true]
+2020-12-13 17:46:22 INFO  connections:136 - HHH10001001: Connection properties: {user=sa}
+2020-12-13 17:46:22 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2020-12-13 17:46:22 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-12-13 17:46:22 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
+2020-12-13 17:46:23 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2020-12-13 17:46:23 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: actors
+2020-12-13 17:46:23 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: actors
+2020-12-13 17:46:23 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: ADDRESSES
+2020-12-13 17:46:23 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: ADDRESSES
+2020-12-13 17:46:23 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Directors
+2020-12-13 17:46:23 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Directors
+2020-12-13 17:46:23 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Genres
+2020-12-13 17:46:23 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Genres
+2020-12-13 17:46:23 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: MovieCast
+2020-12-13 17:46:23 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: MovieCast
+2020-12-13 17:46:23 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Movies
+2020-12-13 17:46:23 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Movies
+2020-12-13 17:46:23 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:hsqldb:mem:PUBLIC;sql.syntax_ora=true]
+2020-12-13 17:46:47 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2020-12-13 17:46:47 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-dynamic
+	...]
+2020-12-13 17:46:47 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2020-12-13 17:46:47 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2020-12-13 17:46:48 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2020-12-13 17:46:48 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2020-12-13 17:46:48 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-12-13 17:46:48 INFO  connections:127 - HHH10001005: using driver [org.hsqldb.jdbcDriver] at URL [jdbc:hsqldb:mem:PUBLIC;sql.syntax_ora=true]
+2020-12-13 17:46:48 INFO  connections:136 - HHH10001001: Connection properties: {user=sa}
+2020-12-13 17:46:48 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2020-12-13 17:46:48 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-12-13 17:46:48 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
+2020-12-13 17:46:48 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2020-12-13 17:46:48 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: actors
+2020-12-13 17:46:48 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: actors
+2020-12-13 17:46:48 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: ADDRESSES
+2020-12-13 17:46:48 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: ADDRESSES
+2020-12-13 17:46:48 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Directors
+2020-12-13 17:46:48 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Directors
+2020-12-13 17:46:48 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Genres
+2020-12-13 17:46:48 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Genres
+2020-12-13 17:46:48 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: MovieCast
+2020-12-13 17:46:48 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: MovieCast
+2020-12-13 17:46:48 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Movies
+2020-12-13 17:46:48 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Movies
+2020-12-13 17:46:48 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:hsqldb:mem:PUBLIC;sql.syntax_ora=true]
+2020-12-13 17:47:19 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2020-12-13 17:47:19 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-dynamic
+	...]
+2020-12-13 17:47:19 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2020-12-13 17:47:19 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2020-12-13 17:47:19 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2020-12-13 17:47:19 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2020-12-13 17:47:19 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-12-13 17:47:19 INFO  connections:127 - HHH10001005: using driver [org.hsqldb.jdbcDriver] at URL [jdbc:hsqldb:mem:PUBLIC;sql.syntax_ora=true]
+2020-12-13 17:47:19 INFO  connections:136 - HHH10001001: Connection properties: {user=sa}
+2020-12-13 17:47:19 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2020-12-13 17:47:19 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-12-13 17:47:19 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
+2020-12-13 17:47:20 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2020-12-13 17:47:20 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: actors
+2020-12-13 17:47:20 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: actors
+2020-12-13 17:47:20 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: ADDRESSES
+2020-12-13 17:47:20 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: ADDRESSES
+2020-12-13 17:47:20 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Directors
+2020-12-13 17:47:20 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Directors
+2020-12-13 17:47:20 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Genres
+2020-12-13 17:47:20 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Genres
+2020-12-13 17:47:20 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: MovieCast
+2020-12-13 17:47:20 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: MovieCast
+2020-12-13 17:47:20 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Movies
+2020-12-13 17:47:20 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Movies
+2020-12-13 17:47:20 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:hsqldb:mem:PUBLIC;sql.syntax_ora=true]
+2020-12-13 17:47:46 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2020-12-13 17:47:46 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-dynamic
+	...]
+2020-12-13 17:47:47 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2020-12-13 17:47:47 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2020-12-13 17:47:47 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2020-12-13 17:47:47 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2020-12-13 17:47:47 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-12-13 17:47:47 INFO  connections:127 - HHH10001005: using driver [org.hsqldb.jdbcDriver] at URL [jdbc:hsqldb:mem:PUBLIC;sql.syntax_ora=true]
+2020-12-13 17:47:47 INFO  connections:136 - HHH10001001: Connection properties: {user=sa}
+2020-12-13 17:47:47 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2020-12-13 17:47:47 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-12-13 17:47:47 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
+2020-12-13 17:47:47 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2020-12-13 17:47:47 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: actors
+2020-12-13 17:47:47 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: actors
+2020-12-13 17:47:47 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: ADDRESSES
+2020-12-13 17:47:47 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: ADDRESSES
+2020-12-13 17:47:47 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Directors
+2020-12-13 17:47:47 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Directors
+2020-12-13 17:47:47 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Genres
+2020-12-13 17:47:47 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Genres
+2020-12-13 17:47:47 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: MovieCast
+2020-12-13 17:47:47 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: MovieCast
+2020-12-13 17:47:47 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Movies
+2020-12-13 17:47:47 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Movies
+2020-12-13 17:47:47 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2020-12-13 17:47:48 WARN  SqlExceptionHelper:129 - SQL Error: 3401, SQLState: 22001
+2020-12-13 17:47:48 ERROR SqlExceptionHelper:131 - data exception: string data, right truncation;  table: ADDRESSES column: POSTCODE
+2020-12-13 17:47:48 INFO  AbstractBatchImpl:193 - HHH000010: On release of batch it still contained JDBC statements
+2020-12-13 17:47:48 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:hsqldb:mem:PUBLIC;sql.syntax_ora=true]
+2020-12-13 17:48:20 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2020-12-13 17:48:20 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-dynamic
+	...]
+2020-12-13 17:48:20 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2020-12-13 17:48:20 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2020-12-13 17:48:20 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2020-12-13 17:48:20 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2020-12-13 17:48:20 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-12-13 17:48:20 INFO  connections:127 - HHH10001005: using driver [org.hsqldb.jdbcDriver] at URL [jdbc:hsqldb:mem:PUBLIC;sql.syntax_ora=true]
+2020-12-13 17:48:20 INFO  connections:136 - HHH10001001: Connection properties: {user=sa}
+2020-12-13 17:48:20 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2020-12-13 17:48:20 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-12-13 17:48:20 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
+2020-12-13 17:48:20 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2020-12-13 17:48:21 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: actors
+2020-12-13 17:48:21 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: actors
+2020-12-13 17:48:21 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: ADDRESSES
+2020-12-13 17:48:21 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: ADDRESSES
+2020-12-13 17:48:21 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Directors
+2020-12-13 17:48:21 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Directors
+2020-12-13 17:48:21 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Genres
+2020-12-13 17:48:21 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Genres
+2020-12-13 17:48:21 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: MovieCast
+2020-12-13 17:48:21 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: MovieCast
+2020-12-13 17:48:21 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Movies
+2020-12-13 17:48:21 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Movies
+2020-12-13 17:48:21 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2020-12-13 17:48:21 WARN  SqlExceptionHelper:129 - SQL Error: 3401, SQLState: 22001
+2020-12-13 17:48:21 ERROR SqlExceptionHelper:131 - data exception: string data, right truncation;  table: ADDRESSES column: POSTCODE
+2020-12-13 17:48:21 INFO  AbstractBatchImpl:193 - HHH000010: On release of batch it still contained JDBC statements
+2020-12-13 17:48:21 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:hsqldb:mem:PUBLIC;sql.syntax_ora=true]
+2020-12-13 17:48:48 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2020-12-13 17:48:48 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-dynamic
+	...]
+2020-12-13 17:48:48 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2020-12-13 17:48:48 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2020-12-13 17:48:48 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2020-12-13 17:48:48 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2020-12-13 17:48:48 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-12-13 17:48:48 INFO  connections:127 - HHH10001005: using driver [org.hsqldb.jdbcDriver] at URL [jdbc:hsqldb:mem:PUBLIC;sql.syntax_ora=true]
+2020-12-13 17:48:48 INFO  connections:136 - HHH10001001: Connection properties: {user=sa}
+2020-12-13 17:48:48 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2020-12-13 17:48:48 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-12-13 17:48:48 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
+2020-12-13 17:48:49 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2020-12-13 17:48:49 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: actors
+2020-12-13 17:48:49 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: actors
+2020-12-13 17:48:49 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: ADDRESSES
+2020-12-13 17:48:49 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: ADDRESSES
+2020-12-13 17:48:49 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Directors
+2020-12-13 17:48:49 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Directors
+2020-12-13 17:48:49 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Genres
+2020-12-13 17:48:49 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Genres
+2020-12-13 17:48:49 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: MovieCast
+2020-12-13 17:48:49 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: MovieCast
+2020-12-13 17:48:49 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Movies
+2020-12-13 17:48:49 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Movies
+2020-12-13 17:48:49 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2020-12-13 17:48:49 WARN  SqlExceptionHelper:129 - SQL Error: 3401, SQLState: 22001
+2020-12-13 17:48:49 ERROR SqlExceptionHelper:131 - data exception: string data, right truncation;  table: ADDRESSES column: POSTCODE
+2020-12-13 17:48:49 INFO  AbstractBatchImpl:193 - HHH000010: On release of batch it still contained JDBC statements
+2020-12-13 17:48:49 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:hsqldb:mem:PUBLIC;sql.syntax_ora=true]
+2020-12-13 17:51:17 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2020-12-13 17:51:17 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-dynamic
+	...]
+2020-12-13 17:51:17 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2020-12-13 17:51:17 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2020-12-13 17:51:17 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2020-12-13 17:51:17 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2020-12-13 17:51:17 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-12-13 17:51:17 INFO  connections:127 - HHH10001005: using driver [org.hsqldb.jdbcDriver] at URL [jdbc:hsqldb:mem:PUBLIC;sql.syntax_ora=true]
+2020-12-13 17:51:17 INFO  connections:136 - HHH10001001: Connection properties: {user=sa}
+2020-12-13 17:51:17 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2020-12-13 17:51:17 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-12-13 17:51:17 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
+2020-12-13 17:51:18 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2020-12-13 17:51:18 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: actors
+2020-12-13 17:51:18 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: actors
+2020-12-13 17:51:18 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: ADDRESSES
+2020-12-13 17:51:18 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: ADDRESSES
+2020-12-13 17:51:18 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Directors
+2020-12-13 17:51:18 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Directors
+2020-12-13 17:51:18 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Genres
+2020-12-13 17:51:18 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Genres
+2020-12-13 17:51:18 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: MovieCast
+2020-12-13 17:51:18 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: MovieCast
+2020-12-13 17:51:18 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Movies
+2020-12-13 17:51:18 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Movies
+2020-12-13 17:51:18 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2020-12-13 17:51:18 WARN  SqlExceptionHelper:129 - SQL Error: 3401, SQLState: 22001
+2020-12-13 17:51:18 ERROR SqlExceptionHelper:131 - data exception: string data, right truncation;  table: ADDRESSES column: POSTCODE
+2020-12-13 17:51:18 INFO  AbstractBatchImpl:193 - HHH000010: On release of batch it still contained JDBC statements
+2020-12-13 17:51:18 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:hsqldb:mem:PUBLIC;sql.syntax_ora=true]
+2020-12-13 17:52:03 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2020-12-13 17:52:04 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-dynamic
+	...]
+2020-12-13 17:52:04 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2020-12-13 17:52:04 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2020-12-13 17:52:04 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2020-12-13 17:52:04 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2020-12-13 17:52:04 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-12-13 17:52:04 INFO  connections:127 - HHH10001005: using driver [org.hsqldb.jdbcDriver] at URL [jdbc:hsqldb:mem:PUBLIC;sql.syntax_ora=true]
+2020-12-13 17:52:04 INFO  connections:136 - HHH10001001: Connection properties: {user=sa}
+2020-12-13 17:52:04 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2020-12-13 17:52:04 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-12-13 17:52:04 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
+2020-12-13 17:52:04 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2020-12-13 17:52:04 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: actors
+2020-12-13 17:52:04 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: actors
+2020-12-13 17:52:04 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: ADDRESSES
+2020-12-13 17:52:04 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: ADDRESSES
+2020-12-13 17:52:04 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Directors
+2020-12-13 17:52:04 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Directors
+2020-12-13 17:52:04 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Genres
+2020-12-13 17:52:04 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Genres
+2020-12-13 17:52:04 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: MovieCast
+2020-12-13 17:52:04 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: MovieCast
+2020-12-13 17:52:04 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Movies
+2020-12-13 17:52:04 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Movies
+2020-12-13 17:52:05 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2020-12-13 17:52:05 WARN  SqlExceptionHelper:129 - SQL Error: 3401, SQLState: 22001
+2020-12-13 17:52:05 ERROR SqlExceptionHelper:131 - data exception: string data, right truncation;  table: ADDRESSES column: POSTCODE
+2020-12-13 17:52:05 INFO  AbstractBatchImpl:193 - HHH000010: On release of batch it still contained JDBC statements
+2020-12-13 17:52:05 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:hsqldb:mem:PUBLIC;sql.syntax_ora=true]
+2020-12-13 17:53:17 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2020-12-13 17:53:17 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-dynamic
+	...]
+2020-12-13 17:53:17 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2020-12-13 17:53:17 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2020-12-13 17:53:17 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2020-12-13 17:53:17 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2020-12-13 17:53:17 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-12-13 17:53:17 INFO  connections:127 - HHH10001005: using driver [org.hsqldb.jdbcDriver] at URL [jdbc:hsqldb:mem:PUBLIC;sql.syntax_ora=true]
+2020-12-13 17:53:17 INFO  connections:136 - HHH10001001: Connection properties: {user=sa}
+2020-12-13 17:53:17 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2020-12-13 17:53:17 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-12-13 17:53:17 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
+2020-12-13 17:53:17 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2020-12-13 17:53:18 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: actors
+2020-12-13 17:53:18 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: actors
+2020-12-13 17:53:18 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: ADDRESSES
+2020-12-13 17:53:18 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: ADDRESSES
+2020-12-13 17:53:18 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Directors
+2020-12-13 17:53:18 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Directors
+2020-12-13 17:53:18 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Genres
+2020-12-13 17:53:18 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Genres
+2020-12-13 17:53:18 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: MovieCast
+2020-12-13 17:53:18 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: MovieCast
+2020-12-13 17:53:18 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Movies
+2020-12-13 17:53:18 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Movies
+2020-12-13 17:53:18 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2020-12-13 17:53:18 WARN  SqlExceptionHelper:129 - SQL Error: 3401, SQLState: 22001
+2020-12-13 17:53:18 ERROR SqlExceptionHelper:131 - data exception: string data, right truncation;  table: ADDRESSES column: POSTCODE
+2020-12-13 17:53:18 INFO  AbstractBatchImpl:193 - HHH000010: On release of batch it still contained JDBC statements
+2020-12-13 17:53:18 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:hsqldb:mem:PUBLIC;sql.syntax_ora=true]
+2020-12-13 17:53:51 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2020-12-13 17:53:52 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-dynamic
+	...]
+2020-12-13 17:53:52 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2020-12-13 17:53:52 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2020-12-13 17:53:52 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2020-12-13 17:53:52 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2020-12-13 17:53:52 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-12-13 17:53:52 INFO  connections:127 - HHH10001005: using driver [org.hsqldb.jdbcDriver] at URL [jdbc:hsqldb:mem:PUBLIC;sql.syntax_ora=true]
+2020-12-13 17:53:52 INFO  connections:136 - HHH10001001: Connection properties: {user=sa}
+2020-12-13 17:53:52 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2020-12-13 17:53:52 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-12-13 17:53:52 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
+2020-12-13 17:53:52 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2020-12-13 17:53:52 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: actors
+2020-12-13 17:53:52 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: actors
+2020-12-13 17:53:52 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: ADDRESSES
+2020-12-13 17:53:52 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: ADDRESSES
+2020-12-13 17:53:52 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Directors
+2020-12-13 17:53:52 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Directors
+2020-12-13 17:53:52 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Genres
+2020-12-13 17:53:52 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Genres
+2020-12-13 17:53:52 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: MovieCast
+2020-12-13 17:53:52 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: MovieCast
+2020-12-13 17:53:52 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Movies
+2020-12-13 17:53:52 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Movies
+2020-12-13 17:53:53 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2020-12-13 17:53:53 WARN  SqlExceptionHelper:129 - SQL Error: 3401, SQLState: 22001
+2020-12-13 17:53:53 ERROR SqlExceptionHelper:131 - data exception: string data, right truncation;  table: ADDRESSES column: POSTCODE
+2020-12-13 17:53:53 INFO  AbstractBatchImpl:193 - HHH000010: On release of batch it still contained JDBC statements
+2020-12-13 17:53:53 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:hsqldb:mem:PUBLIC;sql.syntax_ora=true]
+2020-12-13 17:54:34 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2020-12-13 17:54:34 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-dynamic
+	...]
+2020-12-13 17:54:34 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2020-12-13 17:54:34 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2020-12-13 17:54:34 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2020-12-13 17:54:34 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2020-12-13 17:54:34 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-12-13 17:54:34 INFO  connections:127 - HHH10001005: using driver [org.hsqldb.jdbcDriver] at URL [jdbc:hsqldb:mem:PUBLIC;sql.syntax_ora=true]
+2020-12-13 17:54:34 INFO  connections:136 - HHH10001001: Connection properties: {user=sa}
+2020-12-13 17:54:34 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2020-12-13 17:54:34 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-12-13 17:54:34 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
+2020-12-13 17:54:35 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2020-12-13 17:54:35 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: actors
+2020-12-13 17:54:35 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: actors
+2020-12-13 17:54:35 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: ADDRESSES
+2020-12-13 17:54:35 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: ADDRESSES
+2020-12-13 17:54:35 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Directors
+2020-12-13 17:54:35 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Directors
+2020-12-13 17:54:35 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Genres
+2020-12-13 17:54:35 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Genres
+2020-12-13 17:54:35 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: MovieCast
+2020-12-13 17:54:35 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: MovieCast
+2020-12-13 17:54:35 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Movies
+2020-12-13 17:54:35 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Movies
+2020-12-13 17:54:35 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2020-12-13 17:54:35 WARN  SqlExceptionHelper:129 - SQL Error: 3401, SQLState: 22001
+2020-12-13 17:54:35 ERROR SqlExceptionHelper:131 - data exception: string data, right truncation;  table: ADDRESSES column: POSTCODE
+2020-12-13 17:54:35 INFO  AbstractBatchImpl:193 - HHH000010: On release of batch it still contained JDBC statements
+2020-12-13 17:54:35 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:hsqldb:mem:PUBLIC;sql.syntax_ora=true]
+2020-12-13 17:54:40 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2020-12-13 17:54:40 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-dynamic
+	...]
+2020-12-13 17:54:40 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2020-12-13 17:54:40 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2020-12-13 17:54:40 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2020-12-13 17:54:40 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2020-12-13 17:54:40 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-12-13 17:54:40 INFO  connections:127 - HHH10001005: using driver [org.hsqldb.jdbcDriver] at URL [jdbc:hsqldb:mem:PUBLIC;sql.syntax_ora=true]
+2020-12-13 17:54:40 INFO  connections:136 - HHH10001001: Connection properties: {user=sa}
+2020-12-13 17:54:40 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2020-12-13 17:54:40 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-12-13 17:54:41 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
+2020-12-13 17:54:41 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2020-12-13 17:54:41 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: actors
+2020-12-13 17:54:41 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: actors
+2020-12-13 17:54:41 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: ADDRESSES
+2020-12-13 17:54:41 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: ADDRESSES
+2020-12-13 17:54:41 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Directors
+2020-12-13 17:54:41 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Directors
+2020-12-13 17:54:41 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Genres
+2020-12-13 17:54:41 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Genres
+2020-12-13 17:54:41 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: MovieCast
+2020-12-13 17:54:41 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: MovieCast
+2020-12-13 17:54:41 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Movies
+2020-12-13 17:54:41 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Movies
+2020-12-13 17:54:41 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2020-12-13 17:54:41 WARN  SqlExceptionHelper:129 - SQL Error: 3401, SQLState: 22001
+2020-12-13 17:54:41 ERROR SqlExceptionHelper:131 - data exception: string data, right truncation;  table: ADDRESSES column: POSTCODE
+2020-12-13 17:54:41 INFO  AbstractBatchImpl:193 - HHH000010: On release of batch it still contained JDBC statements
+2020-12-13 17:54:41 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:hsqldb:mem:PUBLIC;sql.syntax_ora=true]
+2020-12-13 17:54:46 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2020-12-13 17:54:46 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-dynamic
+	...]
+2020-12-13 17:54:46 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2020-12-13 17:54:46 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2020-12-13 17:54:46 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2020-12-13 17:54:46 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2020-12-13 17:54:46 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-12-13 17:54:46 INFO  connections:127 - HHH10001005: using driver [org.hsqldb.jdbcDriver] at URL [jdbc:hsqldb:mem:PUBLIC;sql.syntax_ora=true]
+2020-12-13 17:54:46 INFO  connections:136 - HHH10001001: Connection properties: {user=sa}
+2020-12-13 17:54:46 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2020-12-13 17:54:46 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-12-13 17:54:47 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
+2020-12-13 17:54:47 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2020-12-13 17:54:47 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: actors
+2020-12-13 17:54:47 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: actors
+2020-12-13 17:54:47 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: ADDRESSES
+2020-12-13 17:54:47 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: ADDRESSES
+2020-12-13 17:54:47 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Directors
+2020-12-13 17:54:47 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Directors
+2020-12-13 17:54:47 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Genres
+2020-12-13 17:54:47 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Genres
+2020-12-13 17:54:47 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: MovieCast
+2020-12-13 17:54:47 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: MovieCast
+2020-12-13 17:54:47 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Movies
+2020-12-13 17:54:47 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Movies
+2020-12-13 17:54:47 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2020-12-13 17:54:47 WARN  SqlExceptionHelper:129 - SQL Error: 3401, SQLState: 22001
+2020-12-13 17:54:47 ERROR SqlExceptionHelper:131 - data exception: string data, right truncation;  table: ADDRESSES column: POSTCODE
+2020-12-13 17:54:47 INFO  AbstractBatchImpl:193 - HHH000010: On release of batch it still contained JDBC statements
+2020-12-13 17:54:47 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:hsqldb:mem:PUBLIC;sql.syntax_ora=true]
+2020-12-13 17:54:52 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2020-12-13 17:54:52 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-dynamic
+	...]
+2020-12-13 17:54:52 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2020-12-13 17:54:52 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2020-12-13 17:54:52 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2020-12-13 17:54:52 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2020-12-13 17:54:53 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-12-13 17:54:53 INFO  connections:127 - HHH10001005: using driver [org.hsqldb.jdbcDriver] at URL [jdbc:hsqldb:mem:PUBLIC;sql.syntax_ora=true]
+2020-12-13 17:54:53 INFO  connections:136 - HHH10001001: Connection properties: {user=sa}
+2020-12-13 17:54:53 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2020-12-13 17:54:53 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-12-13 17:54:53 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
+2020-12-13 17:54:53 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2020-12-13 17:54:53 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: actors
+2020-12-13 17:54:53 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: actors
+2020-12-13 17:54:53 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: ADDRESSES
+2020-12-13 17:54:53 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: ADDRESSES
+2020-12-13 17:54:53 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Directors
+2020-12-13 17:54:53 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Directors
+2020-12-13 17:54:53 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Genres
+2020-12-13 17:54:53 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Genres
+2020-12-13 17:54:53 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: MovieCast
+2020-12-13 17:54:53 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: MovieCast
+2020-12-13 17:54:53 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Movies
+2020-12-13 17:54:53 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Movies
+2020-12-13 17:54:53 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2020-12-13 17:54:53 WARN  SqlExceptionHelper:129 - SQL Error: 3401, SQLState: 22001
+2020-12-13 17:54:53 ERROR SqlExceptionHelper:131 - data exception: string data, right truncation;  table: ADDRESSES column: POSTCODE
+2020-12-13 17:54:53 INFO  AbstractBatchImpl:193 - HHH000010: On release of batch it still contained JDBC statements
+2020-12-13 17:54:53 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:hsqldb:mem:PUBLIC;sql.syntax_ora=true]
+2020-12-13 17:54:58 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2020-12-13 17:54:58 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-dynamic
+	...]
+2020-12-13 17:54:58 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2020-12-13 17:54:58 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2020-12-13 17:54:58 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2020-12-13 17:54:58 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2020-12-13 17:54:59 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-12-13 17:54:59 INFO  connections:127 - HHH10001005: using driver [org.hsqldb.jdbcDriver] at URL [jdbc:hsqldb:mem:PUBLIC;sql.syntax_ora=true]
+2020-12-13 17:54:59 INFO  connections:136 - HHH10001001: Connection properties: {user=sa}
+2020-12-13 17:54:59 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2020-12-13 17:54:59 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-12-13 17:54:59 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
+2020-12-13 17:54:59 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2020-12-13 17:54:59 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: actors
+2020-12-13 17:54:59 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: actors
+2020-12-13 17:54:59 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: ADDRESSES
+2020-12-13 17:54:59 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: ADDRESSES
+2020-12-13 17:54:59 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Directors
+2020-12-13 17:54:59 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Directors
+2020-12-13 17:54:59 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Genres
+2020-12-13 17:54:59 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Genres
+2020-12-13 17:54:59 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: MovieCast
+2020-12-13 17:54:59 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: MovieCast
+2020-12-13 17:54:59 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Movies
+2020-12-13 17:54:59 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Movies
+2020-12-13 17:54:59 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2020-12-13 17:54:59 WARN  SqlExceptionHelper:129 - SQL Error: 3401, SQLState: 22001
+2020-12-13 17:54:59 ERROR SqlExceptionHelper:131 - data exception: string data, right truncation;  table: ADDRESSES column: POSTCODE
+2020-12-13 17:54:59 INFO  AbstractBatchImpl:193 - HHH000010: On release of batch it still contained JDBC statements
+2020-12-13 17:54:59 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:hsqldb:mem:PUBLIC;sql.syntax_ora=true]
+2020-12-13 17:55:04 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2020-12-13 17:55:05 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-dynamic
+	...]
+2020-12-13 17:55:05 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2020-12-13 17:55:05 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2020-12-13 17:55:05 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2020-12-13 17:55:05 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2020-12-13 17:55:05 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-12-13 17:55:05 INFO  connections:127 - HHH10001005: using driver [org.hsqldb.jdbcDriver] at URL [jdbc:hsqldb:mem:PUBLIC;sql.syntax_ora=true]
+2020-12-13 17:55:05 INFO  connections:136 - HHH10001001: Connection properties: {user=sa}
+2020-12-13 17:55:05 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2020-12-13 17:55:05 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-12-13 17:55:05 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
+2020-12-13 17:55:05 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2020-12-13 17:55:05 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: actors
+2020-12-13 17:55:05 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: actors
+2020-12-13 17:55:05 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: ADDRESSES
+2020-12-13 17:55:05 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: ADDRESSES
+2020-12-13 17:55:05 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Directors
+2020-12-13 17:55:05 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Directors
+2020-12-13 17:55:05 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Genres
+2020-12-13 17:55:05 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Genres
+2020-12-13 17:55:05 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: MovieCast
+2020-12-13 17:55:05 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: MovieCast
+2020-12-13 17:55:05 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Movies
+2020-12-13 17:55:05 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Movies
+2020-12-13 17:55:06 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2020-12-13 17:55:06 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:hsqldb:mem:PUBLIC;sql.syntax_ora=true]
+2020-12-13 17:56:37 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2020-12-13 17:56:37 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-dynamic
+	...]
+2020-12-13 17:56:37 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2020-12-13 17:56:37 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2020-12-13 17:56:37 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2020-12-13 17:56:37 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2020-12-13 17:56:37 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-12-13 17:56:37 INFO  connections:127 - HHH10001005: using driver [org.hsqldb.jdbcDriver] at URL [jdbc:hsqldb:mem:PUBLIC;sql.syntax_ora=true]
+2020-12-13 17:56:37 INFO  connections:136 - HHH10001001: Connection properties: {user=sa}
+2020-12-13 17:56:37 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2020-12-13 17:56:37 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-12-13 17:56:37 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
+2020-12-13 17:56:37 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2020-12-13 17:56:37 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: actors
+2020-12-13 17:56:37 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: actors
+2020-12-13 17:56:37 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: ADDRESSES
+2020-12-13 17:56:37 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: ADDRESSES
+2020-12-13 17:56:37 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Directors
+2020-12-13 17:56:37 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Directors
+2020-12-13 17:56:37 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Genres
+2020-12-13 17:56:37 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Genres
+2020-12-13 17:56:37 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: MovieCast
+2020-12-13 17:56:37 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: MovieCast
+2020-12-13 17:56:37 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Movies
+2020-12-13 17:56:37 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Movies
+2020-12-13 17:56:38 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2020-12-13 17:56:38 WARN  SqlExceptionHelper:129 - SQL Error: 3401, SQLState: 22001
+2020-12-13 17:56:38 ERROR SqlExceptionHelper:131 - data exception: string data, right truncation;  table: ADDRESSES column: POSTCODE
+2020-12-13 17:56:38 INFO  AbstractBatchImpl:193 - HHH000010: On release of batch it still contained JDBC statements
+2020-12-13 17:56:38 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:hsqldb:mem:PUBLIC;sql.syntax_ora=true]
+2020-12-13 17:58:33 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2020-12-13 17:58:33 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-dynamic
+	...]
+2020-12-13 17:58:33 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2020-12-13 17:58:33 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2020-12-13 17:58:33 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2020-12-13 17:58:33 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2020-12-13 17:58:33 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-12-13 17:58:33 INFO  connections:127 - HHH10001005: using driver [org.hsqldb.jdbcDriver] at URL [jdbc:hsqldb:mem:PUBLIC;sql.syntax_ora=true]
+2020-12-13 17:58:33 INFO  connections:136 - HHH10001001: Connection properties: {user=sa}
+2020-12-13 17:58:33 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2020-12-13 17:58:33 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-12-13 17:58:33 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
+2020-12-13 17:58:34 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2020-12-13 17:58:34 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: actors
+2020-12-13 17:58:34 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: actors
+2020-12-13 17:58:34 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: ADDRESSES
+2020-12-13 17:58:34 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: ADDRESSES
+2020-12-13 17:58:34 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Directors
+2020-12-13 17:58:34 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Directors
+2020-12-13 17:58:34 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Genres
+2020-12-13 17:58:34 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Genres
+2020-12-13 17:58:34 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: MovieCast
+2020-12-13 17:58:34 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: MovieCast
+2020-12-13 17:58:34 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Movies
+2020-12-13 17:58:34 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Movies
+2020-12-13 17:58:34 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2020-12-13 17:58:34 WARN  SqlExceptionHelper:129 - SQL Error: 3401, SQLState: 22001
+2020-12-13 17:58:34 ERROR SqlExceptionHelper:131 - data exception: string data, right truncation;  table: ADDRESSES column: POSTCODE
+2020-12-13 17:58:34 INFO  AbstractBatchImpl:193 - HHH000010: On release of batch it still contained JDBC statements
+2020-12-13 17:58:34 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:hsqldb:mem:PUBLIC;sql.syntax_ora=true]
+2020-12-13 17:58:54 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2020-12-13 17:58:54 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-dynamic
+	...]
+2020-12-13 17:58:54 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2020-12-13 17:58:54 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2020-12-13 17:58:54 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2020-12-13 17:58:54 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2020-12-13 17:58:54 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-12-13 17:58:54 INFO  connections:127 - HHH10001005: using driver [org.hsqldb.jdbcDriver] at URL [jdbc:hsqldb:mem:PUBLIC;sql.syntax_ora=true]
+2020-12-13 17:58:54 INFO  connections:136 - HHH10001001: Connection properties: {user=sa}
+2020-12-13 17:58:54 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2020-12-13 17:58:54 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-12-13 17:58:54 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
+2020-12-13 17:58:54 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2020-12-13 17:58:54 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: actors
+2020-12-13 17:58:54 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: actors
+2020-12-13 17:58:54 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: ADDRESSES
+2020-12-13 17:58:54 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: ADDRESSES
+2020-12-13 17:58:54 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Directors
+2020-12-13 17:58:54 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Directors
+2020-12-13 17:58:54 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Genres
+2020-12-13 17:58:54 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Genres
+2020-12-13 17:58:54 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: MovieCast
+2020-12-13 17:58:54 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: MovieCast
+2020-12-13 17:58:54 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Movies
+2020-12-13 17:58:54 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Movies
+2020-12-13 17:58:55 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2020-12-13 17:58:55 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:hsqldb:mem:PUBLIC;sql.syntax_ora=true]
+2020-12-13 18:00:20 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2020-12-13 18:00:20 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-dynamic
+	...]
+2020-12-13 18:00:20 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2020-12-13 18:00:20 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2020-12-13 18:00:20 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2020-12-13 18:00:20 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2020-12-13 18:00:20 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-12-13 18:00:20 INFO  connections:127 - HHH10001005: using driver [org.hsqldb.jdbcDriver] at URL [jdbc:hsqldb:mem:PUBLIC;sql.syntax_ora=true]
+2020-12-13 18:00:20 INFO  connections:136 - HHH10001001: Connection properties: {user=sa}
+2020-12-13 18:00:20 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2020-12-13 18:00:20 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-12-13 18:00:20 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
+2020-12-13 18:00:21 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2020-12-13 18:00:21 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: actors
+2020-12-13 18:00:21 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: actors
+2020-12-13 18:00:21 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: ADDRESSES
+2020-12-13 18:00:21 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: ADDRESSES
+2020-12-13 18:00:21 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Directors
+2020-12-13 18:00:21 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Directors
+2020-12-13 18:00:21 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Genres
+2020-12-13 18:00:21 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Genres
+2020-12-13 18:00:21 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: MovieCast
+2020-12-13 18:00:21 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: MovieCast
+2020-12-13 18:00:21 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Movies
+2020-12-13 18:00:21 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Movies
+2020-12-13 18:00:21 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2020-12-13 18:00:21 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:hsqldb:mem:PUBLIC;sql.syntax_ora=true]
+2020-12-13 18:00:28 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2020-12-13 18:00:28 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-dynamic
+	...]
+2020-12-13 18:00:28 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2020-12-13 18:00:28 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2020-12-13 18:00:28 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2020-12-13 18:00:28 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2020-12-13 18:00:28 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-12-13 18:00:28 INFO  connections:127 - HHH10001005: using driver [org.hsqldb.jdbcDriver] at URL [jdbc:hsqldb:mem:PUBLIC;sql.syntax_ora=true]
+2020-12-13 18:00:28 INFO  connections:136 - HHH10001001: Connection properties: {user=sa}
+2020-12-13 18:00:28 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2020-12-13 18:00:28 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-12-13 18:00:28 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
+2020-12-13 18:00:29 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2020-12-13 18:00:29 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: actors
+2020-12-13 18:00:29 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: actors
+2020-12-13 18:00:29 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: ADDRESSES
+2020-12-13 18:00:29 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: ADDRESSES
+2020-12-13 18:00:29 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Directors
+2020-12-13 18:00:29 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Directors
+2020-12-13 18:00:29 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Genres
+2020-12-13 18:00:29 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Genres
+2020-12-13 18:00:29 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: MovieCast
+2020-12-13 18:00:29 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: MovieCast
+2020-12-13 18:00:29 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Movies
+2020-12-13 18:00:29 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Movies
+2020-12-13 18:00:29 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2020-12-13 18:00:29 WARN  SqlExceptionHelper:129 - SQL Error: 3401, SQLState: 22001
+2020-12-13 18:00:29 ERROR SqlExceptionHelper:131 - data exception: string data, right truncation;  table: ADDRESSES column: POSTCODE
+2020-12-13 18:00:29 INFO  AbstractBatchImpl:193 - HHH000010: On release of batch it still contained JDBC statements
+2020-12-13 18:00:29 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:hsqldb:mem:PUBLIC;sql.syntax_ora=true]
+2020-12-13 18:00:47 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2020-12-13 18:00:47 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-dynamic
+	...]
+2020-12-13 18:00:47 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2020-12-13 18:00:47 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2020-12-13 18:00:47 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2020-12-13 18:00:47 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2020-12-13 18:00:48 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-12-13 18:00:48 INFO  connections:127 - HHH10001005: using driver [org.hsqldb.jdbcDriver] at URL [jdbc:hsqldb:mem:PUBLIC;sql.syntax_ora=true]
+2020-12-13 18:00:48 INFO  connections:136 - HHH10001001: Connection properties: {user=sa}
+2020-12-13 18:00:48 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2020-12-13 18:00:48 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-12-13 18:00:48 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
+2020-12-13 18:00:48 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2020-12-13 18:00:48 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: actors
+2020-12-13 18:00:48 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: actors
+2020-12-13 18:00:48 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: ADDRESSES
+2020-12-13 18:00:48 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: ADDRESSES
+2020-12-13 18:00:48 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Directors
+2020-12-13 18:00:48 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Directors
+2020-12-13 18:00:48 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Genres
+2020-12-13 18:00:48 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Genres
+2020-12-13 18:00:48 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: MovieCast
+2020-12-13 18:00:48 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: MovieCast
+2020-12-13 18:00:48 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Movies
+2020-12-13 18:00:48 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Movies
+2020-12-13 18:00:48 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:hsqldb:mem:PUBLIC;sql.syntax_ora=true]
+2020-12-13 18:01:17 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2020-12-13 18:01:17 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-dynamic
+	...]
+2020-12-13 18:01:17 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2020-12-13 18:01:17 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2020-12-13 18:01:17 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2020-12-13 18:01:17 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2020-12-13 18:01:17 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-12-13 18:01:17 INFO  connections:127 - HHH10001005: using driver [org.hsqldb.jdbcDriver] at URL [jdbc:hsqldb:mem:PUBLIC;sql.syntax_ora=true]
+2020-12-13 18:01:17 INFO  connections:136 - HHH10001001: Connection properties: {user=sa}
+2020-12-13 18:01:17 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2020-12-13 18:01:17 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-12-13 18:01:17 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
+2020-12-13 18:01:18 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2020-12-13 18:01:18 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: actors
+2020-12-13 18:01:18 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: actors
+2020-12-13 18:01:18 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: ADDRESSES
+2020-12-13 18:01:18 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: ADDRESSES
+2020-12-13 18:01:18 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Directors
+2020-12-13 18:01:18 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Directors
+2020-12-13 18:01:18 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Genres
+2020-12-13 18:01:18 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Genres
+2020-12-13 18:01:18 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: MovieCast
+2020-12-13 18:01:18 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: MovieCast
+2020-12-13 18:01:18 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Movies
+2020-12-13 18:01:18 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Movies
+2020-12-13 18:01:18 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2020-12-13 18:01:18 WARN  SqlExceptionHelper:129 - SQL Error: 3401, SQLState: 22001
+2020-12-13 18:01:18 ERROR SqlExceptionHelper:131 - data exception: string data, right truncation;  table: ADDRESSES column: POSTCODE
+2020-12-13 18:01:18 INFO  AbstractBatchImpl:193 - HHH000010: On release of batch it still contained JDBC statements
+2020-12-13 18:01:18 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:hsqldb:mem:PUBLIC;sql.syntax_ora=true]
+2020-12-13 18:01:27 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2020-12-13 18:01:27 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-dynamic
+	...]
+2020-12-13 18:01:27 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2020-12-13 18:01:27 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2020-12-13 18:01:27 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2020-12-13 18:01:27 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2020-12-13 18:01:27 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-12-13 18:01:27 INFO  connections:127 - HHH10001005: using driver [org.hsqldb.jdbcDriver] at URL [jdbc:hsqldb:mem:PUBLIC;sql.syntax_ora=true]
+2020-12-13 18:01:27 INFO  connections:136 - HHH10001001: Connection properties: {user=sa}
+2020-12-13 18:01:27 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2020-12-13 18:01:27 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-12-13 18:01:27 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
+2020-12-13 18:01:28 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2020-12-13 18:01:28 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: actors
+2020-12-13 18:01:28 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: actors
+2020-12-13 18:01:28 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: ADDRESSES
+2020-12-13 18:01:28 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: ADDRESSES
+2020-12-13 18:01:28 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Directors
+2020-12-13 18:01:28 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Directors
+2020-12-13 18:01:28 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Genres
+2020-12-13 18:01:28 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Genres
+2020-12-13 18:01:28 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: MovieCast
+2020-12-13 18:01:28 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: MovieCast
+2020-12-13 18:01:28 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Movies
+2020-12-13 18:01:28 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Movies
+2020-12-13 18:01:28 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2020-12-13 18:01:28 WARN  SqlExceptionHelper:129 - SQL Error: 3401, SQLState: 22001
+2020-12-13 18:01:28 ERROR SqlExceptionHelper:131 - data exception: string data, right truncation;  table: ADDRESSES column: POSTCODE
+2020-12-13 18:01:28 INFO  AbstractBatchImpl:193 - HHH000010: On release of batch it still contained JDBC statements
+2020-12-13 18:01:28 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:hsqldb:mem:PUBLIC;sql.syntax_ora=true]
+2020-12-13 18:02:36 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2020-12-13 18:02:37 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-dynamic
+	...]
+2020-12-13 18:02:37 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2020-12-13 18:02:37 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2020-12-13 18:02:37 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2020-12-13 18:02:37 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2020-12-13 18:02:37 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-12-13 18:02:37 INFO  connections:127 - HHH10001005: using driver [org.hsqldb.jdbcDriver] at URL [jdbc:hsqldb:mem:PUBLIC;sql.syntax_ora=true]
+2020-12-13 18:02:37 INFO  connections:136 - HHH10001001: Connection properties: {user=sa}
+2020-12-13 18:02:37 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2020-12-13 18:02:37 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-12-13 18:02:37 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
+2020-12-13 18:02:37 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2020-12-13 18:02:37 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: actors
+2020-12-13 18:02:37 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: actors
+2020-12-13 18:02:37 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: ADDRESSES
+2020-12-13 18:02:37 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: ADDRESSES
+2020-12-13 18:02:37 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Directors
+2020-12-13 18:02:37 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Directors
+2020-12-13 18:02:37 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Genres
+2020-12-13 18:02:37 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Genres
+2020-12-13 18:02:37 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: MovieCast
+2020-12-13 18:02:37 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: MovieCast
+2020-12-13 18:02:37 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Movies
+2020-12-13 18:02:37 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Movies
+2020-12-13 18:02:37 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2020-12-13 18:02:38 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:hsqldb:mem:PUBLIC;sql.syntax_ora=true]
+2020-12-13 18:03:02 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2020-12-13 18:03:02 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-dynamic
+	...]
+2020-12-13 18:03:02 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2020-12-13 18:03:02 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2020-12-13 18:03:02 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2020-12-13 18:03:02 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2020-12-13 18:03:02 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-12-13 18:03:02 INFO  connections:127 - HHH10001005: using driver [org.hsqldb.jdbcDriver] at URL [jdbc:hsqldb:mem:PUBLIC;sql.syntax_ora=true]
+2020-12-13 18:03:02 INFO  connections:136 - HHH10001001: Connection properties: {user=sa}
+2020-12-13 18:03:02 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2020-12-13 18:03:02 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-12-13 18:03:03 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
+2020-12-13 18:03:03 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2020-12-13 18:03:03 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: actors
+2020-12-13 18:03:03 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: actors
+2020-12-13 18:03:03 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: ADDRESSES
+2020-12-13 18:03:03 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: ADDRESSES
+2020-12-13 18:03:03 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Directors
+2020-12-13 18:03:03 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Directors
+2020-12-13 18:03:03 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Genres
+2020-12-13 18:03:03 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Genres
+2020-12-13 18:03:03 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: MovieCast
+2020-12-13 18:03:03 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: MovieCast
+2020-12-13 18:03:03 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Movies
+2020-12-13 18:03:03 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Movies
+2020-12-13 18:03:03 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2020-12-13 18:03:03 WARN  SqlExceptionHelper:129 - SQL Error: 3401, SQLState: 22001
+2020-12-13 18:03:03 ERROR SqlExceptionHelper:131 - data exception: string data, right truncation;  table: MOVIES column: RELEASEDATE
+2020-12-13 18:03:03 INFO  AbstractBatchImpl:193 - HHH000010: On release of batch it still contained JDBC statements
+2020-12-13 18:03:03 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:hsqldb:mem:PUBLIC;sql.syntax_ora=true]
+2020-12-13 18:08:50 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2020-12-13 18:08:50 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-dynamic
+	...]
+2020-12-13 18:08:50 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2020-12-13 18:08:50 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2020-12-13 18:08:50 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2020-12-13 18:08:50 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2020-12-13 18:08:50 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-12-13 18:08:50 INFO  connections:127 - HHH10001005: using driver [org.hsqldb.jdbcDriver] at URL [jdbc:hsqldb:mem:PUBLIC;sql.syntax_ora=true]
+2020-12-13 18:08:50 INFO  connections:136 - HHH10001001: Connection properties: {user=sa}
+2020-12-13 18:08:50 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2020-12-13 18:08:50 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-12-13 18:08:51 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
+2020-12-13 18:08:51 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2020-12-13 18:08:51 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: actors
+2020-12-13 18:08:51 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: actors
+2020-12-13 18:08:51 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: ADDRESSES
+2020-12-13 18:08:51 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: ADDRESSES
+2020-12-13 18:08:51 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Directors
+2020-12-13 18:08:51 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Directors
+2020-12-13 18:08:51 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Genres
+2020-12-13 18:08:51 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Genres
+2020-12-13 18:08:51 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: MovieCast
+2020-12-13 18:08:51 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: MovieCast
+2020-12-13 18:08:51 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Movies
+2020-12-13 18:08:51 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Movies
+2020-12-13 18:08:51 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2020-12-13 18:08:51 WARN  SqlExceptionHelper:129 - SQL Error: 3401, SQLState: 22001
+2020-12-13 18:08:51 ERROR SqlExceptionHelper:131 - data exception: string data, right truncation;  table: MOVIES column: RELEASEDATE
+2020-12-13 18:08:51 INFO  AbstractBatchImpl:193 - HHH000010: On release of batch it still contained JDBC statements
+2020-12-13 18:08:51 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:hsqldb:mem:PUBLIC;sql.syntax_ora=true]
+2020-12-13 18:09:10 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2020-12-13 18:09:10 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-dynamic
+	...]
+2020-12-13 18:09:10 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2020-12-13 18:09:10 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2020-12-13 18:09:10 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2020-12-13 18:09:10 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2020-12-13 18:09:10 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-12-13 18:09:10 INFO  connections:127 - HHH10001005: using driver [org.hsqldb.jdbcDriver] at URL [jdbc:hsqldb:mem:PUBLIC;sql.syntax_ora=true]
+2020-12-13 18:09:10 INFO  connections:136 - HHH10001001: Connection properties: {user=sa}
+2020-12-13 18:09:10 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2020-12-13 18:09:10 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-12-13 18:09:11 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
+2020-12-13 18:09:11 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2020-12-13 18:09:11 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: actors
+2020-12-13 18:09:11 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: actors
+2020-12-13 18:09:11 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: ADDRESSES
+2020-12-13 18:09:11 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: ADDRESSES
+2020-12-13 18:09:11 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Directors
+2020-12-13 18:09:11 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Directors
+2020-12-13 18:09:11 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Genres
+2020-12-13 18:09:11 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Genres
+2020-12-13 18:09:11 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: MovieCast
+2020-12-13 18:09:11 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: MovieCast
+2020-12-13 18:09:11 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Movies
+2020-12-13 18:09:11 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Movies
+2020-12-13 18:09:11 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2020-12-13 18:09:11 WARN  SqlExceptionHelper:129 - SQL Error: 3401, SQLState: 22001
+2020-12-13 18:09:11 ERROR SqlExceptionHelper:131 - data exception: string data, right truncation;  table: MOVIES column: RELEASEDATE
+2020-12-13 18:09:11 INFO  AbstractBatchImpl:193 - HHH000010: On release of batch it still contained JDBC statements
+2020-12-13 18:09:11 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:hsqldb:mem:PUBLIC;sql.syntax_ora=true]
+2020-12-13 18:10:23 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2020-12-13 18:10:23 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-dynamic
+	...]
+2020-12-13 18:10:23 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2020-12-13 18:10:23 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2020-12-13 18:10:23 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2020-12-13 18:10:23 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2020-12-13 18:10:23 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-12-13 18:10:23 INFO  connections:127 - HHH10001005: using driver [org.hsqldb.jdbcDriver] at URL [jdbc:hsqldb:mem:PUBLIC;sql.syntax_ora=true]
+2020-12-13 18:10:23 INFO  connections:136 - HHH10001001: Connection properties: {user=sa}
+2020-12-13 18:10:23 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2020-12-13 18:10:23 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-12-13 18:10:23 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
+2020-12-13 18:10:24 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2020-12-13 18:10:24 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: actors
+2020-12-13 18:10:24 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: actors
+2020-12-13 18:10:24 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: ADDRESSES
+2020-12-13 18:10:24 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: ADDRESSES
+2020-12-13 18:10:24 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Directors
+2020-12-13 18:10:24 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Directors
+2020-12-13 18:10:24 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Genres
+2020-12-13 18:10:24 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Genres
+2020-12-13 18:10:24 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: MovieCast
+2020-12-13 18:10:24 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: MovieCast
+2020-12-13 18:10:24 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Movies
+2020-12-13 18:10:24 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Movies
+2020-12-13 18:10:24 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2020-12-13 18:10:24 WARN  SqlExceptionHelper:129 - SQL Error: 3401, SQLState: 22001
+2020-12-13 18:10:24 ERROR SqlExceptionHelper:131 - data exception: string data, right truncation;  table: MOVIES column: RELEASEDATE
+2020-12-13 18:10:24 INFO  AbstractBatchImpl:193 - HHH000010: On release of batch it still contained JDBC statements
+2020-12-13 18:10:24 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:hsqldb:mem:PUBLIC;sql.syntax_ora=true]
+2020-12-13 18:15:01 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2020-12-13 18:15:01 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-dynamic
+	...]
+2020-12-13 18:15:01 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2020-12-13 18:15:01 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2020-12-13 18:15:01 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2020-12-13 18:15:01 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2020-12-13 18:15:01 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-12-13 18:15:01 INFO  connections:127 - HHH10001005: using driver [org.hsqldb.jdbcDriver] at URL [jdbc:hsqldb:mem:PUBLIC;sql.syntax_ora=true]
+2020-12-13 18:15:01 INFO  connections:136 - HHH10001001: Connection properties: {user=sa}
+2020-12-13 18:15:01 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2020-12-13 18:15:01 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-12-13 18:15:01 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
+2020-12-13 18:15:02 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2020-12-13 18:15:02 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: actors
+2020-12-13 18:15:02 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: actors
+2020-12-13 18:15:02 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: ADDRESSES
+2020-12-13 18:15:02 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: ADDRESSES
+2020-12-13 18:15:02 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Directors
+2020-12-13 18:15:02 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Directors
+2020-12-13 18:15:02 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Genres
+2020-12-13 18:15:02 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Genres
+2020-12-13 18:15:02 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: MovieCast
+2020-12-13 18:15:02 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: MovieCast
+2020-12-13 18:15:02 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Movies
+2020-12-13 18:15:02 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Movies
+2020-12-13 18:15:02 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2020-12-13 18:15:02 WARN  SqlExceptionHelper:129 - SQL Error: 3401, SQLState: 22001
+2020-12-13 18:15:02 ERROR SqlExceptionHelper:131 - data exception: string data, right truncation;  table: MOVIES column: RELEASEDATE
+2020-12-13 18:15:02 INFO  AbstractBatchImpl:193 - HHH000010: On release of batch it still contained JDBC statements
+2020-12-13 18:15:02 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:hsqldb:mem:PUBLIC;sql.syntax_ora=true]
+2020-12-13 18:16:56 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2020-12-13 18:16:56 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-dynamic
+	...]
+2020-12-13 18:16:56 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2020-12-13 18:16:56 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2020-12-13 18:16:56 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2020-12-13 18:16:56 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2020-12-13 18:16:57 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-12-13 18:16:57 INFO  connections:127 - HHH10001005: using driver [org.hsqldb.jdbcDriver] at URL [jdbc:hsqldb:mem:PUBLIC;sql.syntax_ora=true]
+2020-12-13 18:16:57 INFO  connections:136 - HHH10001001: Connection properties: {user=sa}
+2020-12-13 18:16:57 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2020-12-13 18:16:57 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-12-13 18:16:57 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
+2020-12-13 18:16:57 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2020-12-13 18:16:57 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: actors
+2020-12-13 18:16:57 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: actors
+2020-12-13 18:16:57 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: ADDRESSES
+2020-12-13 18:16:57 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: ADDRESSES
+2020-12-13 18:16:57 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Directors
+2020-12-13 18:16:57 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Directors
+2020-12-13 18:16:57 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Genres
+2020-12-13 18:16:57 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Genres
+2020-12-13 18:16:57 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: MovieCast
+2020-12-13 18:16:57 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: MovieCast
+2020-12-13 18:16:57 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Movies
+2020-12-13 18:16:57 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Movies
+2020-12-13 18:16:57 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2020-12-13 18:16:57 WARN  SqlExceptionHelper:129 - SQL Error: 3401, SQLState: 22001
+2020-12-13 18:16:57 ERROR SqlExceptionHelper:131 - data exception: string data, right truncation;  table: MOVIES column: RELEASEDATE
+2020-12-13 18:16:57 INFO  AbstractBatchImpl:193 - HHH000010: On release of batch it still contained JDBC statements
+2020-12-13 18:16:57 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:hsqldb:mem:PUBLIC;sql.syntax_ora=true]
+2020-12-13 18:18:02 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2020-12-13 18:18:02 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-dynamic
+	...]
+2020-12-13 18:18:02 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2020-12-13 18:18:02 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2020-12-13 18:18:02 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2020-12-13 18:18:02 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2020-12-13 18:18:02 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-12-13 18:18:02 INFO  connections:127 - HHH10001005: using driver [org.hsqldb.jdbcDriver] at URL [jdbc:hsqldb:mem:PUBLIC;sql.syntax_ora=true]
+2020-12-13 18:18:02 INFO  connections:136 - HHH10001001: Connection properties: {user=sa}
+2020-12-13 18:18:02 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2020-12-13 18:18:02 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-12-13 18:18:02 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
+2020-12-13 18:18:02 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2020-12-13 18:18:03 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: actors
+2020-12-13 18:18:03 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: actors
+2020-12-13 18:18:03 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: ADDRESSES
+2020-12-13 18:18:03 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: ADDRESSES
+2020-12-13 18:18:03 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Directors
+2020-12-13 18:18:03 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Directors
+2020-12-13 18:18:03 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Genres
+2020-12-13 18:18:03 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Genres
+2020-12-13 18:18:03 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: MovieCast
+2020-12-13 18:18:03 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: MovieCast
+2020-12-13 18:18:03 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Movies
+2020-12-13 18:18:03 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Movies
+2020-12-13 18:18:03 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2020-12-13 18:18:03 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:hsqldb:mem:PUBLIC;sql.syntax_ora=true]
+2020-12-13 18:20:44 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2020-12-13 18:20:44 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-dynamic
+	...]
+2020-12-13 18:20:44 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2020-12-13 18:20:44 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2020-12-13 18:20:44 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2020-12-13 18:20:44 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2020-12-13 18:20:44 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-12-13 18:20:44 INFO  connections:127 - HHH10001005: using driver [org.hsqldb.jdbcDriver] at URL [jdbc:hsqldb:mem:PUBLIC;sql.syntax_ora=true]
+2020-12-13 18:20:44 INFO  connections:136 - HHH10001001: Connection properties: {user=sa}
+2020-12-13 18:20:44 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2020-12-13 18:20:44 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-12-13 18:20:45 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
+2020-12-13 18:20:45 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2020-12-13 18:20:45 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: actors
+2020-12-13 18:20:45 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: actors
+2020-12-13 18:20:45 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: ADDRESSES
+2020-12-13 18:20:45 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: ADDRESSES
+2020-12-13 18:20:45 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Directors
+2020-12-13 18:20:45 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Directors
+2020-12-13 18:20:45 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Genres
+2020-12-13 18:20:45 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Genres
+2020-12-13 18:20:45 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: MovieCast
+2020-12-13 18:20:45 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: MovieCast
+2020-12-13 18:20:45 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Movies
+2020-12-13 18:20:45 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Movies
+2020-12-13 18:20:45 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2020-12-13 18:20:45 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:hsqldb:mem:PUBLIC;sql.syntax_ora=true]
+2020-12-13 18:22:38 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2020-12-13 18:22:38 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-dynamic
+	...]
+2020-12-13 18:22:38 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2020-12-13 18:22:38 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2020-12-13 18:22:38 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2020-12-13 18:22:39 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2020-12-13 18:22:39 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-12-13 18:22:39 INFO  connections:127 - HHH10001005: using driver [org.hsqldb.jdbcDriver] at URL [jdbc:hsqldb:mem:PUBLIC;sql.syntax_ora=true]
+2020-12-13 18:22:39 INFO  connections:136 - HHH10001001: Connection properties: {user=sa}
+2020-12-13 18:22:39 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2020-12-13 18:22:39 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-12-13 18:22:39 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
+2020-12-13 18:22:39 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2020-12-13 18:22:39 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: actors
+2020-12-13 18:22:39 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: actors
+2020-12-13 18:22:39 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: ADDRESSES
+2020-12-13 18:22:39 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: ADDRESSES
+2020-12-13 18:22:39 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Directors
+2020-12-13 18:22:39 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Directors
+2020-12-13 18:22:39 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Genres
+2020-12-13 18:22:39 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Genres
+2020-12-13 18:22:39 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: MovieCast
+2020-12-13 18:22:39 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: MovieCast
+2020-12-13 18:22:39 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Movies
+2020-12-13 18:22:39 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Movies
+2020-12-13 18:22:39 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2020-12-13 18:22:39 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:hsqldb:mem:PUBLIC;sql.syntax_ora=true]
+2020-12-13 18:26:35 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2020-12-13 18:26:35 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-dynamic
+	...]
+2020-12-13 18:26:35 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2020-12-13 18:26:35 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2020-12-13 18:26:35 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2020-12-13 18:26:35 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2020-12-13 18:26:35 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-12-13 18:26:35 INFO  connections:127 - HHH10001005: using driver [org.hsqldb.jdbcDriver] at URL [jdbc:hsqldb:mem:PUBLIC;sql.syntax_ora=true]
+2020-12-13 18:26:35 INFO  connections:136 - HHH10001001: Connection properties: {user=sa}
+2020-12-13 18:26:35 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2020-12-13 18:26:35 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-12-13 18:26:36 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
+2020-12-13 18:26:36 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2020-12-13 18:26:36 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: actors
+2020-12-13 18:26:36 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: actors
+2020-12-13 18:26:36 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: ADDRESSES
+2020-12-13 18:26:36 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: ADDRESSES
+2020-12-13 18:26:36 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Directors
+2020-12-13 18:26:36 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Directors
+2020-12-13 18:26:36 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Genres
+2020-12-13 18:26:36 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Genres
+2020-12-13 18:26:36 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: MovieCast
+2020-12-13 18:26:36 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: MovieCast
+2020-12-13 18:26:36 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Movies
+2020-12-13 18:26:36 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Movies
+2020-12-13 18:26:36 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2020-12-13 18:26:36 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:hsqldb:mem:PUBLIC;sql.syntax_ora=true]
+2020-12-13 18:27:23 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2020-12-13 18:27:23 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-dynamic
+	...]
+2020-12-13 18:27:23 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2020-12-13 18:27:23 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2020-12-13 18:27:23 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2020-12-13 18:27:23 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2020-12-13 18:27:23 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-12-13 18:27:23 INFO  connections:127 - HHH10001005: using driver [org.hsqldb.jdbcDriver] at URL [jdbc:hsqldb:mem:PUBLIC;sql.syntax_ora=true]
+2020-12-13 18:27:23 INFO  connections:136 - HHH10001001: Connection properties: {user=sa}
+2020-12-13 18:27:23 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2020-12-13 18:27:23 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-12-13 18:27:23 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
+2020-12-13 18:27:24 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2020-12-13 18:27:24 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: actors
+2020-12-13 18:27:24 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: actors
+2020-12-13 18:27:24 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: ADDRESSES
+2020-12-13 18:27:24 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: ADDRESSES
+2020-12-13 18:27:24 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Directors
+2020-12-13 18:27:24 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Directors
+2020-12-13 18:27:24 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Genres
+2020-12-13 18:27:24 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Genres
+2020-12-13 18:27:24 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: MovieCast
+2020-12-13 18:27:24 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: MovieCast
+2020-12-13 18:27:24 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Movies
+2020-12-13 18:27:24 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Movies
+2020-12-13 18:27:24 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2020-12-13 18:27:24 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:hsqldb:mem:PUBLIC;sql.syntax_ora=true]
+2020-12-13 18:29:21 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2020-12-13 18:29:21 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-dynamic
+	...]
+2020-12-13 18:29:21 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2020-12-13 18:29:21 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2020-12-13 18:29:21 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2020-12-13 18:29:21 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2020-12-13 18:29:21 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-12-13 18:29:21 INFO  connections:127 - HHH10001005: using driver [org.hsqldb.jdbcDriver] at URL [jdbc:hsqldb:mem:PUBLIC;sql.syntax_ora=true]
+2020-12-13 18:29:21 INFO  connections:136 - HHH10001001: Connection properties: {user=sa}
+2020-12-13 18:29:21 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2020-12-13 18:29:21 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-12-13 18:29:21 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
+2020-12-13 18:29:22 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2020-12-13 18:29:22 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: actors
+2020-12-13 18:29:22 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: actors
+2020-12-13 18:29:22 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: ADDRESSES
+2020-12-13 18:29:22 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: ADDRESSES
+2020-12-13 18:29:22 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Directors
+2020-12-13 18:29:22 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Directors
+2020-12-13 18:29:22 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Genres
+2020-12-13 18:29:22 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Genres
+2020-12-13 18:29:22 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: MovieCast
+2020-12-13 18:29:22 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: MovieCast
+2020-12-13 18:29:22 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Movies
+2020-12-13 18:29:22 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Movies
+2020-12-13 18:29:22 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2020-12-13 18:29:22 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:hsqldb:mem:PUBLIC;sql.syntax_ora=true]
+2020-12-13 18:34:44 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2020-12-13 18:34:44 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-dynamic
+	...]
+2020-12-13 18:34:44 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2020-12-13 18:34:44 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2020-12-13 18:34:44 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2020-12-13 18:34:44 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2020-12-13 18:34:44 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-12-13 18:34:44 INFO  connections:127 - HHH10001005: using driver [org.hsqldb.jdbcDriver] at URL [jdbc:hsqldb:mem:PUBLIC;sql.syntax_ora=true]
+2020-12-13 18:34:44 INFO  connections:136 - HHH10001001: Connection properties: {user=sa}
+2020-12-13 18:34:44 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2020-12-13 18:34:44 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-12-13 18:34:45 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
+2020-12-13 18:34:45 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2020-12-13 18:34:45 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: actors
+2020-12-13 18:34:45 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: actors
+2020-12-13 18:34:45 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: ADDRESSES
+2020-12-13 18:34:45 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: ADDRESSES
+2020-12-13 18:34:45 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Directors
+2020-12-13 18:34:45 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Directors
+2020-12-13 18:34:45 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Genres
+2020-12-13 18:34:45 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Genres
+2020-12-13 18:34:45 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: MovieCast
+2020-12-13 18:34:45 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: MovieCast
+2020-12-13 18:34:45 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Movies
+2020-12-13 18:34:45 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Movies
+2020-12-13 18:34:45 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2020-12-13 18:34:45 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:hsqldb:mem:PUBLIC;sql.syntax_ora=true]
+2020-12-13 18:39:05 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2020-12-13 18:39:05 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-dynamic
+	...]
+2020-12-13 18:39:05 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2020-12-13 18:39:05 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2020-12-13 18:39:05 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2020-12-13 18:39:05 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2020-12-13 18:39:05 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-12-13 18:39:05 INFO  connections:127 - HHH10001005: using driver [org.hsqldb.jdbcDriver] at URL [jdbc:hsqldb:mem:PUBLIC;sql.syntax_ora=true]
+2020-12-13 18:39:05 INFO  connections:136 - HHH10001001: Connection properties: {user=sa}
+2020-12-13 18:39:05 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2020-12-13 18:39:05 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-12-13 18:39:06 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
+2020-12-13 18:39:06 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2020-12-13 18:39:06 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: actors
+2020-12-13 18:39:06 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: actors
+2020-12-13 18:39:06 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: ADDRESSES
+2020-12-13 18:39:06 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: ADDRESSES
+2020-12-13 18:39:06 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Directors
+2020-12-13 18:39:06 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Directors
+2020-12-13 18:39:06 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Genres
+2020-12-13 18:39:06 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Genres
+2020-12-13 18:39:06 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: MovieCast
+2020-12-13 18:39:06 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: MovieCast
+2020-12-13 18:39:06 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Movies
+2020-12-13 18:39:06 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Movies
+2020-12-13 18:39:06 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2020-12-13 18:39:06 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:hsqldb:mem:PUBLIC;sql.syntax_ora=true]
+2020-12-13 18:40:16 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2020-12-13 18:40:17 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-dynamic
+	...]
+2020-12-13 18:40:17 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2020-12-13 18:40:17 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2020-12-13 18:40:17 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2020-12-13 18:40:17 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2020-12-13 18:40:17 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-12-13 18:40:17 INFO  connections:127 - HHH10001005: using driver [org.hsqldb.jdbcDriver] at URL [jdbc:hsqldb:mem:PUBLIC;sql.syntax_ora=true]
+2020-12-13 18:40:17 INFO  connections:136 - HHH10001001: Connection properties: {user=sa}
+2020-12-13 18:40:17 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2020-12-13 18:40:17 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-12-13 18:40:17 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
+2020-12-13 18:40:17 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2020-12-13 18:40:17 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: actors
+2020-12-13 18:40:17 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: actors
+2020-12-13 18:40:17 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: ADDRESSES
+2020-12-13 18:40:17 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: ADDRESSES
+2020-12-13 18:40:17 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Directors
+2020-12-13 18:40:17 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Directors
+2020-12-13 18:40:17 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Genres
+2020-12-13 18:40:17 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Genres
+2020-12-13 18:40:17 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: MovieCast
+2020-12-13 18:40:17 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: MovieCast
+2020-12-13 18:40:17 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Movies
+2020-12-13 18:40:17 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Movies
+2020-12-13 18:40:17 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2020-12-13 18:40:17 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:hsqldb:mem:PUBLIC;sql.syntax_ora=true]
+2020-12-13 18:45:05 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2020-12-13 18:45:05 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-dynamic
+	...]
+2020-12-13 18:45:05 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2020-12-13 18:45:05 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2020-12-13 18:45:05 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2020-12-13 18:45:05 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2020-12-13 18:45:05 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-12-13 18:45:05 INFO  connections:127 - HHH10001005: using driver [org.hsqldb.jdbcDriver] at URL [jdbc:hsqldb:mem:PUBLIC;sql.syntax_ora=true]
+2020-12-13 18:45:05 INFO  connections:136 - HHH10001001: Connection properties: {user=sa}
+2020-12-13 18:45:05 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2020-12-13 18:45:05 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-12-13 18:45:06 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
+2020-12-13 18:45:06 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2020-12-13 18:45:06 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: actors
+2020-12-13 18:45:06 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: actors
+2020-12-13 18:45:06 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: ADDRESSES
+2020-12-13 18:45:06 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: ADDRESSES
+2020-12-13 18:45:06 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Directors
+2020-12-13 18:45:06 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Directors
+2020-12-13 18:45:06 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Genres
+2020-12-13 18:45:06 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Genres
+2020-12-13 18:45:06 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: MovieCast
+2020-12-13 18:45:06 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: MovieCast
+2020-12-13 18:45:06 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Movies
+2020-12-13 18:45:06 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Movies
+2020-12-13 18:45:06 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2020-12-13 18:45:06 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:hsqldb:mem:PUBLIC;sql.syntax_ora=true]
+2020-12-13 18:45:11 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2020-12-13 18:45:11 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-dynamic
+	...]
+2020-12-13 18:45:11 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2020-12-13 18:45:11 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2020-12-13 18:45:11 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2020-12-13 18:45:11 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2020-12-13 18:45:11 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-12-13 18:45:11 INFO  connections:127 - HHH10001005: using driver [org.hsqldb.jdbcDriver] at URL [jdbc:hsqldb:mem:PUBLIC;sql.syntax_ora=true]
+2020-12-13 18:45:11 INFO  connections:136 - HHH10001001: Connection properties: {user=sa}
+2020-12-13 18:45:11 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2020-12-13 18:45:11 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-12-13 18:45:11 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
+2020-12-13 18:45:12 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2020-12-13 18:45:12 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: actors
+2020-12-13 18:45:12 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: actors
+2020-12-13 18:45:12 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: ADDRESSES
+2020-12-13 18:45:12 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: ADDRESSES
+2020-12-13 18:45:12 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Directors
+2020-12-13 18:45:12 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Directors
+2020-12-13 18:45:12 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Genres
+2020-12-13 18:45:12 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Genres
+2020-12-13 18:45:12 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: MovieCast
+2020-12-13 18:45:12 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: MovieCast
+2020-12-13 18:45:12 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Movies
+2020-12-13 18:45:12 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Movies
+2020-12-13 18:45:12 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2020-12-13 18:45:12 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:hsqldb:mem:PUBLIC;sql.syntax_ora=true]
+2020-12-13 18:46:58 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2020-12-13 18:46:58 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-dynamic
+	...]
+2020-12-13 18:46:58 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2020-12-13 18:46:58 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2020-12-13 18:46:58 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2020-12-13 18:46:59 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2020-12-13 18:46:59 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-12-13 18:46:59 INFO  connections:127 - HHH10001005: using driver [org.hsqldb.jdbcDriver] at URL [jdbc:hsqldb:mem:PUBLIC;sql.syntax_ora=true]
+2020-12-13 18:46:59 INFO  connections:136 - HHH10001001: Connection properties: {user=sa}
+2020-12-13 18:46:59 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2020-12-13 18:46:59 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-12-13 18:46:59 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
+2020-12-13 18:46:59 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2020-12-13 18:46:59 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: actors
+2020-12-13 18:46:59 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: actors
+2020-12-13 18:46:59 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: ADDRESSES
+2020-12-13 18:46:59 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: ADDRESSES
+2020-12-13 18:46:59 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Directors
+2020-12-13 18:46:59 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Directors
+2020-12-13 18:46:59 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Genres
+2020-12-13 18:46:59 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Genres
+2020-12-13 18:46:59 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: MovieCast
+2020-12-13 18:46:59 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: MovieCast
+2020-12-13 18:46:59 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Movies
+2020-12-13 18:46:59 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Movies
+2020-12-13 18:46:59 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2020-12-13 18:46:59 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:hsqldb:mem:PUBLIC;sql.syntax_ora=true]
+2020-12-13 18:47:42 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2020-12-13 18:47:42 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-dynamic
+	...]
+2020-12-13 18:47:42 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2020-12-13 18:47:42 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2020-12-13 18:47:42 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2020-12-13 18:47:42 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2020-12-13 18:47:42 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-12-13 18:47:42 INFO  connections:127 - HHH10001005: using driver [org.hsqldb.jdbcDriver] at URL [jdbc:hsqldb:mem:PUBLIC;sql.syntax_ora=true]
+2020-12-13 18:47:42 INFO  connections:136 - HHH10001001: Connection properties: {user=sa}
+2020-12-13 18:47:42 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2020-12-13 18:47:42 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-12-13 18:47:42 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
+2020-12-13 18:47:43 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2020-12-13 18:47:43 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: actors
+2020-12-13 18:47:43 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: actors
+2020-12-13 18:47:43 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: ADDRESSES
+2020-12-13 18:47:43 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: ADDRESSES
+2020-12-13 18:47:43 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Directors
+2020-12-13 18:47:43 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Directors
+2020-12-13 18:47:43 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Genres
+2020-12-13 18:47:43 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Genres
+2020-12-13 18:47:43 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: MovieCast
+2020-12-13 18:47:43 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: MovieCast
+2020-12-13 18:47:43 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Movies
+2020-12-13 18:47:43 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Movies
+2020-12-13 18:47:43 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2020-12-13 18:47:43 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:hsqldb:mem:PUBLIC;sql.syntax_ora=true]
+2020-12-13 18:49:44 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2020-12-13 18:49:45 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-dynamic
+	...]
+2020-12-13 18:49:45 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2020-12-13 18:49:45 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2020-12-13 18:49:45 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2020-12-13 18:49:45 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2020-12-13 18:49:45 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-12-13 18:49:45 INFO  connections:127 - HHH10001005: using driver [org.hsqldb.jdbcDriver] at URL [jdbc:hsqldb:mem:PUBLIC;sql.syntax_ora=true]
+2020-12-13 18:49:45 INFO  connections:136 - HHH10001001: Connection properties: {user=sa}
+2020-12-13 18:49:45 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2020-12-13 18:49:45 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-12-13 18:49:45 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
+2020-12-13 18:49:45 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2020-12-13 18:49:45 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: actors
+2020-12-13 18:49:45 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: actors
+2020-12-13 18:49:45 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: ADDRESSES
+2020-12-13 18:49:45 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: ADDRESSES
+2020-12-13 18:49:45 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Directors
+2020-12-13 18:49:45 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Directors
+2020-12-13 18:49:45 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Genres
+2020-12-13 18:49:45 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Genres
+2020-12-13 18:49:45 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: MovieCast
+2020-12-13 18:49:45 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: MovieCast
+2020-12-13 18:49:45 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Movies
+2020-12-13 18:49:45 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Movies
+2020-12-13 18:49:45 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2020-12-13 18:49:46 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:hsqldb:mem:PUBLIC;sql.syntax_ora=true]
+2020-12-13 18:50:27 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2020-12-13 18:50:27 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-dynamic
+	...]
+2020-12-13 18:50:27 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2020-12-13 18:50:27 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2020-12-13 18:50:27 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2020-12-13 18:50:27 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2020-12-13 18:50:27 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-12-13 18:50:27 INFO  connections:127 - HHH10001005: using driver [org.hsqldb.jdbcDriver] at URL [jdbc:hsqldb:mem:PUBLIC;sql.syntax_ora=true]
+2020-12-13 18:50:27 INFO  connections:136 - HHH10001001: Connection properties: {user=sa}
+2020-12-13 18:50:27 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2020-12-13 18:50:27 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-12-13 18:50:27 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
+2020-12-13 18:50:27 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2020-12-13 18:50:27 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: actors
+2020-12-13 18:50:27 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: actors
+2020-12-13 18:50:27 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: ADDRESSES
+2020-12-13 18:50:27 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: ADDRESSES
+2020-12-13 18:50:27 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Directors
+2020-12-13 18:50:27 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Directors
+2020-12-13 18:50:27 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Genres
+2020-12-13 18:50:27 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Genres
+2020-12-13 18:50:28 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: MovieCast
+2020-12-13 18:50:28 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: MovieCast
+2020-12-13 18:50:28 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Movies
+2020-12-13 18:50:28 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: Movies
+2020-12-13 18:50:28 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2020-12-13 18:50:28 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:hsqldb:mem:PUBLIC;sql.syntax_ora=true]

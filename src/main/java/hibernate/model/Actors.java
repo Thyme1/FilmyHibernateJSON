@@ -51,7 +51,7 @@ public class Actors {
     Integer age;
 
 
-    @Column(nullable = false)
+    @Column
     String gender;
 
     @Column(nullable = false)
@@ -78,7 +78,7 @@ public class Actors {
         return movies;
     }
 
-    void setMovies(Set<MovieCast> movies) {
+    public void setMovies(Set<MovieCast> movies) {
         this.movies=movies;
     }
 
@@ -86,7 +86,7 @@ public class Actors {
         return favGenre;
     }
 
-    void setFavGenre(String favGenre) {
+    public void setFavGenre(String favGenre) {
         this.favGenre=favGenre;
     }
 
@@ -110,8 +110,8 @@ public class Actors {
         return surname;
     }
 
-    public void setSurname(String city) {
-        this.surname = city;
+    public void setSurname(String surname) {
+        this.surname = surname;
     }
 
     public Integer getAge() {

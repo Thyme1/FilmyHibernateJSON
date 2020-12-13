@@ -32,10 +32,10 @@ public class Address {
     @Column(nullable = false)
     String street;
 
-    @Column(nullable = false)
+    @Column
     String city;
 
-    @Column(length = 5, nullable = false)
+    @Column(length = 5)
     String nr;
 
     @Column(length = 5)

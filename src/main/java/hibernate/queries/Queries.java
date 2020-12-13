@@ -44,22 +44,24 @@ public class Queries {
 
     public List<Movie> getMoviesByGenre(String name) {
         TypedQuery<Movie> query = entityManager.createQuery(
-                "SELECT c FROM Movies c WHERE c.movieGenre LIKE :name", Movie.class);
+                "SELECT c FROM Movie c WHERE c.movieGenre LIKE :name", Movie.class);
         return query.setParameter("name", "%" + name + "%").getResultList();
 
     }
 
-    public Movie getMovieDirector(Movie name) {
-        TypedQuery<Movie> query = entityManager.createQuery(
-                "SELECT c FROM Movies c WHERE c.director LIKE :name", Movie.class);
-        return query.setParameter("name", "%" + name + "%").getSingleResult();
+
+
+    public  List<Actors> getActorsByGender(String gender) {
+        TypedQuery<Actors> query = entityManager.createQuery(
+                "SELECT c FROM Actors c WHERE c.gender LIKE :gender", Actors.class);
+        return query.setParameter("gender", "%" + gender + "%").getResultList();
 
     }
 
-    public  Actors getActorsAtAge(Integer age) {
+    public  List<Actors> getActorsBySalaryHigherThan(Integer salary) {
         TypedQuery<Actors> query = entityManager.createQuery(
-                "SELECT c FROM Actors c WHERE c.age LIKE :age", Actors.class);
-        return query.setParameter("age", "%" + age + "%").getSingleResult();
+                "SELECT c FROM Actors c WHERE c.salary > :salary", Actors.class);
+        return query.setParameter("salary", salary).getResultList();
 
     }
 

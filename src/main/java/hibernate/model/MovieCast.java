@@ -39,46 +39,46 @@ public class MovieCast {
 
 
 
-    Movie getMovie() {
+    public Movie getMovie() {
         return movie;
     }
 
-    void setMovie(Movie movie) {
+    public void setMovie(Movie movie) {
         this.movie=movie;
     }
 
-    Actors getActor() {
+    public Actors getActor() {
         return actor;
     }
 
-    void setActor(Actors actor) {
+    public void setActor(Actors actor) {
         this.actor=actor;
     }
 
     public MovieCast() {}
 
 
-    Integer getActorId() {
+    public Integer getActorId() {
         return actorId;
     }
 
-    void setActorId(Integer actorId) {
+    public void setActorId(Integer actorId) {
         this.actorId=actorId;
     }
 
-    Integer getMovieId() {
+    public Integer getMovieId() {
         return movieId;
     }
 
-    void setMovieId(Integer movieId) {
+    public void setMovieId(Integer movieId) {
         this.movieId=movieId;
     }
 
-    String getRole() {
+    public String getRole() {
         return role;
     }
 
-    void setRole(String role) {
+   public void setRole(String role) {
         this.role=role;
     }
 

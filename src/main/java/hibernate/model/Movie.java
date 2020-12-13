@@ -1,6 +1,7 @@
 package hibernate.model;
 
 import org.joda.time.DateTime;
+import org.joda.time.LocalDate;
 
 import javax.persistence.*;
 import javax.persistence.GeneratedValue;
@@ -58,11 +59,11 @@ public class Movie {
         this.actors=actors;
     }
 
-    String getMovieGenre() {
+    public String getMovieGenre() {
         return movieGenre;
     }
 
-    void setMovieGenre(String movieGenre) {
+    public void setMovieGenre(String movieGenre) {
         this.movieGenre=movieGenre;
     }
 
