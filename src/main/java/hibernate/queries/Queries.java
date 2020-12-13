@@ -41,4 +41,27 @@ public class Queries {
 
         return query.getResultList();
     }
+
+    public List<Movie> getMoviesByGenre(String name) {
+        TypedQuery<Movie> query = entityManager.createQuery(
+                "SELECT c FROM Movies c WHERE c.movieGenre LIKE :name", Movie.class);
+        return query.setParameter("name", "%" + name + "%").getResultList();
+
+    }
+
+    public Movie getMovieDirector(Movie name) {
+        TypedQuery<Movie> query = entityManager.createQuery(
+                "SELECT c FROM Movies c WHERE c.director LIKE :name", Movie.class);
+        return query.setParameter("name", "%" + name + "%").getSingleResult();
+
+    }
+
+    public Actors getActorsAtAge(Integer age) {
+        TypedQuery<Actors> query = entityManager.createQuery(
+                "SELECT c FROM Actors c WHERE c.age LIKE :age", Actors.class);
+        return query.setParameter("age", "%" + age + "%").getSingleResult();
+
+    }
+
+
 }

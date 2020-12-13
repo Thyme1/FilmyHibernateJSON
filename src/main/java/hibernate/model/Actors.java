@@ -31,6 +31,11 @@ public class Actors {
     @Column(nullable = false)
     String gender;
 
+
+
+    @Column(nullable = false)
+    Integer salary;
+
     @Column
     String favGenre;
 
@@ -103,6 +108,13 @@ public class Actors {
 
     public void setAddress(Address address) {
         this.address = address;
+    }
+    public Integer getSalary() {
+        return salary;
+    }
+
+    public void setSalary(Integer salary) {
+        this.salary=salary;
     }
 
 
