@@ -1,11 +1,13 @@
 package hibernate.model;
 
+import com.fasterxml.jackson.core.JsonProcessingException;
 import org.joda.time.DateTime;
 
 import javax.persistence.*;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.Table;
+import java.io.IOException;
 import java.util.*;
 
 @Entity
@@ -31,6 +33,9 @@ public class Actors {
     @Column(nullable = false)
     String gender;
 
+    @Column(nullable = false)
+    Integer salary;
+
     @Column
     String favGenre;
 
@@ -40,6 +45,12 @@ public class Actors {
 
     @OneToMany(mappedBy="actor")
     private Set<MovieCast> movies;
+
+
+
+
+    
+
 
     Set<MovieCast> getMovies() {
         return movies;
@@ -120,6 +131,11 @@ public class Actors {
     }
 
 
+    public Integer getSalary() {
+        return salary;
+    }
 
-
+    public void setSalary(Integer salary) {
+        this.salary=salary;
+    }
 }

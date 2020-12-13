@@ -5,6 +5,7 @@ import hibernate.model.Movie;
 //import hibernate.model.MovieCast;
 import hibernate.model.MovieCast;
 import hibernate.queries.Queries;
+import org.joda.time.DateTime;
 
 import javax.persistence.*;
 import java.util.List;
@@ -49,7 +50,7 @@ class Manager {
             movie.setTitle("Pirates of the Caribbean");
             movie.setLanguage("English");
             movie.setReleaseCountry("USA");
-            movie.setReleaseDate("05-09-2003");
+            movie.setReleaseDate(DateTime.parse("05092003"));
             movie.setTime("134");
 
             MovieCast cast = new MovieCast();
