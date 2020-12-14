@@ -6,7 +6,14 @@
     <age>35</age>
     <gender>male</gender>
     <salary>231</salary>
-    <address/>
+    <address>
+      <id>0</id>
+      <street>Lipowa</street>
+      <city>Poznan</city>
+      <nr>23</nr>
+      <housenr/>
+      <postcode>12345</postcode>
+    </address>
   </item>
   <item>
     <id>0</id>

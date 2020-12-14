@@ -12,11 +12,11 @@ import java.util.Set;
 @Table(name = "Movies")
 public class Movie {
 
-    @Id
-    @GeneratedValue(generator = "gen")
-    @SequenceGenerator(name = "gen", sequenceName = "author_seq")
+
 
     @Column(name = "id")
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
 
     @Column(nullable = false)

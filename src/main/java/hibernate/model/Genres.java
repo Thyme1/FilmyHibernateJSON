@@ -9,10 +9,10 @@ import javax.persistence.Table;
 @Table(name = "Genres")
 public class Genres {
 
-    @Id
-    @GeneratedValue(generator = "gen")
-    @SequenceGenerator(name = "gen", sequenceName = "author_seq")
+
     @Column(name = "id",nullable = false)
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
 
     @Column(nullable = false)

@@ -10,10 +10,10 @@ import java.util.Set;
 @Table(name = "Directors")
 public class Director {
 
-    @Id
-    @GeneratedValue(generator = "gen")
-    @SequenceGenerator(name = "gen", sequenceName = "author_seq")
+
     @Column(name = "id", nullable=false)
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
 
     @Column(nullable = false)

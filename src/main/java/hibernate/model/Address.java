@@ -24,9 +24,9 @@ import javax.xml.bind.annotation.XmlType;
 public class Address {
 
     @Id
-    @GeneratedValue(generator = "gen")
-    @SequenceGenerator(name = "gen", sequenceName = "author_seq")
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id")
+
     private int id;
 
     @Column(nullable = false)

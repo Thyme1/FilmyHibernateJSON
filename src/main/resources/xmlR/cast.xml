@@ -10,14 +10,21 @@
       <age>35</age>
       <gender>male</gender>
       <salary>231</salary>
-      <address/>
+      <address>
+        <id>0</id>
+        <street>Lipowa</street>
+        <city>Poznan</city>
+        <nr>23</nr>
+        <housenr/>
+        <postcode>12345</postcode>
+      </address>
     </actor>
     <movie>
       <id>0</id>
       <title>Pirates of the Caribbean</title>
       <time>134</time>
       <language>English</language>
-      <releaseDate>2020-12-14 18:26:54.517+0000</releaseDate>
+      <releaseDate>2020-12-14 22:36:59.704+0000</releaseDate>
       <releaseCountry>USA</releaseCountry>
       <movieGenre>komedia</movieGenre>
       <director/>

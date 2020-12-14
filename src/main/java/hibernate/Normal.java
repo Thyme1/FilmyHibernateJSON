@@ -1,22 +1,12 @@
 package hibernate;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
 import hibernate.model.*;
-//import hibernate.model.MovieCast;
 import hibernate.queries.Queries;
 import org.joda.time.DateTime;
-import org.joda.time.LocalDate;
-
 import javax.persistence.*;
-import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Random;
-import java.util.Set;
-import java.util.stream.IntStream;
-
 import static hibernate.json.SerializeJSON.serialize;
-import static hibernate.xml.SerializeXML.serializexml;
 import static hibernate.xml.SerializeXML.serializexml;
 
 

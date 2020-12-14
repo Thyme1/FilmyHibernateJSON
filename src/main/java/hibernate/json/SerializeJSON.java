@@ -16,7 +16,7 @@ public class SerializeJSON {
         mapper.registerModule(new JodaModule());
         mapper.enable(SerializationFeature.INDENT_OUTPUT);
         try {
-            mapper.writeValue(new File(name + ".json"), list);
+            mapper.writeValue(new File("C:\\Users\\Konrad\\IdeaProjects\\Przyrost2\\src\\main\\resources\\jsonR\\" + name + ".json"), list);
         } catch (IOException e) {
             e.printStackTrace();
         }

@@ -5,7 +5,14 @@
   "age" : 35,
   "gender" : "male",
   "salary" : 231,
-  "address" : null
+  "address" : {
+    "id" : 0,
+    "street" : "Lipowa",
+    "city" : "Poznan",
+    "nr" : "23",
+    "housenr" : 23,
+    "postcode" : "12345"
+  }
 }, {
   "id" : 0,
   "name" : "Morgan",

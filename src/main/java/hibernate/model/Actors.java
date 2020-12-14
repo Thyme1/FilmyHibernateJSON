@@ -36,9 +36,9 @@ import java.util.*;
 public class Actors {
 
     @Id
-    @GeneratedValue(generator = "gen")
-    @SequenceGenerator(name = "gen", sequenceName = "author_seq")
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id")
+
     private int id;
 
 

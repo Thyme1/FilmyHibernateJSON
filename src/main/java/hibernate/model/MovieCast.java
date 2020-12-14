@@ -11,10 +11,10 @@ import java.util.Set;
 @Table(name = "MovieCast")
 public class MovieCast {
 
-    @Id
-    @GeneratedValue(generator = "gen")
-    @SequenceGenerator(name = "gen", sequenceName = "author_seq")
+
     @Column(name = "id")
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
 
     @Column(nullable = false)

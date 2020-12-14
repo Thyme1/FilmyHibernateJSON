@@ -300,3 +300,716 @@ Caused by: org.postgresql.util.PSQLException: ERROR: sequence "author_seq" does 
 2020-12-14 20:18:57 INFO  SchemaCreatorImpl:481 - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@67440de6'
 2020-12-14 20:18:57 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
 2020-12-14 20:18:57 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/postgres]
+2020-12-14 22:14:14 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2020-12-14 22:14:15 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-dynamic
+	...]
+2020-12-14 22:14:15 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2020-12-14 22:14:15 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2020-12-14 22:14:15 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2020-12-14 22:14:15 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2020-12-14 22:14:15 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-12-14 22:14:15 INFO  connections:127 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/postgres]
+2020-12-14 22:14:15 INFO  connections:136 - HHH10001001: Connection properties: {password=****, user=postgres}
+2020-12-14 22:14:15 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2020-12-14 22:14:15 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-12-14 22:14:15 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2020-12-14 22:14:15 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2020-12-14 22:14:15 INFO  BasicTypeRegistry:147 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@7f36662c
+2020-12-14 22:14:15 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2020-12-14 22:14:16 INFO  SchemaCreatorImpl:481 - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@1c504e66'
+2020-12-14 22:14:16 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2020-12-14 22:14:16 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/postgres]
+2020-12-14 22:19:03 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2020-12-14 22:19:03 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-dynamic
+	...]
+2020-12-14 22:19:03 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2020-12-14 22:19:03 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2020-12-14 22:19:03 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2020-12-14 22:19:03 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2020-12-14 22:19:03 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-12-14 22:19:03 INFO  connections:127 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/postgres]
+2020-12-14 22:19:03 INFO  connections:136 - HHH10001001: Connection properties: {password=****, user=postgres}
+2020-12-14 22:19:03 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2020-12-14 22:19:03 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-12-14 22:19:03 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2020-12-14 22:19:03 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2020-12-14 22:19:03 INFO  BasicTypeRegistry:147 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@1f6c9cd8
+2020-12-14 22:19:04 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2020-12-14 22:19:04 INFO  SchemaCreatorImpl:481 - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@46d9aec8'
+2020-12-14 22:19:04 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2020-12-14 22:19:04 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/postgres]
+2020-12-14 22:19:32 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2020-12-14 22:19:32 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-dynamic
+	...]
+2020-12-14 22:19:32 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2020-12-14 22:19:32 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2020-12-14 22:19:32 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2020-12-14 22:19:32 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2020-12-14 22:19:33 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-12-14 22:19:33 INFO  connections:127 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/postgres]
+2020-12-14 22:19:33 INFO  connections:136 - HHH10001001: Connection properties: {password=****, user=postgres}
+2020-12-14 22:19:33 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2020-12-14 22:19:33 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-12-14 22:19:33 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2020-12-14 22:19:33 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2020-12-14 22:19:33 INFO  BasicTypeRegistry:147 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@5f9678e1
+2020-12-14 22:19:33 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2020-12-14 22:19:33 INFO  SchemaCreatorImpl:481 - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@6fd5717c'
+2020-12-14 22:19:34 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2020-12-14 22:19:34 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/postgres]
+2020-12-14 23:01:26 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2020-12-14 23:01:26 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-dynamic
+	...]
+2020-12-14 23:01:26 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2020-12-14 23:01:26 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2020-12-14 23:01:26 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2020-12-14 23:01:26 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2020-12-14 23:01:26 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-12-14 23:01:26 INFO  connections:127 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/postgres]
+2020-12-14 23:01:26 INFO  connections:136 - HHH10001001: Connection properties: {password=****, user=postgres}
+2020-12-14 23:01:26 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2020-12-14 23:01:26 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-12-14 23:01:26 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2020-12-14 23:01:27 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2020-12-14 23:01:27 INFO  BasicTypeRegistry:147 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@5fb97279
+2020-12-14 23:01:27 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2020-12-14 23:01:27 WARN  ExceptionHandlerLoggedImpl:27 - GenerationTarget encountered exception accepting command : Unable to execute command [alter table actors drop constraint FKb0trek7l9na2cu9t6vhpd5y7c]
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Unable to execute command [alter table actors drop constraint FKb0trek7l9na2cu9t6vhpd5y7c]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:63)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlString(SchemaDropperImpl.java:370)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlStrings(SchemaDropperImpl.java:355)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applyConstraintDropping(SchemaDropperImpl.java:327)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.dropFromMetadata(SchemaDropperImpl.java:229)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.performDrop(SchemaDropperImpl.java:153)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:125)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:111)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:137)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:65)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:308)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:476)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:888)
+	at org.hibernate.jpa.HibernatePersistenceProvider.createEntityManagerFactory(HibernatePersistenceProvider.java:58)
+	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:55)
+	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:39)
+	at DatabaseJSONApp.main(DatabaseJSONApp.java:23)
+Caused by: org.postgresql.util.PSQLException: ERROR: relation "actors" does not exist
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2553)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2285)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:323)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:473)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:393)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:322)
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:308)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:284)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:279)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:51)
+	... 16 more
+2020-12-14 23:01:27 WARN  ExceptionHandlerLoggedImpl:27 - GenerationTarget encountered exception accepting command : Unable to execute command [alter table Directors drop constraint FKpo0irg4d23tuaj3f4tgh5g6j4]
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Unable to execute command [alter table Directors drop constraint FKpo0irg4d23tuaj3f4tgh5g6j4]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:63)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlString(SchemaDropperImpl.java:370)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlStrings(SchemaDropperImpl.java:355)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applyConstraintDropping(SchemaDropperImpl.java:327)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.dropFromMetadata(SchemaDropperImpl.java:229)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.performDrop(SchemaDropperImpl.java:153)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:125)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:111)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:137)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:65)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:308)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:476)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:888)
+	at org.hibernate.jpa.HibernatePersistenceProvider.createEntityManagerFactory(HibernatePersistenceProvider.java:58)
+	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:55)
+	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:39)
+	at DatabaseJSONApp.main(DatabaseJSONApp.java:23)
+Caused by: org.postgresql.util.PSQLException: ERROR: relation "directors" does not exist
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2553)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2285)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:323)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:473)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:393)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:322)
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:308)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:284)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:279)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:51)
+	... 16 more
+2020-12-14 23:01:27 WARN  ExceptionHandlerLoggedImpl:27 - GenerationTarget encountered exception accepting command : Unable to execute command [alter table MovieCast drop constraint FK8vo531c4x7i38axwg8wo2k5f8]
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Unable to execute command [alter table MovieCast drop constraint FK8vo531c4x7i38axwg8wo2k5f8]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:63)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlString(SchemaDropperImpl.java:370)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlStrings(SchemaDropperImpl.java:355)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applyConstraintDropping(SchemaDropperImpl.java:327)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.dropFromMetadata(SchemaDropperImpl.java:229)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.performDrop(SchemaDropperImpl.java:153)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:125)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:111)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:137)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:65)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:308)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:476)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:888)
+	at org.hibernate.jpa.HibernatePersistenceProvider.createEntityManagerFactory(HibernatePersistenceProvider.java:58)
+	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:55)
+	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:39)
+	at DatabaseJSONApp.main(DatabaseJSONApp.java:23)
+Caused by: org.postgresql.util.PSQLException: ERROR: relation "moviecast" does not exist
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2553)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2285)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:323)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:473)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:393)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:322)
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:308)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:284)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:279)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:51)
+	... 16 more
+2020-12-14 23:01:27 WARN  ExceptionHandlerLoggedImpl:27 - GenerationTarget encountered exception accepting command : Unable to execute command [alter table MovieCast drop constraint FKew2xfxp85vm06c4dqwmqk9rgw]
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Unable to execute command [alter table MovieCast drop constraint FKew2xfxp85vm06c4dqwmqk9rgw]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:63)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlString(SchemaDropperImpl.java:370)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlStrings(SchemaDropperImpl.java:355)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applyConstraintDropping(SchemaDropperImpl.java:327)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.dropFromMetadata(SchemaDropperImpl.java:229)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.performDrop(SchemaDropperImpl.java:153)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:125)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:111)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:137)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:65)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:308)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:476)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:888)
+	at org.hibernate.jpa.HibernatePersistenceProvider.createEntityManagerFactory(HibernatePersistenceProvider.java:58)
+	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:55)
+	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:39)
+	at DatabaseJSONApp.main(DatabaseJSONApp.java:23)
+Caused by: org.postgresql.util.PSQLException: ERROR: relation "moviecast" does not exist
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2553)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2285)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:323)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:473)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:393)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:322)
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:308)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:284)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:279)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:51)
+	... 16 more
+2020-12-14 23:01:27 WARN  ExceptionHandlerLoggedImpl:27 - GenerationTarget encountered exception accepting command : Unable to execute command [alter table Movies drop constraint FK728twv8udcddg00wp3gwj83tw]
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Unable to execute command [alter table Movies drop constraint FK728twv8udcddg00wp3gwj83tw]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:63)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlString(SchemaDropperImpl.java:370)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlStrings(SchemaDropperImpl.java:355)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applyConstraintDropping(SchemaDropperImpl.java:327)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.dropFromMetadata(SchemaDropperImpl.java:229)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.performDrop(SchemaDropperImpl.java:153)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:125)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:111)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:137)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:65)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:308)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:476)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:888)
+	at org.hibernate.jpa.HibernatePersistenceProvider.createEntityManagerFactory(HibernatePersistenceProvider.java:58)
+	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:55)
+	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:39)
+	at DatabaseJSONApp.main(DatabaseJSONApp.java:23)
+Caused by: org.postgresql.util.PSQLException: ERROR: relation "movies" does not exist
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2553)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2285)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:323)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:473)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:393)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:322)
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:308)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:284)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:279)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:51)
+	... 16 more
+2020-12-14 23:01:27 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2020-12-14 23:01:27 WARN  SqlExceptionHelper:218 - table "actors" does not exist, skipping
+2020-12-14 23:01:27 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2020-12-14 23:01:27 WARN  SqlExceptionHelper:218 - table "addresses" does not exist, skipping
+2020-12-14 23:01:27 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2020-12-14 23:01:27 WARN  SqlExceptionHelper:218 - table "directors" does not exist, skipping
+2020-12-14 23:01:27 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2020-12-14 23:01:27 WARN  SqlExceptionHelper:218 - table "genres" does not exist, skipping
+2020-12-14 23:01:27 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2020-12-14 23:01:27 WARN  SqlExceptionHelper:218 - table "moviecast" does not exist, skipping
+2020-12-14 23:01:27 WARN  SqlExceptionHelper:217 - SQL Warning Code: 0, SQLState: 00000
+2020-12-14 23:01:27 WARN  SqlExceptionHelper:218 - table "movies" does not exist, skipping
+2020-12-14 23:01:27 INFO  SchemaCreatorImpl:481 - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@1d75e7af'
+2020-12-14 23:10:44 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2020-12-14 23:10:45 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-dynamic
+	...]
+2020-12-14 23:10:45 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2020-12-14 23:10:45 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2020-12-14 23:10:45 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2020-12-14 23:10:45 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2020-12-14 23:10:45 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-12-14 23:10:45 INFO  connections:127 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/postgres]
+2020-12-14 23:10:45 INFO  connections:136 - HHH10001001: Connection properties: {password=****, user=postgres}
+2020-12-14 23:10:45 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2020-12-14 23:10:45 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-12-14 23:10:45 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2020-12-14 23:10:45 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2020-12-14 23:10:45 INFO  BasicTypeRegistry:147 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@52066604
+2020-12-14 23:10:45 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2020-12-14 23:10:45 INFO  SchemaCreatorImpl:481 - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@49cf9028'
+2020-12-14 23:10:46 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2020-12-14 23:10:46 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/postgres]
+2020-12-14 23:16:44 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2020-12-14 23:16:44 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-dynamic
+	...]
+2020-12-14 23:16:44 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2020-12-14 23:16:44 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2020-12-14 23:16:44 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2020-12-14 23:16:44 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2020-12-14 23:16:44 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-12-14 23:16:44 INFO  connections:127 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/postgres]
+2020-12-14 23:16:44 INFO  connections:136 - HHH10001001: Connection properties: {password=****, user=postgres}
+2020-12-14 23:16:44 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2020-12-14 23:16:44 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-12-14 23:16:44 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2020-12-14 23:16:44 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2020-12-14 23:16:44 INFO  BasicTypeRegistry:147 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@493dfb8e
+2020-12-14 23:16:44 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2020-12-14 23:16:45 INFO  SchemaCreatorImpl:481 - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@ef1695a'
+2020-12-14 23:17:03 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2020-12-14 23:17:03 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-dynamic
+	...]
+2020-12-14 23:17:03 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2020-12-14 23:17:03 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2020-12-14 23:17:03 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2020-12-14 23:17:03 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2020-12-14 23:17:04 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-12-14 23:17:04 INFO  connections:127 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/postgres]
+2020-12-14 23:17:04 INFO  connections:136 - HHH10001001: Connection properties: {password=****, user=postgres}
+2020-12-14 23:17:04 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2020-12-14 23:17:04 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-12-14 23:17:04 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2020-12-14 23:17:04 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2020-12-14 23:17:04 INFO  BasicTypeRegistry:147 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@61a002b1
+2020-12-14 23:17:04 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2020-12-14 23:17:04 INFO  SchemaCreatorImpl:481 - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@5c7668ba'
+2020-12-14 23:22:59 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2020-12-14 23:22:59 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-dynamic
+	...]
+2020-12-14 23:22:59 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2020-12-14 23:22:59 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2020-12-14 23:22:59 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2020-12-14 23:22:59 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2020-12-14 23:22:59 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-12-14 23:22:59 INFO  connections:127 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/postgres]
+2020-12-14 23:22:59 INFO  connections:136 - HHH10001001: Connection properties: {password=****, user=postgres}
+2020-12-14 23:22:59 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2020-12-14 23:22:59 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-12-14 23:22:59 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2020-12-14 23:23:00 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2020-12-14 23:23:00 INFO  BasicTypeRegistry:147 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@7f36662c
+2020-12-14 23:23:00 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2020-12-14 23:23:00 WARN  ExceptionHandlerLoggedImpl:27 - GenerationTarget encountered exception accepting command : Unable to execute command [drop sequence hibernate_sequence]
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Unable to execute command [drop sequence hibernate_sequence]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:63)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlString(SchemaDropperImpl.java:370)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlStrings(SchemaDropperImpl.java:355)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.dropFromMetadata(SchemaDropperImpl.java:245)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.performDrop(SchemaDropperImpl.java:153)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:125)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:111)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:137)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:65)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:308)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:476)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:888)
+	at org.hibernate.jpa.HibernatePersistenceProvider.createEntityManagerFactory(HibernatePersistenceProvider.java:58)
+	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:55)
+	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:39)
+	at hibernate.Normal.main(Normal.java:26)
+Caused by: org.postgresql.util.PSQLException: ERROR: sequence "hibernate_sequence" does not exist
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2553)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2285)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:323)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:473)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:393)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:322)
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:308)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:284)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:279)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:51)
+	... 15 more
+2020-12-14 23:23:00 INFO  SchemaCreatorImpl:481 - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@7e2f86e6'
+2020-12-14 23:23:00 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2020-12-14 23:23:00 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/postgres]
+2020-12-14 23:23:31 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2020-12-14 23:23:31 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-dynamic
+	...]
+2020-12-14 23:23:31 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2020-12-14 23:23:31 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2020-12-14 23:23:31 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2020-12-14 23:23:31 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2020-12-14 23:23:32 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-12-14 23:23:32 INFO  connections:127 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/postgres]
+2020-12-14 23:23:32 INFO  connections:136 - HHH10001001: Connection properties: {password=****, user=postgres}
+2020-12-14 23:23:32 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2020-12-14 23:23:32 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-12-14 23:23:32 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2020-12-14 23:23:32 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2020-12-14 23:23:32 INFO  BasicTypeRegistry:147 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@10ded6a9
+2020-12-14 23:23:32 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2020-12-14 23:23:32 INFO  SchemaCreatorImpl:481 - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@46d9aec8'
+2020-12-14 23:23:33 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2020-12-14 23:23:33 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/postgres]
+2020-12-14 23:26:03 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2020-12-14 23:26:03 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-dynamic
+	...]
+2020-12-14 23:26:03 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2020-12-14 23:26:03 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2020-12-14 23:26:03 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2020-12-14 23:26:03 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2020-12-14 23:26:03 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-12-14 23:26:03 INFO  connections:127 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/postgres]
+2020-12-14 23:26:03 INFO  connections:136 - HHH10001001: Connection properties: {password=****, user=postgres}
+2020-12-14 23:26:03 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2020-12-14 23:26:03 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-12-14 23:26:04 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2020-12-14 23:26:04 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2020-12-14 23:26:04 INFO  BasicTypeRegistry:147 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@1817f1eb
+2020-12-14 23:28:35 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2020-12-14 23:28:35 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-dynamic
+	...]
+2020-12-14 23:28:35 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2020-12-14 23:28:35 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2020-12-14 23:28:35 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2020-12-14 23:28:35 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2020-12-14 23:28:35 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-12-14 23:28:35 INFO  connections:127 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/postgres]
+2020-12-14 23:28:35 INFO  connections:136 - HHH10001001: Connection properties: {password=****, user=postgres}
+2020-12-14 23:28:35 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2020-12-14 23:28:35 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-12-14 23:28:35 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2020-12-14 23:28:35 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2020-12-14 23:28:35 INFO  BasicTypeRegistry:147 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@1f6c9cd8
+2020-12-14 23:28:36 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2020-12-14 23:28:36 INFO  SchemaCreatorImpl:481 - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@7bb35cc6'
+2020-12-14 23:28:36 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2020-12-14 23:28:36 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/postgres]
+2020-12-14 23:29:13 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2020-12-14 23:29:13 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-dynamic
+	...]
+2020-12-14 23:29:13 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2020-12-14 23:29:13 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2020-12-14 23:29:13 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2020-12-14 23:29:13 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2020-12-14 23:29:13 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-12-14 23:29:13 INFO  connections:127 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/postgres]
+2020-12-14 23:29:13 INFO  connections:136 - HHH10001001: Connection properties: {password=****, user=postgres}
+2020-12-14 23:29:13 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2020-12-14 23:29:13 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-12-14 23:29:13 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2020-12-14 23:29:13 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2020-12-14 23:29:13 INFO  BasicTypeRegistry:147 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@17a1e4ca
+2020-12-14 23:29:14 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2020-12-14 23:29:14 INFO  SchemaCreatorImpl:481 - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@4441d567'
+2020-12-14 23:29:14 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2020-12-14 23:29:14 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/postgres]
+2020-12-14 23:31:24 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2020-12-14 23:31:24 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-dynamic
+	...]
+2020-12-14 23:31:24 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2020-12-14 23:31:24 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2020-12-14 23:31:24 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2020-12-14 23:31:24 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2020-12-14 23:31:24 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-12-14 23:31:24 INFO  connections:127 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/postgres]
+2020-12-14 23:31:24 INFO  connections:136 - HHH10001001: Connection properties: {password=****, user=postgres}
+2020-12-14 23:31:24 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2020-12-14 23:31:24 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-12-14 23:31:24 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2020-12-14 23:31:25 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2020-12-14 23:31:25 INFO  BasicTypeRegistry:147 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@767e20cf
+2020-12-14 23:31:25 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2020-12-14 23:31:25 INFO  SchemaCreatorImpl:481 - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@b8e246c'
+2020-12-14 23:31:25 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2020-12-14 23:31:25 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/postgres]
+2020-12-14 23:33:46 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2020-12-14 23:33:46 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-dynamic
+	...]
+2020-12-14 23:33:46 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2020-12-14 23:33:46 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2020-12-14 23:33:46 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2020-12-14 23:33:46 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2020-12-14 23:33:46 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-12-14 23:33:46 INFO  connections:127 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/postgres]
+2020-12-14 23:33:46 INFO  connections:136 - HHH10001001: Connection properties: {password=****, user=postgres}
+2020-12-14 23:33:46 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2020-12-14 23:33:46 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-12-14 23:33:47 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2020-12-14 23:33:47 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2020-12-14 23:33:47 INFO  BasicTypeRegistry:147 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@1f6c9cd8
+2020-12-14 23:33:47 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2020-12-14 23:33:47 INFO  SchemaCreatorImpl:481 - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@7bb35cc6'
+2020-12-14 23:33:47 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2020-12-14 23:33:48 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/postgres]
+2020-12-14 23:34:06 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2020-12-14 23:34:06 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-dynamic
+	...]
+2020-12-14 23:34:06 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2020-12-14 23:34:06 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2020-12-14 23:34:06 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2020-12-14 23:34:06 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2020-12-14 23:34:06 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-12-14 23:34:06 INFO  connections:127 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/postgres]
+2020-12-14 23:34:06 INFO  connections:136 - HHH10001001: Connection properties: {password=****, user=postgres}
+2020-12-14 23:34:06 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2020-12-14 23:34:06 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-12-14 23:34:07 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2020-12-14 23:34:07 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2020-12-14 23:34:07 INFO  BasicTypeRegistry:147 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@28e8dde3
+2020-12-14 23:34:07 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2020-12-14 23:34:07 INFO  SchemaCreatorImpl:481 - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@2116b68b'
+2020-12-14 23:34:08 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/postgres]
+2020-12-14 23:36:24 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2020-12-14 23:36:24 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-dynamic
+	...]
+2020-12-14 23:36:24 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2020-12-14 23:36:24 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2020-12-14 23:36:24 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2020-12-14 23:36:24 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2020-12-14 23:36:24 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-12-14 23:36:24 INFO  connections:127 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/postgres]
+2020-12-14 23:36:24 INFO  connections:136 - HHH10001001: Connection properties: {password=****, user=postgres}
+2020-12-14 23:36:24 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2020-12-14 23:36:24 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-12-14 23:36:25 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2020-12-14 23:36:25 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2020-12-14 23:36:25 INFO  BasicTypeRegistry:147 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@1f6c9cd8
+2020-12-14 23:36:25 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2020-12-14 23:36:25 INFO  SchemaCreatorImpl:481 - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@203c20cf'
+2020-12-14 23:36:25 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/postgres]
+2020-12-14 23:36:58 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2020-12-14 23:36:58 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-dynamic
+	...]
+2020-12-14 23:36:58 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2020-12-14 23:36:58 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2020-12-14 23:36:58 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2020-12-14 23:36:58 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2020-12-14 23:36:58 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-12-14 23:36:58 INFO  connections:127 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/postgres]
+2020-12-14 23:36:58 INFO  connections:136 - HHH10001001: Connection properties: {password=****, user=postgres}
+2020-12-14 23:36:58 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2020-12-14 23:36:58 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-12-14 23:36:59 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2020-12-14 23:36:59 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2020-12-14 23:36:59 INFO  BasicTypeRegistry:147 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@28e8dde3
+2020-12-14 23:36:59 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2020-12-14 23:36:59 INFO  SchemaCreatorImpl:481 - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@6411d3c8'
+2020-12-14 23:36:59 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2020-12-14 23:37:00 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/postgres]
+2020-12-14 23:43:20 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2020-12-14 23:43:20 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-dynamic
+	...]
+2020-12-14 23:43:20 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2020-12-14 23:43:20 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2020-12-14 23:43:20 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2020-12-14 23:43:20 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2020-12-14 23:43:20 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-12-14 23:43:21 INFO  connections:127 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/postgres]
+2020-12-14 23:43:21 INFO  connections:136 - HHH10001001: Connection properties: {password=****, user=postgres}
+2020-12-14 23:43:21 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2020-12-14 23:43:21 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-12-14 23:43:21 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2020-12-14 23:43:21 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2020-12-14 23:43:21 INFO  BasicTypeRegistry:147 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@329a1243
+2020-12-14 23:43:21 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2020-12-14 23:43:21 INFO  SchemaCreatorImpl:481 - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@339a3670'
+2020-12-15 00:06:27 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2020-12-15 00:06:27 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-dynamic
+	...]
+2020-12-15 00:06:27 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2020-12-15 00:06:27 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2020-12-15 00:06:27 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2020-12-15 00:06:27 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2020-12-15 00:06:27 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-12-15 00:06:27 INFO  connections:127 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/postgres]
+2020-12-15 00:06:27 INFO  connections:136 - HHH10001001: Connection properties: {password=****, user=postgres}
+2020-12-15 00:06:27 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2020-12-15 00:06:27 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-12-15 00:06:28 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2020-12-15 00:06:28 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2020-12-15 00:06:28 INFO  BasicTypeRegistry:147 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@14bb2297
+2020-12-15 00:06:28 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2020-12-15 00:06:28 INFO  SchemaCreatorImpl:481 - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@3a22bad6'
+2020-12-15 00:09:08 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2020-12-15 00:09:08 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-dynamic
+	...]
+2020-12-15 00:09:08 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2020-12-15 00:09:08 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2020-12-15 00:09:08 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2020-12-15 00:09:08 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2020-12-15 00:09:08 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-12-15 00:09:08 INFO  connections:127 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/postgres]
+2020-12-15 00:09:08 INFO  connections:136 - HHH10001001: Connection properties: {password=****, user=postgres}
+2020-12-15 00:09:08 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2020-12-15 00:09:08 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-12-15 00:09:08 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2020-12-15 00:09:08 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2020-12-15 00:09:08 INFO  BasicTypeRegistry:147 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@70e29e14
+2020-12-15 00:09:09 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2020-12-15 00:09:09 INFO  SchemaCreatorImpl:481 - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@52169758'
+2020-12-15 00:09:09 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/postgres]
+2020-12-15 00:10:28 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2020-12-15 00:10:28 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-dynamic
+	...]
+2020-12-15 00:10:28 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2020-12-15 00:10:28 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2020-12-15 00:10:28 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2020-12-15 00:10:28 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2020-12-15 00:10:29 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-12-15 00:10:29 INFO  connections:127 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/postgres]
+2020-12-15 00:10:29 INFO  connections:136 - HHH10001001: Connection properties: {password=****, user=postgres}
+2020-12-15 00:10:29 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2020-12-15 00:10:29 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-12-15 00:10:29 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2020-12-15 00:10:29 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2020-12-15 00:10:29 INFO  BasicTypeRegistry:147 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@70e29e14
+2020-12-15 00:10:29 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2020-12-15 00:10:29 INFO  SchemaCreatorImpl:481 - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@52169758'
+2020-12-15 00:10:29 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/postgres]
+2020-12-15 00:10:50 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2020-12-15 00:10:51 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-dynamic
+	...]
+2020-12-15 00:10:51 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2020-12-15 00:10:51 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2020-12-15 00:10:51 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2020-12-15 00:10:51 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2020-12-15 00:10:51 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-12-15 00:10:51 INFO  connections:127 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/postgres]
+2020-12-15 00:10:51 INFO  connections:136 - HHH10001001: Connection properties: {password=****, user=postgres}
+2020-12-15 00:10:51 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2020-12-15 00:10:51 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-12-15 00:10:51 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2020-12-15 00:10:51 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2020-12-15 00:10:51 INFO  BasicTypeRegistry:147 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@43c67247
+2020-12-15 00:10:51 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2020-12-15 00:10:51 INFO  SchemaCreatorImpl:481 - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@49ec6a9f'
+2020-12-15 00:10:51 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/postgres]
+2020-12-15 00:11:59 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2020-12-15 00:11:59 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-dynamic
+	...]
+2020-12-15 00:11:59 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2020-12-15 00:11:59 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2020-12-15 00:11:59 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2020-12-15 00:11:59 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2020-12-15 00:11:59 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-12-15 00:11:59 INFO  connections:127 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/postgres]
+2020-12-15 00:11:59 INFO  connections:136 - HHH10001001: Connection properties: {password=****, user=postgres}
+2020-12-15 00:11:59 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2020-12-15 00:11:59 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-12-15 00:11:59 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2020-12-15 00:11:59 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2020-12-15 00:11:59 INFO  BasicTypeRegistry:147 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@14bb2297
+2020-12-15 00:11:59 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2020-12-15 00:12:00 INFO  SchemaCreatorImpl:481 - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@3a22bad6'
+2020-12-15 00:12:00 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/postgres]
+2020-12-15 00:12:55 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2020-12-15 00:12:55 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-dynamic
+	...]
+2020-12-15 00:12:56 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2020-12-15 00:12:56 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2020-12-15 00:12:56 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2020-12-15 00:12:56 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2020-12-15 00:12:56 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-12-15 00:12:56 INFO  connections:127 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/postgres]
+2020-12-15 00:12:56 INFO  connections:136 - HHH10001001: Connection properties: {password=****, user=postgres}
+2020-12-15 00:12:56 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2020-12-15 00:12:56 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-12-15 00:12:56 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2020-12-15 00:12:56 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2020-12-15 00:12:56 INFO  BasicTypeRegistry:147 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@42a9a63e
+2020-12-15 00:12:56 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2020-12-15 00:12:56 INFO  SchemaCreatorImpl:481 - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@636bbbbb'
+2020-12-15 00:12:56 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/postgres]
+2020-12-15 00:16:04 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2020-12-15 00:16:04 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-dynamic
+	...]
+2020-12-15 00:16:04 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2020-12-15 00:16:04 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2020-12-15 00:16:04 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2020-12-15 00:16:04 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2020-12-15 00:16:04 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-12-15 00:16:04 INFO  connections:127 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/postgres]
+2020-12-15 00:16:04 INFO  connections:136 - HHH10001001: Connection properties: {password=****, user=postgres}
+2020-12-15 00:16:04 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2020-12-15 00:16:04 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-12-15 00:16:04 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2020-12-15 00:16:04 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2020-12-15 00:16:04 INFO  BasicTypeRegistry:147 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@43c67247
+2020-12-15 00:16:04 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2020-12-15 00:16:05 INFO  SchemaCreatorImpl:481 - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@49ec6a9f'
+2020-12-15 00:16:05 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/postgres]
+2020-12-15 00:16:24 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2020-12-15 00:16:24 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-dynamic
+	...]
+2020-12-15 00:16:24 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2020-12-15 00:16:24 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2020-12-15 00:16:24 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2020-12-15 00:16:24 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2020-12-15 00:16:25 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-12-15 00:16:25 INFO  connections:127 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/postgres]
+2020-12-15 00:16:25 INFO  connections:136 - HHH10001001: Connection properties: {password=****, user=postgres}
+2020-12-15 00:16:25 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2020-12-15 00:16:25 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-12-15 00:16:25 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2020-12-15 00:16:25 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2020-12-15 00:16:25 INFO  BasicTypeRegistry:147 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@14bb2297
+2020-12-15 00:16:25 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2020-12-15 00:16:25 INFO  SchemaCreatorImpl:481 - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@3a22bad6'
+2020-12-15 00:16:25 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/postgres]
+2020-12-15 00:16:38 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2020-12-15 00:16:38 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-dynamic
+	...]
+2020-12-15 00:16:38 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2020-12-15 00:16:38 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2020-12-15 00:16:38 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2020-12-15 00:16:38 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2020-12-15 00:16:38 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-12-15 00:16:38 INFO  connections:127 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/postgres]
+2020-12-15 00:16:38 INFO  connections:136 - HHH10001001: Connection properties: {password=****, user=postgres}
+2020-12-15 00:16:38 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2020-12-15 00:16:38 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-12-15 00:16:38 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2020-12-15 00:16:39 INFO  LobCreatorBuilderImpl:124 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2020-12-15 00:16:39 INFO  BasicTypeRegistry:147 - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@14bb2297
+2020-12-15 00:16:39 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2020-12-15 00:16:39 INFO  SchemaCreatorImpl:481 - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@3a22bad6'
+2020-12-15 00:16:39 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/postgres]

@@ -1,6 +1,5 @@
 package hibernate.json;
 
-import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 
@@ -12,24 +11,26 @@ import org.json.simple.parser.ParseException;
 
 public class ReadJSONExample {
 
-    public static void main(String[] args) {
+    public static String readJSON(String name) {
         //JSON parser object to parse read file
         JSONParser jsonParser=new JSONParser();
 
-        try (FileReader reader=new FileReader("actors.json")) {
+        String toPrint=null;
+        try (FileReader reader=new FileReader(name + ".json")) {
             //Read JSON file
             Object obj=jsonParser.parse(reader);
 
 
             JSONArray objectsList=(JSONArray) obj;
-            ObjectMapper mapper = new ObjectMapper();
+            ObjectMapper mapper=new ObjectMapper();
             mapper.enable(SerializationFeature.INDENT_OUTPUT);
-            String toPrint=mapper.writeValueAsString(obj);
+            toPrint=mapper.writeValueAsString(obj);
             System.out.println(toPrint);
 
 
         } catch (IOException | ParseException e) {
             e.printStackTrace();
         }
+        return toPrint;
     }
 }

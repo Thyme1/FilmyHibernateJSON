@@ -26,7 +26,7 @@ public class SerializeXML {
         mapper.registerModule(new JodaModule());
         mapper.enable(SerializationFeature.INDENT_OUTPUT);
         try {
-            mapper.writeValue(new File(name + ".xml"), list);
+            mapper.writeValue(new File("C:\\Users\\Konrad\\IdeaProjects\\Przyrost2\\src\\main\\resources\\xmlR\\" + name + ".xml"), list);
         } catch (IOException e) {
             e.printStackTrace();
         }
