@@ -2,6 +2,7 @@ package hibernate.model;
 import org.hibernate.annotations.Type;
 import org.hibernate.annotations.TypeDef;
 
+
 import javax.persistence.*;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;

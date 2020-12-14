@@ -1,14 +1,11 @@
 package hibernate.model;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
 import org.joda.time.DateTime;
-import org.joda.time.LocalDate;
-
 import javax.persistence.*;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.Table;
-import java.util.Collection;
-import java.util.HashSet;
 import java.util.Set;
 
 @Entity
@@ -31,7 +28,8 @@ public class Movie {
     @Column(nullable = false)
     String language;
 
-    @Column()
+    @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd HH:mm:ss.SSSZ")
+    @Column(length = 1000)
     DateTime releaseDate;
 
     @Column(nullable = false)

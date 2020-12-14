@@ -62,6 +62,7 @@ public class Normal {
             actor1.setAge(35);
             actor1.setSalary(231);
             actor1.setGender("male");
+            actor1.setAddress(address1);
 
 
             Actors actor2 = new Actors();
@@ -80,6 +81,7 @@ public class Normal {
             movie.setReleaseCountry("USA");
             movie.setTime("134");
             movie.setMovieGenre("komedia");
+            movie.setReleaseDate(DateTime.now());
 
             Director director = new Director();
             director.setName("Janusz");

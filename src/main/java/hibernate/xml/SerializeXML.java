@@ -5,6 +5,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
 import com.fasterxml.jackson.dataformat.xml.XmlMapper;
+import com.fasterxml.jackson.datatype.joda.JodaModule;
 import hibernate.model.Actors;
 
 import java.io.File;
@@ -22,6 +23,7 @@ import java.util.List;
 public class SerializeXML {
     public static void serializexml(List list, String name) {
         ObjectMapper mapper=new XmlMapper();
+        mapper.registerModule(new JodaModule());
         mapper.enable(SerializationFeature.INDENT_OUTPUT);
         try {
             mapper.writeValue(new File(name + ".xml"), list);

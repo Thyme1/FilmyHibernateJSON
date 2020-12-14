@@ -9,14 +9,21 @@
     "age" : 35,
     "gender" : "male",
     "salary" : 231,
-    "address" : null
+    "address" : {
+      "id" : 0,
+      "street" : "Lipowa",
+      "city" : "Poznan",
+      "nr" : "23",
+      "housenr" : null,
+      "postcode" : "12345"
+    }
   },
   "movie" : {
     "id" : 0,
     "title" : "Pirates of the Caribbean",
     "time" : "134",
     "language" : "English",
-    "releaseDate" : null,
+    "releaseDate" : "2020-12-14 19:18:57.288+0000",
     "releaseCountry" : "USA",
     "movieGenre" : "komedia",
     "director" : null
