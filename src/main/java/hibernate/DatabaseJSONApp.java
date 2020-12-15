@@ -1,10 +1,10 @@
+package hibernate;
+
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
 import com.fasterxml.jackson.datatype.joda.JodaModule;
 import hibernate.model.*;
-
-
 import javax.persistence.*;
 import java.io.File;
 import java.io.IOException;
@@ -12,9 +12,7 @@ import java.util.*;
 
 import static hibernate.json.SerializeJSON.serialize;
 
-
 public class DatabaseJSONApp {
-
 
     public static void main(String[] args) throws IOException {
 
@@ -22,14 +20,7 @@ public class DatabaseJSONApp {
         objectMapper.registerModule(new JodaModule());
         objectMapper.enable(SerializationFeature.INDENT_OUTPUT);
 
-
-
-
-
-
-
         EntityManager entityManager = null;
-
         EntityManagerFactory entityManagerFactory = null;
 
         try {
@@ -48,33 +39,32 @@ public class DatabaseJSONApp {
             List<MovieCast> movieCastList = objectMapper.readValue(new File("src/main/resources/jsonR/cast.json"), new TypeReference<List<MovieCast>>(){});
 
 
-            for(int i=0;i<actorsList.size();i++){
-                entityManager.persist(actorsList.get(i));
-                System.out.println(actorsList.get(i));
+            for (int i=0; i < actorsList.size(); i++) {
+                Actors actors=actorsList.get(i);
+                entityManager.persist(actors);
+                System.out.println(actors);
             }
-            for(int i=0;i<addressList.size();i++){
-                entityManager.persist(addressList.get(i));
-                System.out.println(addressList.get(i));
+            for (int i=0; i < addressList.size(); i++) {
+                Address address=addressList.get(i);
+                entityManager.persist(address);
+                System.out.println(address);
             }
-            for(int i=0;i<directorList.size();i++){
-                entityManager.persist(directorList.get(i));
-                System.out.println(directorList.get(i));
+            for (Director director : directorList) {
+                entityManager.persist(director);
+                System.out.println(director);
             }
-            for(int i=0;i<genresList.size();i++){
-                entityManager.persist(genresList.get(i));
-                System.out.println(genresList.get(i));
+            for (Genres genres : genresList) {
+                entityManager.persist(genres);
+                System.out.println(genres);
             }
-            for(int i=0;i<movieList.size();i++){
-                entityManager.persist(movieList.get(i));
-                System.out.println(movieList.get(i));
+            for (Movie movie : movieList) {
+                entityManager.persist(movie);
+                System.out.println(movie);
             }
-            for(int i=0;i<movieCastList.size();i++){
-                entityManager.persist(movieCastList.get(i));
-                System.out.println(movieCastList.get(i));
+            for (MovieCast movieCast : movieCastList) {
+                entityManager.persist(movieCast);
+                System.out.println(movieCast);
             }
-
-
-
 
             //READ FROM DATABASE AND CREATE JSON
             List<Actors> readActors = null;
@@ -100,9 +90,6 @@ public class DatabaseJSONApp {
             List<MovieCast> readMovieCast = null;
             readMovieCast = entityManager.createQuery("SELECT a FROM MovieCast a", MovieCast.class).getResultList();
             serialize(readMovieCast, "movieCast", "src/main/resources/jsonR/jsonFromBase/");
-
-
-
 
             entityManager.close();
 

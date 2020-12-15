@@ -1,11 +1,19 @@
 [ {
   "refId" : 1,
-  "id" : 0,
   "title" : "Pirates of the Caribbean",
   "time" : "134",
   "language" : "English",
-  "releaseDate" : "2020-12-15 17:24:14.840+0000",
+  "releaseDate" : "2020-12-15 18:32:48.939+0000",
   "releaseCountry" : "USA",
-  "movieGenre" : "komedia",
+  "movieGenre" : "comedy",
+  "director" : null
+}, {
+  "refId" : 2,
+  "title" : "Mank",
+  "time" : "134",
+  "language" : "English",
+  "releaseDate" : "2020-12-15 18:32:48.961+0000",
+  "releaseCountry" : "USA",
+  "movieGenre" : "drama",
   "director" : null
 } ]

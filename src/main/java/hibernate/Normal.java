@@ -45,6 +45,13 @@ public class Normal {
             address2.setStreet("Oak");
             address2.setNr("12");
             address2.setPostcode("56789");
+
+            Address address3 = new Address();
+            address3.setCity("Los Angeles");
+            address3.setStreet("Angel");
+            address3.setNr("27");
+            address3.setPostcode("34561");
+
             //TWORZYMY AKTOROW
             Actors actor1 = new Actors();
             actor1.setName("Johnny");
@@ -67,8 +74,17 @@ public class Normal {
             actor3.setAge(35);
             actor3.setSalary(1234);
             actor3.setGender("male");
-            actor3.setFavGenre("komedia");
+            actor3.setFavGenre("comedy");
             actor3.setAddress(address2);
+
+            Actors actor4 = new Actors();
+            actor4.setName("Will");
+            actor4.setSurname("Smith");
+            actor4.setAge(41);
+            actor4.setSalary(2345);
+            actor4.setGender("male");
+            actor4.setFavGenre("drama");
+            actor4.setAddress(address3);
 
             //TWORZYMY FILM
             Movie movie = new Movie();
@@ -76,46 +92,74 @@ public class Normal {
             movie.setLanguage("English");
             movie.setReleaseCountry("USA");
             movie.setTime("134");
-            movie.setMovieGenre("komedia");
+            movie.setMovieGenre("comedy");
             movie.setReleaseDate(DateTime.now());
+
+            Movie movie2 = new Movie();
+            movie2.setTitle("Mank");
+            movie2.setLanguage("English");
+            movie2.setReleaseCountry("USA");
+            movie2.setTime("134");
+            movie2.setMovieGenre("drama");
+            movie2.setReleaseDate(DateTime.now());
+
             //TWORZYMY REZYSEROW
             Director director = new Director();
-            director.setName("Janusz");
-            director.setSurname("Tracz");
+            director.setName("Martin");
+            director.setSurname("Scorsese");
             director.setAddress(address1);
+
+            Director director2 = new Director();
+            director2.setName("Steven");
+            director2.setSurname("Spielberg");
+            director2.setAddress(address2);
 
             //TWORZYMY OBSADE
             MovieCast cast = new MovieCast();
-            cast.setActorId(actor1.getId());
-            cast.setMovieId(movie.getId());
             cast.setActor(actor1);
+            cast.setActor(actor2);
             cast.setMovie(movie);
             cast.setRole("pirat");
 
+            MovieCast cast2 = new MovieCast();
+            cast2.setActor(actor3);
+            cast2.setActor(actor4);
+            cast2.setMovie(movie2);
+            cast2.setRole("monk");
+
             //TWORZYMY GATUNEK
             Genres genre = new Genres();
-            genre.setName("komedia");
+            genre.setName("comedy");
+
+            Genres genre2 = new Genres();
+            genre2.setName("drama");
 
             List<Actors> aktorzy= new ArrayList<>();
             aktorzy.add(actor1);
             aktorzy.add(actor2);
             aktorzy.add(actor3);
+            aktorzy.add(actor4);
 
             List<Address> adresy = new ArrayList<>();
             adresy.add(address1);
             adresy.add(address2);
+            adresy.add(address3);
 
             List<Director> rezyserowie = new ArrayList<>();
             rezyserowie.add(director);
+            rezyserowie.add(director2);
 
             List<Genres> gatunki = new ArrayList<>();
             gatunki.add(genre);
+            gatunki.add(genre2);
 
             List<Movie> filmy = new ArrayList<>();
             filmy.add(movie);
+            filmy.add(movie2);
 
             List<MovieCast> obsada = new ArrayList<>();
             obsada.add(cast);
+            obsada.add(cast2);
 
             serialize(aktorzy, "actors", "src/main/resources/jsonR/");
             serialize(adresy, "addresses","src/main/resources/jsonR/" );

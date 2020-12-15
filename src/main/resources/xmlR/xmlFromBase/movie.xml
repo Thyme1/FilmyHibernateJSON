@@ -1,0 +1,42 @@
+<ArrayList>
+  <item>
+    <refId>1</refId>
+    <title>Pirates of the Caribbean</title>
+    <time>134</time>
+    <language>English</language>
+    <releaseDate>2020-12-15 18:26:09.198+0000</releaseDate>
+    <releaseCountry>USA</releaseCountry>
+    <movieGenre>comedy</movieGenre>
+    <director/>
+  </item>
+  <item>
+    <refId>2</refId>
+    <title>Mank</title>
+    <time>134</time>
+    <language>English</language>
+    <releaseDate>2020-12-15 18:26:09.219+0000</releaseDate>
+    <releaseCountry>USA</releaseCountry>
+    <movieGenre>drama</movieGenre>
+    <director/>
+  </item>
+  <item>
+    <refId>3</refId>
+    <title>Pirates of the Caribbean</title>
+    <time>134</time>
+    <language>English</language>
+    <releaseDate>2020-12-15 18:26:09.198+0000</releaseDate>
+    <releaseCountry>USA</releaseCountry>
+    <movieGenre>comedy</movieGenre>
+    <director/>
+  </item>
+  <item>
+    <refId>4</refId>
+    <title>Mank</title>
+    <time>134</time>
+    <language>English</language>
+    <releaseDate>2020-12-15 18:26:09.219+0000</releaseDate>
+    <releaseCountry>USA</releaseCountry>
+    <movieGenre>drama</movieGenre>
+    <director/>
+  </item>
+</ArrayList>

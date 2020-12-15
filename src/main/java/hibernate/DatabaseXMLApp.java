@@ -1,3 +1,5 @@
+package hibernate;
+
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.SerializationFeature;
 import com.fasterxml.jackson.dataformat.xml.XmlMapper;
@@ -12,24 +14,18 @@ import static hibernate.xml.SerializeXML.serializexml;
 
 public class DatabaseXMLApp {
 
-
     public static void main(String[] args) throws IOException {
 
         XmlMapper objectMapper=new XmlMapper();
         objectMapper.registerModule(new JodaModule());
         objectMapper.enable(SerializationFeature.INDENT_OUTPUT);
 
-
-
         EntityManager entityManager = null;
-
         EntityManagerFactory entityManagerFactory = null;
 
         try {
-
             // FACTORY NAME HAS TO MATCHED THE ONE FROM PERSISTED.XML !!!
             entityManagerFactory = Persistence.createEntityManagerFactory("hibernate-dynamic");
-
             entityManager = entityManagerFactory.createEntityManager();
 
             entityManager.getTransaction().begin();
@@ -41,29 +37,29 @@ public class DatabaseXMLApp {
             List<MovieCast> movieCastList = objectMapper.readValue(new File("src/main/resources/xmlR/cast.xml"), new TypeReference<List<MovieCast>>(){});
 
 
-            for(int i=0;i<actorsList.size();i++){
-                entityManager.persist(actorsList.get(i));
-                System.out.println(actorsList.get(i));
+            for (Actors actors : actorsList) {
+                entityManager.persist(actors);
+                System.out.println(actors);
             }
-            for(int i=0;i<addressList.size();i++){
-                entityManager.persist(addressList.get(i));
-                System.out.println(addressList.get(i));
+            for (Address address : addressList) {
+                entityManager.persist(address);
+                System.out.println(address);
             }
-            for(int i=0;i<directorList.size();i++){
-                entityManager.persist(directorList.get(i));
-                System.out.println(directorList.get(i));
+            for (Director director : directorList) {
+                entityManager.persist(director);
+                System.out.println(director);
             }
-            for(int i=0;i<genresList.size();i++){
-                entityManager.persist(genresList.get(i));
-                System.out.println(genresList.get(i));
+            for (Genres genres : genresList) {
+                entityManager.persist(genres);
+                System.out.println(genres);
             }
-            for(int i=0;i<movieList.size();i++){
-                entityManager.persist(movieList.get(i));
-                System.out.println(movieList.get(i));
+            for (Movie movie : movieList) {
+                entityManager.persist(movie);
+                System.out.println(movie);
             }
-            for(int i=0;i<movieCastList.size();i++){
-                entityManager.persist(movieCastList.get(i));
-                System.out.println(movieCastList.get(i));
+            for (MovieCast movieCast : movieCastList) {
+                entityManager.persist(movieCast);
+                System.out.println(movieCast);
             }
 
             //READ FROM DATABASE AND CREATE XML
@@ -90,9 +86,6 @@ public class DatabaseXMLApp {
             List<MovieCast> readMovieCast = null;
             readMovieCast = entityManager.createQuery("SELECT a FROM MovieCast a", MovieCast.class).getResultList();
             serializexml(readMovieCast, "movieCast", "src/main/resources/xmlR/xmlFromBase/");
-
-
-
 
             entityManager.close();
 

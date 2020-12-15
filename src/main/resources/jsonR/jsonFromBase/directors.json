@@ -1,15 +1,25 @@
 [ {
   "refId" : 1,
-  "id" : 1,
-  "name" : "Janusz",
-  "surname" : "Tracz",
+  "name" : "Martin",
+  "surname" : "Scorsese",
   "address" : {
     "refId" : 1,
-    "id" : 5,
     "street" : "Lipowa",
     "city" : "Poznan",
     "nr" : "23",
     "housenr" : null,
     "postcode" : "12345"
+  }
+}, {
+  "refId" : 2,
+  "name" : "Steven",
+  "surname" : "Spielberg",
+  "address" : {
+    "refId" : 2,
+    "street" : "Oak",
+    "city" : "Nowy Jork",
+    "nr" : "12",
+    "housenr" : null,
+    "postcode" : "56789"
   }
 } ]

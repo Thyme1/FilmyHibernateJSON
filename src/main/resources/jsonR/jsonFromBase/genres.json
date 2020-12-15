@@ -1,5 +1,7 @@
 [ {
   "refId" : 1,
-  "id" : 1,
-  "name" : "komedia"
+  "name" : "comedy"
+}, {
+  "refId" : 2,
+  "name" : "drama"
 } ]

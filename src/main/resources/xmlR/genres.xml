@@ -1,7 +1,10 @@
 <ArrayList>
   <item>
     <refId>1</refId>
-    <id>0</id>
-    <name>komedia</name>
+    <name>comedy</name>
+  </item>
+  <item>
+    <refId>2</refId>
+    <name>drama</name>
   </item>
 </ArrayList>

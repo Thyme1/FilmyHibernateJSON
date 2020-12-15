@@ -1,0 +1,55 @@
+<ArrayList>
+  <item>
+    <refId>1</refId>
+    <role>pirat</role>
+    <actor>
+      <idA>1</idA>
+      <name>Morgan</name>
+      <surname>Freeman</surname>
+      <age>56</age>
+      <gender>male</gender>
+      <salary>1142</salary>
+      <address/>
+    </actor>
+    <movie>
+      <refId>1</refId>
+      <title>Pirates of the Caribbean</title>
+      <time>134</time>
+      <language>English</language>
+      <releaseDate>2020-12-15 18:26:09.198+0000</releaseDate>
+      <releaseCountry>USA</releaseCountry>
+      <movieGenre>comedy</movieGenre>
+      <director/>
+    </movie>
+  </item>
+  <item>
+    <refId>2</refId>
+    <role>monk</role>
+    <actor>
+      <idA>2</idA>
+      <name>Will</name>
+      <surname>Smith</surname>
+      <age>41</age>
+      <gender>male</gender>
+      <salary>2345</salary>
+      <address>
+        <refId>1</refId>
+        <street>Angel</street>
+        <city>Los Angeles</city>
+        <nr>27</nr>
+        <housenr/>
+        <postcode>34561</postcode>
+      </address>
+    </actor>
+    <movie>
+      <refId>2</refId>
+      <title>Mank</title>
+      <time>134</time>
+      <language>English</language>
+      <releaseDate>2020-12-15 18:26:09.219+0000</releaseDate>
+      <releaseCountry>USA</releaseCountry>
+      <movieGenre>drama</movieGenre>
+      <director/>
+    </movie>
+  </item>
+</ArrayList>

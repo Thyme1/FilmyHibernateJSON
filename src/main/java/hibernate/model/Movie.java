@@ -2,6 +2,7 @@ package hibernate.model;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonIdentityInfo;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.ObjectIdGenerators;
 import org.joda.time.DateTime;
 import javax.persistence.*;
@@ -20,6 +21,7 @@ public class Movie {
 
     @Column(name = "id")
     @Id
+    @JsonIgnore
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
 
@@ -50,7 +52,7 @@ public class Movie {
 
 
 
-    @OneToMany(mappedBy="movie")
+    @OneToMany(mappedBy="movieId")
     private Set<MovieCast> actors;
 
     Set<MovieCast> getActors() {

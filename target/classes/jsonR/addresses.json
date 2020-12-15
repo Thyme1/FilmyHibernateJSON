@@ -1,6 +1,5 @@
 [ {
   "refId" : 1,
-  "id" : 0,
   "street" : "Lipowa",
   "city" : "Poznan",
   "nr" : "23",
@@ -8,10 +7,16 @@
   "postcode" : "12345"
 }, {
   "refId" : 2,
-  "id" : 0,
   "street" : "Oak",
   "city" : "Nowy Jork",
   "nr" : "12",
   "housenr" : null,
   "postcode" : "56789"
+}, {
+  "refId" : 3,
+  "street" : "Angel",
+  "city" : "Los Angeles",
+  "nr" : "27",
+  "housenr" : null,
+  "postcode" : "34561"
 } ]

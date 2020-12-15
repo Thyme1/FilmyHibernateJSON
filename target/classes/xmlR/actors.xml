@@ -1,7 +1,6 @@
 <ArrayList>
   <item>
-    <refId>1</refId>
-    <id>0</id>
+    <idA>1</idA>
     <name>Johnny</name>
     <surname>Depp</surname>
     <age>35</age>
@@ -9,7 +8,6 @@
     <salary>231</salary>
     <address>
       <refId>1</refId>
-      <id>0</id>
       <street>Lipowa</street>
       <city>Poznan</city>
       <nr>23</nr>
@@ -18,8 +16,7 @@
     </address>
   </item>
   <item>
-    <refId>2</refId>
-    <id>0</id>
+    <idA>2</idA>
     <name>Morgan</name>
     <surname>Freeman</surname>
     <age>56</age>
@@ -28,8 +25,7 @@
     <address/>
   </item>
   <item>
-    <refId>3</refId>
-    <id>0</id>
+    <idA>3</idA>
     <name>Brad</name>
     <surname>Pitt</surname>
     <age>35</age>
@@ -37,12 +33,27 @@
     <salary>1234</salary>
     <address>
       <refId>2</refId>
-      <id>0</id>
       <street>Oak</street>
       <city>Nowy Jork</city>
       <nr>12</nr>
       <housenr/>
       <postcode>56789</postcode>
+    </address>
+  </item>
+  <item>
+    <idA>4</idA>
+    <name>Will</name>
+    <surname>Smith</surname>
+    <age>41</age>
+    <gender>male</gender>
+    <salary>2345</salary>
+    <address>
+      <refId>3</refId>
+      <street>Angel</street>
+      <city>Los Angeles</city>
+      <nr>27</nr>
+      <housenr/>
+      <postcode>34561</postcode>
     </address>
   </item>
 </ArrayList>

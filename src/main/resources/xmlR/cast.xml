@@ -1,36 +1,54 @@
 <ArrayList>
   <item>
     <refId>1</refId>
-    <actorId>0</actorId>
-    <movieId>0</movieId>
     <role>pirat</role>
     <actor>
-      <refId>1</refId>
-      <id>0</id>
-      <name>Johnny</name>
-      <surname>Depp</surname>
-      <age>35</age>
+      <idA>1</idA>
+      <name>Morgan</name>
+      <surname>Freeman</surname>
+      <age>56</age>
       <gender>male</gender>
-      <salary>231</salary>
-      <address>
-        <refId>1</refId>
-        <id>0</id>
-        <street>Lipowa</street>
-        <city>Poznan</city>
-        <nr>23</nr>
-        <housenr/>
-        <postcode>12345</postcode>
-      </address>
+      <salary>1142</salary>
+      <address/>
     </actor>
     <movie>
       <refId>1</refId>
-      <id>0</id>
       <title>Pirates of the Caribbean</title>
       <time>134</time>
       <language>English</language>
-      <releaseDate>2020-12-15 17:24:14.840+0000</releaseDate>
+      <releaseDate>2020-12-15 18:32:48.939+0000</releaseDate>
       <releaseCountry>USA</releaseCountry>
-      <movieGenre>komedia</movieGenre>
+      <movieGenre>comedy</movieGenre>
+      <director/>
+    </movie>
+  </item>
+  <item>
+    <refId>2</refId>
+    <role>monk</role>
+    <actor>
+      <idA>2</idA>
+      <name>Will</name>
+      <surname>Smith</surname>
+      <age>41</age>
+      <gender>male</gender>
+      <salary>2345</salary>
+      <address>
+        <refId>1</refId>
+        <street>Angel</street>
+        <city>Los Angeles</city>
+        <nr>27</nr>
+        <housenr/>
+        <postcode>34561</postcode>
+      </address>
+    </actor>
+    <movie>
+      <refId>2</refId>
+      <title>Mank</title>
+      <time>134</time>
+      <language>English</language>
+      <releaseDate>2020-12-15 18:32:48.961+0000</releaseDate>
+      <releaseCountry>USA</releaseCountry>
+      <movieGenre>drama</movieGenre>
       <director/>
     </movie>
   </item>

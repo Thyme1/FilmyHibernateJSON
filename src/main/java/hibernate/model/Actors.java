@@ -1,6 +1,7 @@
 package hibernate.model;
 
 import com.fasterxml.jackson.annotation.JsonIdentityInfo;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.ObjectIdGenerators;
 import javax.persistence.*;
 import javax.persistence.GeneratedValue;
@@ -30,15 +31,17 @@ import java.util.*;
 
 
 @JsonIdentityInfo(generator= ObjectIdGenerators.IntSequenceGenerator.class,
-        property="refId", scope=Actors.class)
+        property="idA", scope=Actors.class)
 
 
 public class Actors {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @SequenceGenerator(name="generator")
+    @GeneratedValue
     @Column(name = "id")
     @XmlAttribute(name = "id", required = true)
+    @JsonIgnore
     private int id;
 
 
@@ -62,10 +65,10 @@ public class Actors {
     String favGenre;
 
     @OneToOne(cascade = CascadeType.PERSIST)
-    @JoinColumn(name="add_id", referencedColumnName = "id")
+    @JoinColumn(name="address_id", referencedColumnName = "id")
     Address address;
 
-    @OneToMany(mappedBy="actor")
+    @OneToMany(mappedBy="actorId")
     private Set<MovieCast> movies;
 
 
@@ -73,7 +76,7 @@ public class Actors {
 
 
 
-    private String properties;
+
 
     Set<MovieCast> getMovies() {
         return movies;
