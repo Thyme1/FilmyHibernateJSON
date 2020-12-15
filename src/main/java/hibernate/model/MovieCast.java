@@ -26,13 +26,13 @@ public class MovieCast {
     @Column(nullable = false)
     String role;
 
-    @ManyToOne
+    @ManyToOne(fetch = FetchType.EAGER,cascade=CascadeType.ALL)
     @JoinColumn(name="actor", nullable=false)
     private Actors actor;
 
 
 
-    @ManyToOne
+    @ManyToOne(fetch = FetchType.EAGER,cascade=CascadeType.ALL)
     @JoinColumn(name="movie", nullable=false)
     private Movie movie;
 
