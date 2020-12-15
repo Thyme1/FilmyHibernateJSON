@@ -10,7 +10,7 @@
     "street" : "Lipowa",
     "city" : "Poznan",
     "nr" : "23",
-    "housenr" : 23,
+    "housenr" : null,
     "postcode" : "12345"
   }
 }, {

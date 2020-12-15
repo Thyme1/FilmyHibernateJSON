@@ -5,7 +5,22 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log.log" beforeDir="false" afterPath="$PROJECT_DIR$/log.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/DatabaseJSONApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DatabaseJSONApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DatabaseXMLApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DatabaseXMLApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/jsonR/actors.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/jsonR/actors.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/jsonR/cast.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/jsonR/cast.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/jsonR/movies.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/jsonR/movies.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/xmlR/cast.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/xmlR/cast.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/xmlR/movies.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/xmlR/movies.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DatabaseJSONApp$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DatabaseJSONApp$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DatabaseJSONApp$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DatabaseJSONApp$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DatabaseJSONApp$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DatabaseJSONApp$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DatabaseJSONApp$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DatabaseJSONApp$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DatabaseJSONApp$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DatabaseJSONApp$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DatabaseJSONApp$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DatabaseJSONApp$6.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/DatabaseJSONApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DatabaseJSONApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DatabaseXMLApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DatabaseXMLApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/xmlR/actors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/xmlR/actors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/xmlR/cast.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/xmlR/cast.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +69,7 @@
       <recent name="C:\Users\Konrad\IdeaProjects\Przyrost2\src\resources\META-INF" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DatabaseJSONApp">
+  <component name="RunManager" selected="Application.Normal">
     <configuration name="DatabaseJSONApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DatabaseJSONApp" />
       <module name="Przyrost2" />
@@ -62,15 +77,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Manager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hibernate.Manager" />
+    <configuration name="DatabaseXMLApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DatabaseXMLApp" />
       <module name="Przyrost2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hibernate.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -116,11 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DatabaseJSONApp" />
         <item itemvalue="Application.Normal" />
+        <item itemvalue="Application.DatabaseXMLApp" />
+        <item itemvalue="Application.DatabaseJSONApp" />
         <item itemvalue="Application.ReadXML" />
         <item itemvalue="Application.ReadJSONExample" />
-        <item itemvalue="Application.Manager" />
       </list>
     </recent_temporary>
   </component>
@@ -168,22 +177,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1607982697844" />
-    <state width="914" height="282" key="GridCell.Tab.0.bottom" timestamp="1608035782817">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1608046512235">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608035782817" />
-    <state width="914" height="282" key="GridCell.Tab.0.center" timestamp="1608035782816">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608046512235" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1608046512235">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608035782816" />
-    <state width="914" height="282" key="GridCell.Tab.0.left" timestamp="1608035782816">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608046512235" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1608046512235">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608035782816" />
-    <state width="914" height="282" key="GridCell.Tab.0.right" timestamp="1608035782816">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608046512235" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1608046512235">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608035782816" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608046512235" />
     <state width="1877" height="347" key="GridCell.Tab.1.bottom" timestamp="1607899438214">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

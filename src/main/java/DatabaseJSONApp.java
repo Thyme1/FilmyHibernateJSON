@@ -2,7 +2,6 @@ import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
 import com.fasterxml.jackson.datatype.joda.JodaModule;
-import hibernate.Normal;
 import hibernate.model.*;
 
 
@@ -11,7 +10,7 @@ import java.io.File;
 import java.io.IOException;
 import java.util.*;
 
-import static hibernate.json.ReadJSONExample.readJSON;
+
 
 
 
@@ -23,7 +22,7 @@ public class DatabaseJSONApp {
         ObjectMapper objectMapper=new ObjectMapper();
         objectMapper.registerModule(new JodaModule());
         objectMapper.enable(SerializationFeature.INDENT_OUTPUT);
-        ClassLoader classLoader=DatabaseJSONApp.class.getClassLoader();
+
 
 
 
