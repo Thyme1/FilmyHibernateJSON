@@ -1,9 +1,11 @@
 <ArrayList>
   <item>
+    <refId>1</refId>
     <actorId>0</actorId>
     <movieId>0</movieId>
     <role>pirat</role>
     <actor>
+      <refId>1</refId>
       <id>0</id>
       <name>Johnny</name>
       <surname>Depp</surname>
@@ -11,6 +13,7 @@
       <gender>male</gender>
       <salary>231</salary>
       <address>
+        <refId>1</refId>
         <id>0</id>
         <street>Lipowa</street>
         <city>Poznan</city>
@@ -20,11 +23,12 @@
       </address>
     </actor>
     <movie>
+      <refId>1</refId>
       <id>0</id>
       <title>Pirates of the Caribbean</title>
       <time>134</time>
       <language>English</language>
-      <releaseDate>2020-12-15 15:35:13.622+0000</releaseDate>
+      <releaseDate>2020-12-15 15:56:01.440+0000</releaseDate>
       <releaseCountry>USA</releaseCountry>
       <movieGenre>komedia</movieGenre>
       <director/>

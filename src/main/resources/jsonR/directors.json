@@ -1,8 +1,10 @@
 [ {
+  "refId" : 1,
   "id" : 0,
   "name" : "Janusz",
   "surname" : "Tracz",
   "address" : {
+    "refId" : 1,
     "id" : 0,
     "street" : "Lipowa",
     "city" : "Poznan",

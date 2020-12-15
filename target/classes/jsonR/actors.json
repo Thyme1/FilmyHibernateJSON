@@ -1,4 +1,5 @@
 [ {
+  "refId" : 1,
   "id" : 0,
   "name" : "Johnny",
   "surname" : "Depp",
@@ -6,14 +7,16 @@
   "gender" : "male",
   "salary" : 231,
   "address" : {
+    "refId" : 1,
     "id" : 0,
     "street" : "Lipowa",
     "city" : "Poznan",
     "nr" : "23",
-    "housenr" : 23,
+    "housenr" : null,
     "postcode" : "12345"
   }
 }, {
+  "refId" : 2,
   "id" : 0,
   "name" : "Morgan",
   "surname" : "Freeman",

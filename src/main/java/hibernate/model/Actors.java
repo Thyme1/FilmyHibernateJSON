@@ -1,4 +1,6 @@
 package hibernate.model;
+import com.fasterxml.jackson.annotation.JsonIdentityInfo;
+import com.fasterxml.jackson.annotation.ObjectIdGenerators;
 import org.hibernate.annotations.Type;
 import org.hibernate.annotations.TypeDef;
 
@@ -32,7 +34,8 @@ import java.util.*;
 @Table(name = "actors")
 
 
-
+@JsonIdentityInfo(generator= ObjectIdGenerators.IntSequenceGenerator.class,
+        property="refId", scope=Actors.class)
 public class Actors {
 
     @Id

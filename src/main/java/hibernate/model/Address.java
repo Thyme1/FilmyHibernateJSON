@@ -1,6 +1,9 @@
 package hibernate.model;
 
 
+import com.fasterxml.jackson.annotation.JsonIdentityInfo;
+import com.fasterxml.jackson.annotation.ObjectIdGenerators;
+
 import javax.persistence.*;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
@@ -21,6 +24,8 @@ import javax.xml.bind.annotation.XmlType;
 
 @Entity
 @Table(name = "ADDRESSES")
+@JsonIdentityInfo(generator= ObjectIdGenerators.IntSequenceGenerator.class,
+        property="refId", scope=Address.class)
 public class Address {
 
     @Id

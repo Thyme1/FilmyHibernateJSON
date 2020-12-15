@@ -1,9 +1,11 @@
 <ArrayList>
   <item>
+    <refId>1</refId>
     <id>0</id>
     <name>Janusz</name>
     <surname>Tracz</surname>
     <address>
+      <refId>1</refId>
       <id>0</id>
       <street>Lipowa</street>
       <city>Poznan</city>

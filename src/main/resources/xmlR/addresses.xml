@@ -1,5 +1,6 @@
 <ArrayList>
   <item>
+    <refId>1</refId>
     <id>0</id>
     <street>Lipowa</street>
     <city>Poznan</city>
@@ -8,6 +9,7 @@
     <postcode>12345</postcode>
   </item>
   <item>
+    <refId>2</refId>
     <id>0</id>
     <street>Oak</street>
     <city>Nowy Jork</city>

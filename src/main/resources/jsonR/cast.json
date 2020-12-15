@@ -1,8 +1,10 @@
 [ {
+  "refId" : 1,
   "actorId" : 0,
   "movieId" : 0,
   "role" : "pirat",
   "actor" : {
+    "refId" : 1,
     "id" : 0,
     "name" : "Johnny",
     "surname" : "Depp",
@@ -10,6 +12,7 @@
     "gender" : "male",
     "salary" : 231,
     "address" : {
+      "refId" : 1,
       "id" : 0,
       "street" : "Lipowa",
       "city" : "Poznan",
@@ -19,11 +22,12 @@
     }
   },
   "movie" : {
+    "refId" : 1,
     "id" : 0,
     "title" : "Pirates of the Caribbean",
     "time" : "134",
     "language" : "English",
-    "releaseDate" : "2020-12-15 15:35:13.622+0000",
+    "releaseDate" : "2020-12-15 15:56:01.440+0000",
     "releaseCountry" : "USA",
     "movieGenre" : "komedia",
     "director" : null

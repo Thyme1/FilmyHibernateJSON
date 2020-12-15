@@ -1,5 +1,8 @@
 package hibernate.model;
 
+import com.fasterxml.jackson.annotation.JsonIdentityInfo;
+import com.fasterxml.jackson.annotation.ObjectIdGenerators;
+
 import javax.persistence.*;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
@@ -9,6 +12,8 @@ import java.util.Set;
 
 @Entity
 @Table(name = "MovieCast")
+@JsonIdentityInfo(generator= ObjectIdGenerators.IntSequenceGenerator.class,
+        property="refId", scope=MovieCast.class)
 public class MovieCast {
 
 

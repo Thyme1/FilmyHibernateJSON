@@ -1,5 +1,6 @@
 <ArrayList>
   <item>
+    <refId>1</refId>
     <id>0</id>
     <name>Johnny</name>
     <surname>Depp</surname>
@@ -7,6 +8,7 @@
     <gender>male</gender>
     <salary>231</salary>
     <address>
+      <refId>1</refId>
       <id>0</id>
       <street>Lipowa</street>
       <city>Poznan</city>
@@ -16,6 +18,7 @@
     </address>
   </item>
   <item>
+    <refId>2</refId>
     <id>0</id>
     <name>Morgan</name>
     <surname>Freeman</surname>
