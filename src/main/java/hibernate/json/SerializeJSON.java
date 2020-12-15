@@ -8,15 +8,16 @@ import hibernate.model.Actors;
 
 import java.io.File;
 import java.io.IOException;
+import java.nio.file.Path;
 import java.util.List;
 
 public class SerializeJSON {
-    public static void serialize(List list, String name) {
+    public static void serialize(List list, String name, String path) {
         ObjectMapper mapper=new ObjectMapper();
         mapper.registerModule(new JodaModule());
         mapper.enable(SerializationFeature.INDENT_OUTPUT);
         try {
-            mapper.writeValue(new File("C:\\Users\\Konrad\\IdeaProjects\\Przyrost2\\src\\main\\resources\\jsonR\\" + name + ".json"), list);
+            mapper.writeValue(new File(path + name + ".json"), list);
         } catch (IOException e) {
             e.printStackTrace();
         }

@@ -1,0 +1,49 @@
+[ {
+  "refId" : 1,
+  "id" : 1,
+  "street" : "Lipowa",
+  "city" : "Poznan",
+  "nr" : "23",
+  "housenr" : null,
+  "postcode" : "12345"
+}, {
+  "refId" : 2,
+  "id" : 2,
+  "street" : "Oak",
+  "city" : "Nowy Jork",
+  "nr" : "12",
+  "housenr" : null,
+  "postcode" : "56789"
+}, {
+  "refId" : 3,
+  "id" : 3,
+  "street" : "Lipowa",
+  "city" : "Poznan",
+  "nr" : "23",
+  "housenr" : null,
+  "postcode" : "12345"
+}, {
+  "refId" : 4,
+  "id" : 4,
+  "street" : "Oak",
+  "city" : "Nowy Jork",
+  "nr" : "12",
+  "housenr" : null,
+  "postcode" : "56789"
+}, {
+  "refId" : 5,
+  "id" : 5,
+  "street" : "Lipowa",
+  "city" : "Poznan",
+  "nr" : "23",
+  "housenr" : null,
+  "postcode" : "12345"
+}, {
+  "refId" : 6,
+  "id" : 6,
+  "street" : "Lipowa",
+  "city" : "Poznan",
+  "nr" : "23",
+  "housenr" : null,
+  "postcode" : "12345"
+} ]

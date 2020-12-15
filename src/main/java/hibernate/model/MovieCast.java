@@ -7,8 +7,7 @@ import javax.persistence.*;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.Table;
-import java.util.HashSet;
-import java.util.Set;
+
 
 @Entity
 @Table(name = "MovieCast")

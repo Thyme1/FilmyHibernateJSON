@@ -1,0 +1,15 @@
+[ {
+  "refId" : 1,
+  "id" : 1,
+  "name" : "Janusz",
+  "surname" : "Tracz",
+  "address" : {
+    "refId" : 1,
+    "id" : 5,
+    "street" : "Lipowa",
+    "city" : "Poznan",
+    "nr" : "23",
+    "housenr" : null,
+    "postcode" : "12345"
+  }
+} ]

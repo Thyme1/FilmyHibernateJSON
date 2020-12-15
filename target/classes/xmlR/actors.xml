@@ -27,4 +27,22 @@
     <salary>1142</salary>
     <address/>
   </item>
+  <item>
+    <refId>3</refId>
+    <id>0</id>
+    <name>Brad</name>
+    <surname>Pitt</surname>
+    <age>35</age>
+    <gender>male</gender>
+    <salary>1234</salary>
+    <address>
+      <refId>2</refId>
+      <id>0</id>
+      <street>Oak</street>
+      <city>Nowy Jork</city>
+      <nr>12</nr>
+      <housenr/>
+      <postcode>56789</postcode>
+    </address>
+  </item>
 </ArrayList>

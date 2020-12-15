@@ -4,10 +4,36 @@
     <list default="true" id="1b6be4d9-bb77-4a09-b66d-69801415129b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log.log" beforeDir="false" afterPath="$PROJECT_DIR$/log.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DatabaseJSONApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DatabaseJSONApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DatabaseXMLApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DatabaseXMLApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hibernate/Normal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hibernate/Normal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hibernate/json/ReadJSONExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hibernate/json/SerializeJSON.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hibernate/json/SerializeJSON.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hibernate/model/Actors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hibernate/model/Actors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hibernate/model/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hibernate/model/Address.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hibernate/model/MovieCast.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hibernate/model/MovieCast.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hibernate/xml/ReadXML.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hibernate/xml/SerializeXML.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hibernate/xml/SerializeXML.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/jsonR/actors.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/jsonR/actors.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/jsonR/cast.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/jsonR/cast.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/jsonR/movies.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/jsonR/movies.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/xmlR/actors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/xmlR/actors.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/xmlR/cast.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/xmlR/cast.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/xmlR/movies.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/xmlR/movies.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DatabaseJSONApp$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DatabaseJSONApp$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DatabaseJSONApp$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DatabaseJSONApp$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DatabaseJSONApp$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DatabaseJSONApp$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DatabaseJSONApp$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DatabaseJSONApp$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DatabaseJSONApp$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DatabaseJSONApp$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DatabaseJSONApp$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DatabaseJSONApp$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DatabaseJSONApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DatabaseJSONApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hibernate/Normal.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hibernate/Normal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hibernate/json/ReadJSONExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hibernate/json/SerializeJSON.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hibernate/json/SerializeJSON.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hibernate/model/Actors.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hibernate/model/Actors.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hibernate/model/Address.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hibernate/model/Address.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hibernate/model/MovieCast.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hibernate/model/MovieCast.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hibernate/xml/ReadXML.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/jsonR/actors.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jsonR/actors.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/jsonR/cast.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jsonR/cast.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/jsonR/movies.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jsonR/movies.json" afterDir="false" />
@@ -62,7 +88,7 @@
       <recent name="C:\Users\Konrad\IdeaProjects\Przyrost2\src\resources\META-INF" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DatabaseXMLApp">
+  <component name="RunManager" selected="Application.DatabaseJSONApp">
     <configuration name="DatabaseJSONApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DatabaseJSONApp" />
       <module name="Przyrost2" />
@@ -90,12 +116,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReadJSONExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hibernate.json.ReadJSONExample" />
+    <configuration name="ReadFromDbJSON" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hibernate.ReadFromDbJSON" />
       <module name="Przyrost2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hibernate.json.*" />
+          <option name="PATTERN" value="hibernate.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DatabaseXMLApp" />
         <item itemvalue="Application.DatabaseJSONApp" />
+        <item itemvalue="Application.ReadFromDbJSON" />
         <item itemvalue="Application.Normal" />
+        <item itemvalue="Application.DatabaseXMLApp" />
         <item itemvalue="Application.ReadXML" />
-        <item itemvalue="Application.ReadJSONExample" />
       </list>
     </recent_temporary>
   </component>
@@ -170,22 +196,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1607982697844" />
-    <state width="914" height="282" key="GridCell.Tab.0.bottom" timestamp="1608047775808">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1608053474181">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608047775808" />
-    <state width="914" height="282" key="GridCell.Tab.0.center" timestamp="1608047775808">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608053474181" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1608053474181">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608047775808" />
-    <state width="914" height="282" key="GridCell.Tab.0.left" timestamp="1608047775808">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608053474181" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1608053474181">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608047775808" />
-    <state width="914" height="282" key="GridCell.Tab.0.right" timestamp="1608047775808">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608053474181" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1608053474181">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608047775808" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608053474181" />
     <state width="1877" height="347" key="GridCell.Tab.1.bottom" timestamp="1607899438214">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -218,16 +244,5 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1607879730955" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/hibernate/Normal.java</url>
-          <line>12</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

@@ -24,4 +24,21 @@
   "gender" : "male",
   "salary" : 1142,
   "address" : null
+}, {
+  "refId" : 3,
+  "id" : 0,
+  "name" : "Brad",
+  "surname" : "Pitt",
+  "age" : 35,
+  "gender" : "male",
+  "salary" : 1234,
+  "address" : {
+    "refId" : 2,
+    "id" : 0,
+    "street" : "Oak",
+    "city" : "Nowy Jork",
+    "nr" : "12",
+    "housenr" : null,
+    "postcode" : "56789"
+  }
 } ]

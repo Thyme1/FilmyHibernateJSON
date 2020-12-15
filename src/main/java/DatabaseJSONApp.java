@@ -10,8 +10,7 @@ import java.io.File;
 import java.io.IOException;
 import java.util.*;
 
-
-
+import static hibernate.json.SerializeJSON.serialize;
 
 
 public class DatabaseJSONApp {
@@ -73,6 +72,34 @@ public class DatabaseJSONApp {
                 entityManager.persist(movieCastList.get(i));
                 System.out.println(movieCastList.get(i));
             }
+
+
+
+
+            //READ FROM DATABASE AND CREATE JSON
+            List<Actors> readActors = null;
+            readActors = entityManager.createQuery("SELECT a FROM Actors a", Actors.class).getResultList();
+            serialize(readActors, "actors", "src/main/resources/jsonR/jsonFromBase/");
+
+            List<Address> readAddress = null;
+            readAddress = entityManager.createQuery("SELECT a FROM Address a", Address.class).getResultList();
+            serialize(readAddress, "addresses", "src/main/resources/jsonR/jsonFromBase/");
+
+            List<Director> readDirector = null;
+            readDirector = entityManager.createQuery("SELECT a FROM Director a", Director.class).getResultList();
+            serialize(readDirector, "directors", "src/main/resources/jsonR/jsonFromBase/");
+
+            List<Genres> readGenres = null;
+            readGenres = entityManager.createQuery("SELECT a FROM Genres a", Genres.class).getResultList();
+            serialize(readGenres, "genres", "src/main/resources/jsonR/jsonFromBase/");
+
+            List<Movie> readMovies = null;
+            readMovies = entityManager.createQuery("SELECT a FROM Movie a", Movie.class).getResultList();
+            serialize(readMovies, "movie", "src/main/resources/jsonR/jsonFromBase/");
+
+            List<MovieCast> readMovieCast = null;
+            readMovieCast = entityManager.createQuery("SELECT a FROM MovieCast a", MovieCast.class).getResultList();
+            serialize(readMovieCast, "movieCast", "src/main/resources/jsonR/jsonFromBase/");
 
 
 

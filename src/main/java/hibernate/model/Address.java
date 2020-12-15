@@ -1,9 +1,7 @@
 package hibernate.model;
 
-
 import com.fasterxml.jackson.annotation.JsonIdentityInfo;
 import com.fasterxml.jackson.annotation.ObjectIdGenerators;
-
 import javax.persistence.*;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;

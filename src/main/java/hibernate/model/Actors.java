@@ -1,17 +1,12 @@
 package hibernate.model;
+
 import com.fasterxml.jackson.annotation.JsonIdentityInfo;
 import com.fasterxml.jackson.annotation.ObjectIdGenerators;
-import org.hibernate.annotations.Type;
-import org.hibernate.annotations.TypeDef;
-
-
 import javax.persistence.*;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.Table;
-import javax.xml.bind.annotation.XmlAccessType;
-import javax.xml.bind.annotation.XmlAccessorType;
-import javax.xml.bind.annotation.XmlType;
+import javax.xml.bind.annotation.*;
 import java.util.*;
 
 @XmlAccessorType(XmlAccessType.FIELD)
@@ -36,12 +31,14 @@ import java.util.*;
 
 @JsonIdentityInfo(generator= ObjectIdGenerators.IntSequenceGenerator.class,
         property="refId", scope=Actors.class)
+
+
 public class Actors {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id")
-
+    @XmlAttribute(name = "id", required = true)
     private int id;
 
 
