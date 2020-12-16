@@ -31,40 +31,43 @@ public class DatabaseJSONApp {
             entityManager = entityManagerFactory.createEntityManager();
 
             entityManager.getTransaction().begin();
-            List<Actors> actorsList = objectMapper.readValue(new File("src/main/resources/jsonR/actors.json"), new TypeReference<List<Actors>>(){});
-            List<Address> addressList = objectMapper.readValue(new File("src/main/resources/jsonR/addresses.json"), new TypeReference<List<Address>>(){});
-            List<Director> directorList = objectMapper.readValue(new File("src/main/resources/jsonR/directors.json"), new TypeReference<List<Director>>(){});
-            List<Genres> genresList = objectMapper.readValue(new File("src/main/resources/jsonR/genres.json"), new TypeReference<List<Genres>>(){});
-            List<Movie> movieList = objectMapper.readValue(new File("src/main/resources/jsonR/movies.json"), new TypeReference<List<Movie>>(){});
-            List<MovieCast> movieCastList = objectMapper.readValue(new File("src/main/resources/jsonR/cast.json"), new TypeReference<List<MovieCast>>(){});
+            List<Actors> myObjects = objectMapper.readValue(new File("src/main/resources/jsonR/actors.json"), objectMapper.getTypeFactory().constructCollectionType(List.class, Actors.class));
+            List<Address> myObjects2 = objectMapper.readValue(new File("src/main/resources/jsonR/addresses.json"), objectMapper.getTypeFactory().constructCollectionType(List.class, Address.class));
+
+//            List<Actors> actorsList = objectMapper.readValue(new File("src/main/resources/jsonR/actors.json"), new TypeReference<List<Actors>>(){});
+//            List<Address> addressList = objectMapper.readValue(new File("src/main/resources/jsonR/addresses.json"), new TypeReference<List<Address>>(){});
+//            List<Director> directorList = objectMapper.readValue(new File("src/main/resources/jsonR/directors.json"), new TypeReference<List<Director>>(){});
+//            List<Genres> genresList = objectMapper.readValue(new File("src/main/resources/jsonR/genres.json"), new TypeReference<List<Genres>>(){});
+//            List<Movie> movieList = objectMapper.readValue(new File("src/main/resources/jsonR/movies.json"), new TypeReference<List<Movie>>(){});
+//            List<MovieCast> movieCastList = objectMapper.readValue(new File("src/main/resources/jsonR/cast.json"), new TypeReference<List<MovieCast>>(){});
 
 
-            for (int i=0; i < actorsList.size(); i++) {
-                Actors actors=actorsList.get(i);
+            for (int i=0; i < myObjects.size(); i++) {
+                Actors actors=myObjects.get(i);
                 entityManager.persist(actors);
                 System.out.println(actors);
             }
-            for (int i=0; i < addressList.size(); i++) {
-                Address address=addressList.get(i);
+            for (int i=0; i < myObjects2.size(); i++) {
+                Address address=myObjects2.get(i);
                 entityManager.persist(address);
                 System.out.println(address);
             }
-            for (Director director : directorList) {
-                entityManager.persist(director);
-                System.out.println(director);
-            }
-            for (Genres genres : genresList) {
-                entityManager.persist(genres);
-                System.out.println(genres);
-            }
-            for (Movie movie : movieList) {
-                entityManager.persist(movie);
-                System.out.println(movie);
-            }
-            for (MovieCast movieCast : movieCastList) {
-                entityManager.persist(movieCast);
-                System.out.println(movieCast);
-            }
+//            for (Director director : directorList) {
+//                entityManager.persist(director);
+//                System.out.println(director);
+//            }
+//            for (Genres genres : genresList) {
+//                entityManager.persist(genres);
+//                System.out.println(genres);
+//            }
+//            for (Movie movie : movieList) {
+//                entityManager.persist(movie);
+//                System.out.println(movie);
+//            }
+//            for (MovieCast movieCast : movieCastList) {
+//                entityManager.persist(movieCast);
+//                System.out.println(movieCast);
+//            }
 
             //READ FROM DATABASE AND CREATE JSON
             List<Actors> readActors = null;

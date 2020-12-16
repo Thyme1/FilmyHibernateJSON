@@ -40,25 +40,4 @@
   "nr" : "27",
   "housenr" : null,
   "postcode" : "34561"
-}, {
-  "refId" : 7,
-  "street" : "Lipowa",
-  "city" : "Poznan",
-  "nr" : "23",
-  "housenr" : null,
-  "postcode" : "12345"
-}, {
-  "refId" : 8,
-  "street" : "Oak",
-  "city" : "Nowy Jork",
-  "nr" : "12",
-  "housenr" : null,
-  "postcode" : "56789"
-}, {
-  "refId" : 9,
-  "street" : "Angel",
-  "city" : "Los Angeles",
-  "nr" : "27",
-  "housenr" : null,
-  "postcode" : "34561"
 } ]

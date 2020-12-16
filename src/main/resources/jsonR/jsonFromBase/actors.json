@@ -51,27 +51,4 @@
     "housenr" : null,
     "postcode" : "34561"
   }
-}, {
-  "idA" : 5,
-  "name" : "Morgan",
-  "surname" : "Freeman",
-  "age" : 56,
-  "gender" : "male",
-  "salary" : 1142,
-  "address" : null
-}, {
-  "idA" : 6,
-  "name" : "Will",
-  "surname" : "Smith",
-  "age" : 41,
-  "gender" : "male",
-  "salary" : 2345,
-  "address" : {
-    "refId" : 4,
-    "street" : "Angel",
-    "city" : "Los Angeles",
-    "nr" : "27",
-    "housenr" : null,
-    "postcode" : "34561"
-  }
 } ]

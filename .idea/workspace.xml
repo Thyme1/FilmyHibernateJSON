@@ -4,67 +4,13 @@
     <list default="true" id="1b6be4d9-bb77-4a09-b66d-69801415129b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log.log" beforeDir="false" afterPath="$PROJECT_DIR$/log.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/actorTRAS.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DatabaseJSONApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hibernate/DatabaseJSONApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DatabaseXMLApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hibernate/DatabaseXMLApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hibernate/Normal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hibernate/Normal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hibernate/ReadFromDbJSON.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hibernate/model/Actors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hibernate/model/Actors.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hibernate/model/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hibernate/model/Address.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hibernate/model/Director.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hibernate/model/Director.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hibernate/model/Genres.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hibernate/model/Genres.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hibernate/model/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hibernate/model/Movie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hibernate/model/MovieCast.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hibernate/model/MovieCast.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/jsonR/actors.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/jsonR/actors.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/jsonR/addresses.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/jsonR/addresses.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/jsonR/cast.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/jsonR/cast.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/jsonR/directors.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/jsonR/directors.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/jsonR/genres.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/jsonR/genres.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/jsonR/jsonFromBase/actors.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/jsonR/jsonFromBase/actors.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/jsonR/jsonFromBase/addresses.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/jsonR/jsonFromBase/addresses.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/jsonR/jsonFromBase/directors.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/jsonR/jsonFromBase/directors.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/jsonR/jsonFromBase/genres.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/jsonR/jsonFromBase/genres.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/jsonR/jsonFromBase/movie.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/jsonR/jsonFromBase/movie.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/jsonR/jsonFromBase/movieCast.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/jsonR/jsonFromBase/movieCast.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/jsonR/movies.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/jsonR/movies.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/xmlR/actors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/xmlR/actors.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/xmlR/addresses.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/xmlR/addresses.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/xmlR/cast.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/xmlR/cast.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/xmlR/directors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/xmlR/directors.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/xmlR/genres.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/xmlR/genres.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/xmlR/movies.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/xmlR/movies.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DatabaseJSONApp$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DatabaseJSONApp$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DatabaseJSONApp$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DatabaseJSONApp$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DatabaseJSONApp$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DatabaseJSONApp$6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DatabaseJSONApp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DatabaseXMLApp$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DatabaseXMLApp$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DatabaseXMLApp$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DatabaseXMLApp$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DatabaseXMLApp$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DatabaseXMLApp$6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DatabaseXMLApp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hibernate/Normal.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hibernate/Normal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hibernate/model/Actors.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hibernate/model/Actors.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hibernate/model/Address.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hibernate/model/Address.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hibernate/model/Director.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hibernate/model/Director.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hibernate/model/Genres.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hibernate/model/Genres.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hibernate/model/Movie.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hibernate/model/Movie.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hibernate/model/MovieCast.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hibernate/model/MovieCast.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hibernate/xml/SerializeXML.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hibernate/xml/SerializeXML.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/jsonR/actors.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jsonR/actors.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/jsonR/addresses.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jsonR/addresses.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/jsonR/cast.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jsonR/cast.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/jsonR/directors.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jsonR/directors.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/jsonR/movies.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jsonR/movies.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/xmlR/actors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/xmlR/actors.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/xmlR/addresses.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/xmlR/addresses.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/xmlR/cast.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/xmlR/cast.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/xmlR/directors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/xmlR/directors.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/xmlR/movies.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/xmlR/movies.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hibernate/DatabaseJSONApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hibernate/DatabaseJSONApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hibernate/DatabaseJSONApp$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hibernate/DatabaseJSONApp$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hibernate/DatabaseJSONApp$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hibernate/DatabaseJSONApp$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hibernate/DatabaseJSONApp$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hibernate/DatabaseJSONApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hibernate/DatabaseJSONApp.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -221,22 +167,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1607982697844" />
-    <state width="1877" height="346" key="GridCell.Tab.0.bottom" timestamp="1608057362396">
+    <state width="1877" height="278" key="GridCell.Tab.0.bottom" timestamp="1608077395418">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="346" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608057362396" />
-    <state width="1877" height="346" key="GridCell.Tab.0.center" timestamp="1608057362396">
+    <state width="1877" height="278" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608077395418" />
+    <state width="1877" height="278" key="GridCell.Tab.0.center" timestamp="1608077395418">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="346" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608057362396" />
-    <state width="1877" height="346" key="GridCell.Tab.0.left" timestamp="1608057362396">
+    <state width="1877" height="278" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608077395418" />
+    <state width="1877" height="278" key="GridCell.Tab.0.left" timestamp="1608077395418">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="346" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608057362396" />
-    <state width="1877" height="346" key="GridCell.Tab.0.right" timestamp="1608057362396">
+    <state width="1877" height="278" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608077395418" />
+    <state width="1877" height="278" key="GridCell.Tab.0.right" timestamp="1608077395418">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="346" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608057362396" />
+    <state width="1877" height="278" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608077395418" />
     <state width="1877" height="346" key="GridCell.Tab.1.bottom" timestamp="1608057362530">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
