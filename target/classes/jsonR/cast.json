@@ -1,6 +1,17 @@
 [ {
   "refId" : 1,
   "role" : "pirat",
+  "movie" : {
+    "refId" : 1,
+    "title" : "Pirates of the Caribbean",
+    "time" : "134",
+    "language" : "English",
+    "releaseDate" : "2020-12-16 21:07:47.345+0000",
+    "releaseCountry" : "USA",
+    "movieGenre" : "comedy",
+    "director" : null,
+    "actors" : null
+  },
   "actor" : {
     "idA" : 1,
     "name" : "Morgan",
@@ -8,21 +19,23 @@
     "age" : 56,
     "gender" : "male",
     "salary" : 1142,
-    "address" : null
-  },
-  "movie" : {
-    "refId" : 1,
-    "title" : "Pirates of the Caribbean",
-    "time" : "134",
-    "language" : "English",
-    "releaseDate" : "2020-12-15 18:32:48.939+0000",
-    "releaseCountry" : "USA",
-    "movieGenre" : "comedy",
-    "director" : null
+    "address" : null,
+    "movies" : null
   }
 }, {
   "refId" : 2,
   "role" : "monk",
+  "movie" : {
+    "refId" : 2,
+    "title" : "Mank",
+    "time" : "134",
+    "language" : "English",
+    "releaseDate" : "2020-12-16 21:07:47.365+0000",
+    "releaseCountry" : "USA",
+    "movieGenre" : "drama",
+    "director" : null,
+    "actors" : null
+  },
   "actor" : {
     "idA" : 2,
     "name" : "Will",
@@ -37,16 +50,7 @@
       "nr" : "27",
       "housenr" : null,
       "postcode" : "34561"
-    }
-  },
-  "movie" : {
-    "refId" : 2,
-    "title" : "Mank",
-    "time" : "134",
-    "language" : "English",
-    "releaseDate" : "2020-12-15 18:32:48.961+0000",
-    "releaseCountry" : "USA",
-    "movieGenre" : "drama",
-    "director" : null
+    },
+    "movies" : null
   }
 } ]

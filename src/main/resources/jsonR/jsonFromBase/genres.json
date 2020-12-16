@@ -1,1 +1,7 @@
-[ ]
+[ {
+  "refId" : 1,
+  "name" : "comedy"
+}, {
+  "refId" : 2,
+  "name" : "drama"
+} ]

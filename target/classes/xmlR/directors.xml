@@ -3,26 +3,10 @@
     <refId>1</refId>
     <name>Martin</name>
     <surname>Scorsese</surname>
-    <address>
-      <refId>1</refId>
-      <street>Lipowa</street>
-      <city>Poznan</city>
-      <nr>23</nr>
-      <housenr/>
-      <postcode>12345</postcode>
-    </address>
   </item>
   <item>
     <refId>2</refId>
     <name>Steven</name>
     <surname>Spielberg</surname>
-    <address>
-      <refId>2</refId>
-      <street>Oak</street>
-      <city>Nowy Jork</city>
-      <nr>12</nr>
-      <housenr/>
-      <postcode>56789</postcode>
-    </address>
   </item>
 </ArrayList>

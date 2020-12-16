@@ -52,6 +52,12 @@ public class Normal {
             address3.setNr("27");
             address3.setPostcode("34561");
 
+            Address address4 = new Address();
+            address4.setCity("Las Vegas");
+            address4.setStreet("Sesame");
+            address4.setNr("213");
+            address4.setPostcode("22222");
+
             //TWORZYMY AKTOROW
             Actors actor1 = new Actors();
             actor1.setName("Johnny");
@@ -107,12 +113,12 @@ public class Normal {
             Director director = new Director();
             director.setName("Martin");
             director.setSurname("Scorsese");
-            director.setAddress(address1);
+//            director.setAddress(address4);
 
             Director director2 = new Director();
             director2.setName("Steven");
             director2.setSurname("Spielberg");
-            director2.setAddress(address2);
+
 
             //TWORZYMY OBSADE
             MovieCast cast = new MovieCast();
@@ -144,6 +150,7 @@ public class Normal {
             adresy.add(address1);
             adresy.add(address2);
             adresy.add(address3);
+            adresy.add(address4);
 
             List<Director> rezyserowie = new ArrayList<>();
             rezyserowie.add(director);

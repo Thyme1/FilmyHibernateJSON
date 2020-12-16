@@ -12,7 +12,8 @@
     "nr" : "23",
     "housenr" : null,
     "postcode" : "12345"
-  }
+  },
+  "movies" : null
 }, {
   "idA" : 2,
   "name" : "Morgan",
@@ -20,7 +21,8 @@
   "age" : 56,
   "gender" : "male",
   "salary" : 1142,
-  "address" : null
+  "address" : null,
+  "movies" : null
 }, {
   "idA" : 3,
   "name" : "Brad",
@@ -35,7 +37,8 @@
     "nr" : "12",
     "housenr" : null,
     "postcode" : "56789"
-  }
+  },
+  "movies" : null
 }, {
   "idA" : 4,
   "name" : "Will",
@@ -50,5 +53,6 @@
     "nr" : "27",
     "housenr" : null,
     "postcode" : "34561"
-  }
+  },
+  "movies" : null
 } ]

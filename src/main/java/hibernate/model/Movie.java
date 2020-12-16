@@ -1,9 +1,8 @@
 package hibernate.model;
 
-import com.fasterxml.jackson.annotation.JsonFormat;
-import com.fasterxml.jackson.annotation.JsonIdentityInfo;
-import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.fasterxml.jackson.annotation.ObjectIdGenerators;
+import com.fasterxml.jackson.annotation.*;
+import org.hibernate.annotations.Fetch;
+import org.hibernate.annotations.FetchMode;
 import org.joda.time.DateTime;
 import javax.persistence.*;
 import javax.persistence.GeneratedValue;
@@ -48,11 +47,14 @@ public class Movie {
 
     @ManyToOne
     @JoinColumn(name="dir")
+    @Fetch(FetchMode.SELECT)
     private Director director;
 
 
 
     @OneToMany(mappedBy="movieId")
+    @JsonManagedReference(value="act")
+    @Fetch (FetchMode.SELECT)
     private Set<MovieCast> actors;
 
     Set<MovieCast> getActors() {

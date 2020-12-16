@@ -2,7 +2,11 @@ package hibernate.model;
 
 import com.fasterxml.jackson.annotation.JsonIdentityInfo;
 import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonManagedReference;
 import com.fasterxml.jackson.annotation.ObjectIdGenerators;
+import org.hibernate.annotations.Fetch;
+import org.hibernate.annotations.FetchMode;
+
 import javax.persistence.*;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
@@ -21,8 +25,6 @@ import java.util.*;
         "address",
         "movies"
 })
-
-
 
 
 
@@ -64,11 +66,15 @@ public class Actors {
     @Column
     String favGenre;
 
-    @OneToOne(cascade = CascadeType.PERSIST)
+
+    @OneToOne(cascade = CascadeType.PERSIST, fetch=FetchType.EAGER)
+    @Fetch( FetchMode.SELECT)
     @JoinColumn(name="address_id", referencedColumnName = "id")
     Address address;
 
-    @OneToMany(mappedBy="actorId")
+    @OneToMany(mappedBy="actorId", fetch=FetchType.EAGER)
+    @Fetch (FetchMode.SELECT)
+    @JsonManagedReference(value="mvCast")
     private Set<MovieCast> movies;
 
 
@@ -134,28 +140,6 @@ public class Actors {
         this.gender = gender;
     }
 
-    public Address getAddress() {
-        return address;
-    }
-
-    public void setAddress(Address address) {
-        this.address = address;
-    }
-
-
-
-
-    public static Actors copyEmployee(Actors actor) {
-        Actors person = new Actors();
-        person.setAddress(actor.getAddress());
-        person.setGender(actor.getGender());
-        person.setName(actor.getName());
-        person.setFavGenre(actor.getFavGenre());
-        person.setAge(actor.getAge());
-        person.setSurname(actor.getSurname() + new Random().nextInt());
-        return person;
-    }
-
 
     public Integer getSalary() {
         return salary;
@@ -163,5 +147,13 @@ public class Actors {
 
     public void setSalary(Integer salary) {
         this.salary=salary;
+    }
+
+    public void setAddress(Address address1) {
+        this.address = address1;
+    }
+
+    public Address getAddress() {
+        return address;
     }
 }

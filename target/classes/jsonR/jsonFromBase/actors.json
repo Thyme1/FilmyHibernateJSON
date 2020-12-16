@@ -1,77 +1,73 @@
 [ {
-  "idA" : 1,
   "name" : "Johnny",
   "surname" : "Depp",
   "age" : 35,
   "gender" : "male",
   "salary" : 231,
   "address" : {
-    "refId" : 1,
     "street" : "Lipowa",
     "city" : "Poznan",
     "nr" : "23",
     "housenr" : null,
     "postcode" : "12345"
-  }
+  },
+  "movies" : null
 }, {
-  "idA" : 2,
   "name" : "Morgan",
   "surname" : "Freeman",
   "age" : 56,
   "gender" : "male",
   "salary" : 1142,
-  "address" : null
+  "address" : null,
+  "movies" : null
 }, {
-  "idA" : 3,
   "name" : "Brad",
   "surname" : "Pitt",
   "age" : 35,
   "gender" : "male",
   "salary" : 1234,
   "address" : {
-    "refId" : 2,
     "street" : "Oak",
     "city" : "Nowy Jork",
     "nr" : "12",
     "housenr" : null,
     "postcode" : "56789"
-  }
+  },
+  "movies" : null
 }, {
-  "idA" : 4,
   "name" : "Will",
   "surname" : "Smith",
   "age" : 41,
   "gender" : "male",
   "salary" : 2345,
   "address" : {
-    "refId" : 3,
     "street" : "Angel",
     "city" : "Los Angeles",
     "nr" : "27",
     "housenr" : null,
     "postcode" : "34561"
-  }
+  },
+  "movies" : null
 }, {
-  "idA" : 5,
   "name" : "Morgan",
   "surname" : "Freeman",
   "age" : 56,
   "gender" : "male",
   "salary" : 1142,
-  "address" : null
+  "address" : null,
+  "movies" : null
 }, {
-  "idA" : 6,
   "name" : "Will",
   "surname" : "Smith",
   "age" : 41,
   "gender" : "male",
   "salary" : 2345,
   "address" : {
-    "refId" : 4,
     "street" : "Angel",
     "city" : "Los Angeles",
     "nr" : "27",
     "housenr" : null,
     "postcode" : "34561"
-  }
+  },
+  "movies" : null
 } ]

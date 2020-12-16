@@ -1,8 +1,11 @@
 package hibernate.model;
 
+import com.fasterxml.jackson.annotation.JsonBackReference;
 import com.fasterxml.jackson.annotation.JsonIdentityInfo;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.ObjectIdGenerators;
+import org.hibernate.annotations.Fetch;
+import org.hibernate.annotations.FetchMode;
 
 import javax.persistence.*;
 import javax.persistence.GeneratedValue;
@@ -29,12 +32,17 @@ public class MovieCast {
 
     @ManyToOne(fetch = FetchType.EAGER,cascade=CascadeType.ALL)
     @JoinColumn(name="actorId", nullable=false)
+    @JsonBackReference(value="mvCast")
+    @Fetch(FetchMode.SELECT)
+
     private Actors actorId;
 
 
 
     @ManyToOne(fetch = FetchType.EAGER,cascade=CascadeType.ALL)
     @JoinColumn(name="movieId", nullable=false)
+    @JsonBackReference(value="act")
+    @Fetch (FetchMode.SELECT)
     private Movie movieId;
 
 

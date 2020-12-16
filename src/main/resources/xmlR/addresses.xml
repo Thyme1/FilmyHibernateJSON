@@ -23,4 +23,12 @@
     <housenr/>
     <postcode>34561</postcode>
   </item>
+  <item>
+    <refId>4</refId>
+    <street>Sesame</street>
+    <city>Las Vegas</city>
+    <nr>213</nr>
+    <housenr/>
+    <postcode>22222</postcode>
+  </item>
 </ArrayList>
