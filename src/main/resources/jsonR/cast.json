@@ -1,6 +1,16 @@
 [ {
   "id" : 1,
   "role" : "pirat",
+  "movie" : {
+    "id" : 1,
+    "title" : "Pirates of the Caribbean",
+    "time" : "134",
+    "language" : "English",
+    "releaseDate" : "2020-12-17 01:28:51.662+0000",
+    "releaseCountry" : "USA",
+    "movieGenre" : "comedy",
+    "director" : null
+  },
   "actor" : {
     "name" : "Johnny",
     "surname" : "Depp",
@@ -16,20 +26,20 @@
       "id" : 1
     },
     "id" : 1
-  },
-  "movie" : {
-    "id" : 1,
-    "title" : "Pirates of the Caribbean",
-    "time" : "134",
-    "language" : "English",
-    "releaseDate" : "2020-12-16 23:12:35.285+0000",
-    "releaseCountry" : "USA",
-    "movieGenre" : "comedy",
-    "director" : null
   }
 }, {
   "id" : 2,
   "role" : "monk",
+  "movie" : {
+    "id" : 2,
+    "title" : "Mank",
+    "time" : "134",
+    "language" : "English",
+    "releaseDate" : "2020-12-17 01:28:51.686+0000",
+    "releaseCountry" : "USA",
+    "movieGenre" : "drama",
+    "director" : null
+  },
   "actor" : {
     "name" : "Brad",
     "surname" : "Pitt",
@@ -45,15 +55,5 @@
       "id" : 2
     },
     "id" : 3
-  },
-  "movie" : {
-    "id" : 2,
-    "title" : "Mank",
-    "time" : "134",
-    "language" : "English",
-    "releaseDate" : "2020-12-16 23:12:35.306+0000",
-    "releaseCountry" : "USA",
-    "movieGenre" : "drama",
-    "director" : null
   }
 } ]

@@ -2,6 +2,16 @@
   <item>
     <id>1</id>
     <role>pirat</role>
+    <movie>
+      <id>1</id>
+      <title>Pirates of the Caribbean</title>
+      <time>134</time>
+      <language>English</language>
+      <releaseDate>2020-12-17 01:28:51.662+0000</releaseDate>
+      <releaseCountry>USA</releaseCountry>
+      <movieGenre>comedy</movieGenre>
+      <director/>
+    </movie>
     <actor>
       <name>Johnny</name>
       <surname>Depp</surname>
@@ -18,20 +28,20 @@
       </address>
       <id>1</id>
     </actor>
-    <movie>
-      <id>1</id>
-      <title>Pirates of the Caribbean</title>
-      <time>134</time>
-      <language>English</language>
-      <releaseDate>2020-12-16 23:12:35.285+0000</releaseDate>
-      <releaseCountry>USA</releaseCountry>
-      <movieGenre>comedy</movieGenre>
-      <director/>
-    </movie>
   </item>
   <item>
     <id>2</id>
     <role>monk</role>
+    <movie>
+      <id>2</id>
+      <title>Mank</title>
+      <time>134</time>
+      <language>English</language>
+      <releaseDate>2020-12-17 01:28:51.686+0000</releaseDate>
+      <releaseCountry>USA</releaseCountry>
+      <movieGenre>drama</movieGenre>
+      <director/>
+    </movie>
     <actor>
       <name>Brad</name>
       <surname>Pitt</surname>
@@ -48,15 +58,5 @@
       </address>
       <id>3</id>
     </actor>
-    <movie>
-      <id>2</id>
-      <title>Mank</title>
-      <time>134</time>
-      <language>English</language>
-      <releaseDate>2020-12-16 23:12:35.306+0000</releaseDate>
-      <releaseCountry>USA</releaseCountry>
-      <movieGenre>drama</movieGenre>
-      <director/>
-    </movie>
   </item>
 </ArrayList>

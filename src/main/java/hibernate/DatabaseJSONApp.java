@@ -1,15 +1,11 @@
 package hibernate;
 
-import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
 import com.fasterxml.jackson.datatype.joda.JodaModule;
 import hibernate.model.*;
-import org.hibernate.Criteria;
-import org.hibernate.Session;
 
 import javax.persistence.*;
-import javax.persistence.criteria.CriteriaBuilder;
 import java.io.File;
 import java.io.IOException;
 import java.util.*;
@@ -48,22 +44,30 @@ public class DatabaseJSONApp {
 
 
 
-            try {
+
                 for (int i=0; i < actorsList.size(); i++) {
                     Actors actors=actorsList.get(i);
+                    System.out.println(actors.getAddress().getId());
                     entityManager.persist(actors);
-                    System.out.println(actors);
-                }
-                for (int i=0; i < addressList.size(); i++) {
+                    System.out.println(actors);}
+
+
+            OUTER_LOOP:for (int i=0; i < addressList.size(); i++) {
                     Address address=addressList.get(i);
+                    for(int j=0;j<actorsList.size();j++){
+                    if(address.getId().equals(actorsList.get(j).getAddress().getId())){
+                        continue OUTER_LOOP;}}
                     entityManager.persist(address);
                     System.out.println(address);
                 }
                 for (Director director : directorsList) {
-                    entityManager.persist(director);
+                        entityManager.persist(director);
+
+
                     System.out.println(director);
                 }
                 for (Genres genres : genresList) {
+
                     entityManager.persist(genres);
                     System.out.println(genres);
                 }
@@ -71,15 +75,18 @@ public class DatabaseJSONApp {
                     entityManager.persist(movie);
                     System.out.println(movie);
                 }
-                for (MovieCast movieCast : movieCastList) {
+
+                OUTER_LOOP2:for (int i=0; i < movieCastList.size(); i++) {
+                MovieCast movieCast=movieCastList.get(i);
+                for(int j=0;j<actorsList.size();j++){
+                    if(movieCast.getId().equals(actorsList.get(j).getAddress().getId())){
+                        continue OUTER_LOOP;}}
                     entityManager.persist(movieCast);
                     System.out.println(movieCast);
                 }
-            }catch(EntityExistsException e){
 
 
 
-            }
 
 
 

@@ -29,6 +29,22 @@ public class MovieCast {
     @Column(nullable = false)
     String role;
 
+    Actors getActorId() {
+        return actorId;
+    }
+
+    void setActorId(Actors actorId) {
+        this.actorId=actorId;
+    }
+
+    Movie getMovieId() {
+        return movieId;
+    }
+
+    void setMovieId(Movie movieId) {
+        this.movieId=movieId;
+    }
+
     @ManyToOne(fetch = FetchType.EAGER,cascade=CascadeType.ALL)
     @JoinColumn(name="actorId", nullable=false)
 

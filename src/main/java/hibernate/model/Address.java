@@ -1,10 +1,6 @@
 package hibernate.model;
 
-import com.fasterxml.jackson.annotation.JsonIdentityInfo;
-import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.fasterxml.jackson.annotation.ObjectIdGenerators;
-import org.hibernate.annotations.Fetch;
-import org.hibernate.annotations.FetchMode;
+
 
 import javax.persistence.*;
 import javax.persistence.GeneratedValue;
@@ -49,6 +45,7 @@ public class Address {
 
     public Long getId() {
         return idAdd;
+
     }
 
     public void setId(Long id) {
@@ -94,6 +91,9 @@ public class Address {
     public void setPostcode(String postcode) {
         this.postcode = postcode;
     }
+
+
+
 
 
 }

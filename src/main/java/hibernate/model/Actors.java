@@ -1,14 +1,11 @@
 package hibernate.model;
 
-import com.fasterxml.jackson.annotation.JsonIdentityInfo;
-import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.fasterxml.jackson.annotation.JsonManagedReference;
-import com.fasterxml.jackson.annotation.ObjectIdGenerators;
-import org.hibernate.annotations.Fetch;
-import org.hibernate.annotations.FetchMode;
+
+
+
 
 import javax.persistence.*;
-import javax.persistence.GeneratedValue;
+
 import javax.persistence.Id;
 import javax.persistence.Table;
 import javax.xml.bind.annotation.*;
@@ -97,8 +94,8 @@ public class Actors {
         return idAct;
     }
 
-    public void setId(Long id) {
-        this.idAct = id;
+    public void setId(Long idAct) {
+        this.idAct = idAct;
     }
 
     public String getName() {
@@ -145,8 +142,18 @@ public class Actors {
     public void setAddress(Address address1) {
         this.address = address1;
     }
+    public Long counter = 50L;
+
+
+
+
 
     public Address getAddress() {
-        return address;
+        if(address != null)
+            return address;
+        else{ counter=counter+1;
+        Address adresNull = new Address();
+        adresNull.setId(counter++);
+        return adresNull ;}
     }
 }
