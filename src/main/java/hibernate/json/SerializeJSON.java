@@ -1,14 +1,10 @@
 package hibernate.json;
 
-import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
 import com.fasterxml.jackson.datatype.joda.JodaModule;
-import hibernate.model.Actors;
-
 import java.io.File;
 import java.io.IOException;
-import java.nio.file.Path;
 import java.util.List;
 
 public class SerializeJSON {
@@ -21,7 +17,5 @@ public class SerializeJSON {
         } catch (IOException e) {
             e.printStackTrace();
         }
-
-
     }
 }

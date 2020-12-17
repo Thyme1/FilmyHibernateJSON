@@ -8,12 +8,28 @@
     <AddressId>2</AddressId>
   </item>
   <item>
+    <street>Cisowa</street>
+    <city>Warszawa</city>
+    <nr>11</nr>
+    <housenr>17</housenr>
+    <postcode>11111</postcode>
+    <AddressId>5</AddressId>
+  </item>
+  <item>
     <street>Angel</street>
     <city>Los Angeles</city>
     <nr>27</nr>
     <housenr/>
     <postcode>34561</postcode>
     <AddressId>3</AddressId>
+  </item>
+  <item>
+    <street>Double</street>
+    <city>Toronto</city>
+    <nr>17</nr>
+    <housenr>12</housenr>
+    <postcode>12122</postcode>
+    <AddressId>6</AddressId>
   </item>
   <item>
     <street>Lipowa</street>
@@ -30,21 +46,5 @@
     <housenr/>
     <postcode>22222</postcode>
     <AddressId>4</AddressId>
-  </item>
-  <item>
-    <street>Cisowa</street>
-    <city>Warszawa</city>
-    <nr>11</nr>
-    <housenr>17</housenr>
-    <postcode>11111</postcode>
-    <AddressId>5</AddressId>
-  </item>
-  <item>
-    <street>Double</street>
-    <city>Toronto</city>
-    <nr>17</nr>
-    <housenr>12</housenr>
-    <postcode>12122</postcode>
-    <AddressId>6</AddressId>
   </item>
 </ArrayList>

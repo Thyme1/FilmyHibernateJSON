@@ -9,7 +9,7 @@ import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlType;
 
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "address", propOrder = {
+@XmlType(name="address", propOrder={
         "idAdd",
         "street",
         "city",
@@ -19,26 +19,26 @@ import javax.xml.bind.annotation.XmlType;
 })
 
 @Entity
-@Table(name = "ADDRESSES")
+@Table(name="ADDRESSES")
 
 public class Address {
     @Id
-    @Column(name = "idAdd", nullable=false)
+    @Column(name="idAdd", nullable=false)
     private Long idAdd;
 
-    @Column(nullable = false)
+    @Column(nullable=false)
     String street;
 
     @Column
     String city;
 
-    @Column(length = 5)
+    @Column(length=5)
     String nr;
 
-    @Column(length = 5)
+    @Column(length=5)
     String housenr;
 
-    @Column(length = 5, nullable = false)
+    @Column(length=5, nullable=false)
     String postcode;
 
     @JsonProperty("AddressId")
@@ -48,7 +48,7 @@ public class Address {
     }
 
     public void setId(Long idAdd) {
-        this.idAdd = idAdd;
+        this.idAdd=idAdd;
     }
 
     public String getStreet() {
@@ -56,7 +56,7 @@ public class Address {
     }
 
     public void setStreet(String street) {
-        this.street = street;
+        this.street=street;
     }
 
     public String getCity() {
@@ -64,7 +64,7 @@ public class Address {
     }
 
     public void setCity(String city) {
-        this.city = city;
+        this.city=city;
     }
 
     public String getNr() {
@@ -72,7 +72,7 @@ public class Address {
     }
 
     public void setNr(String nr) {
-        this.nr = nr;
+        this.nr=nr;
     }
 
     public String getHousenr() {
@@ -80,7 +80,7 @@ public class Address {
     }
 
     public void setHousenr(String housenr) {
-        this.housenr = housenr;
+        this.housenr=housenr;
     }
 
     public String getPostcode() {
@@ -88,7 +88,7 @@ public class Address {
     }
 
     public void setPostcode(String postcode) {
-        this.postcode = postcode;
+        this.postcode=postcode;
     }
 
 }

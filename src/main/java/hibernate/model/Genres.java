@@ -5,16 +5,16 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "Genres")
+@Table(name="Genres")
 
 public class Genres {
 
 
-    @Column(name = "id",nullable = false)
+    @Column(name="id", nullable=false)
     @Id
     private Long id;
 
-    @Column(nullable = false)
+    @Column(nullable=false)
     String name;
 
     public Long getId() {
@@ -22,7 +22,7 @@ public class Genres {
     }
 
     public void setId(Long id) {
-        this.id = id;
+        this.id=id;
     }
 
     public String getName() {
@@ -30,7 +30,7 @@ public class Genres {
     }
 
     public void setName(String name) {
-        this.name = name;
+        this.name=name;
     }
 
 }

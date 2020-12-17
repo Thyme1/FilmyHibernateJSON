@@ -12,7 +12,6 @@
     "postcode" : "56789",
     "AddressId" : 2
   },
-  "movies" : null,
   "ActorId" : 1
 }, {
   "name" : "Brad",
@@ -28,7 +27,6 @@
     "postcode" : "34561",
     "AddressId" : 3
   },
-  "movies" : null,
   "ActorId" : 3
 }, {
   "name" : "Morgan",
@@ -44,7 +42,6 @@
     "postcode" : "12345",
     "AddressId" : 1
   },
-  "movies" : null,
   "ActorId" : 2
 }, {
   "name" : "Will",
@@ -60,6 +57,5 @@
     "postcode" : "22222",
     "AddressId" : 4
   },
-  "movies" : null,
   "ActorId" : 4
 } ]

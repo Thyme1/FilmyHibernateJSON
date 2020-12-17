@@ -9,8 +9,7 @@
     "housenr" : "17",
     "postcode" : "11111",
     "AddressId" : 5
-  },
-  "movies" : null
+  }
 }, {
   "id" : 2,
   "name" : "Steven",
@@ -22,6 +21,5 @@
     "housenr" : "12",
     "postcode" : "12122",
     "AddressId" : 6
-  },
-  "movies" : null
+  }
 } ]

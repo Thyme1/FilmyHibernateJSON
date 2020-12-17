@@ -20,41 +20,37 @@ public class DatabaseJSONApp {
         objectMapper.registerModule(new JodaModule());
         objectMapper.enable(SerializationFeature.INDENT_OUTPUT);
 
-        EntityManager entityManager = null;
-        EntityManagerFactory entityManagerFactory = null;
+        EntityManager entityManager=null;
+        EntityManagerFactory entityManagerFactory=null;
 
         try {
 
             // FACTORY NAME HAS TO MATCHED THE ONE FROM PERSISTED.XML !!!
-            entityManagerFactory = Persistence.createEntityManagerFactory("hibernate-dynamic");
+            entityManagerFactory=Persistence.createEntityManagerFactory("hibernate-dynamic");
 
-            entityManager = entityManagerFactory.createEntityManager();
-
+            entityManager=entityManagerFactory.createEntityManager();
 
 
             entityManager.getTransaction().begin();
 
 
-            List<Actors> actorsList = objectMapper.readValue(new File("src/main/resources/jsonR/actors.json"), objectMapper.getTypeFactory().constructCollectionType(List.class, Actors.class));
-            List<Address> addressList = objectMapper.readValue(new File("src/main/resources/jsonR/addresses.json"), objectMapper.getTypeFactory().constructCollectionType(List.class, Address.class));
-            List<Director> directorsList = objectMapper.readValue(new File("src/main/resources/jsonR/directors.json"), objectMapper.getTypeFactory().constructCollectionType(List.class, Director.class));
-            List<Genres> genresList = objectMapper.readValue(new File("src/main/resources/jsonR/genres.json"), objectMapper.getTypeFactory().constructCollectionType(List.class, Genres.class));
-            List<Movie> moviesList = objectMapper.readValue(new File("src/main/resources/jsonR/movies.json"), objectMapper.getTypeFactory().constructCollectionType(List.class, Movie.class));
-            List<MovieCast> movieCastList = objectMapper.readValue(new File("src/main/resources/jsonR/cast.json"), objectMapper.getTypeFactory().constructCollectionType(List.class, MovieCast.class));
+            List<Actors> actorsList=objectMapper.readValue(new File("src/main/resources/jsonR/actors.json"), objectMapper.getTypeFactory().constructCollectionType(List.class, Actors.class));
+            List<Address> addressList=objectMapper.readValue(new File("src/main/resources/jsonR/addresses.json"), objectMapper.getTypeFactory().constructCollectionType(List.class, Address.class));
+            List<Director> directorsList=objectMapper.readValue(new File("src/main/resources/jsonR/directors.json"), objectMapper.getTypeFactory().constructCollectionType(List.class, Director.class));
+            List<Genres> genresList=objectMapper.readValue(new File("src/main/resources/jsonR/genres.json"), objectMapper.getTypeFactory().constructCollectionType(List.class, Genres.class));
+            List<Movie> moviesList=objectMapper.readValue(new File("src/main/resources/jsonR/movies.json"), objectMapper.getTypeFactory().constructCollectionType(List.class, Movie.class));
+            List<MovieCast> movieCastList=objectMapper.readValue(new File("src/main/resources/jsonR/cast.json"), objectMapper.getTypeFactory().constructCollectionType(List.class, MovieCast.class));
 
 
-
-            for (int i=0; i < movieCastList.size(); i++) {
-                MovieCast movieCast=movieCastList.get(i);
+            for (MovieCast movieCast : movieCastList) {
                 entityManager.persist(movieCast);
                 System.out.println(movieCast);
             }
 
             OUTER_LOOP2:
-            for (int i=0; i < actorsList.size(); i++) {
-                Actors actors=actorsList.get(i);
-                for (int j=0; j < movieCastList.size(); j++) {
-                    if (actors.getId().equals(movieCastList.get(j).getActorId().getId())) {
+            for (Actors actors : actorsList) {
+                for (MovieCast movieCast : movieCastList) {
+                    if (actors.getId().equals(movieCast.getActorId().getId())) {
                         continue OUTER_LOOP2;
                     }
                 }
@@ -62,26 +58,52 @@ public class DatabaseJSONApp {
                 System.out.println(actors);
             }
 
+            OUTER_LOOP5:
+            for (Movie movie : moviesList) {
+                for (MovieCast movieCast : movieCastList) {
+                    if (movie.getId().equals(movieCast.getMovieId().getId())) {
+                        continue OUTER_LOOP5;
+                    }
+                }
+                entityManager.persist(movie);
+                System.out.println(movie);
+            }
+
+            OUTER_LOOP5D:
             for (Director director : directorsList) {
-                entityManager.persist(director);
-                System.out.println(director);
+                for (int j=0; j < moviesList.size(); j++) {
+                    if (director.getAddress().getId().equals(moviesList.get(j).getDirector().getAddress().getId())) {
+                        continue OUTER_LOOP5D;
+                    }
+                    for (Movie movie : moviesList) {
+                        if (director.getId().equals(movie.getDirector().getId())) {
+                            continue OUTER_LOOP5D;
+                        }
+                    }
+                    for (MovieCast movieCast : movieCastList) {
+                        if (director.getId().equals(movieCast.getMovie().getDirector().getId())) {
+                            continue OUTER_LOOP5D;
+                        }
+                    }
+                    entityManager.persist(director);
+                    System.out.println(director);
+                }
             }
 
 
             OUTER_LOOP:
-            for (int i=0; i < addressList.size(); i++) {
-                Address address=addressList.get(i);
-                for (int j=0; j < movieCastList.size(); j++) {
-                    if (address.getId().equals(movieCastList.get(j).getActorId().getAddress().getId())) {
+            for (Address address : addressList) {
+                for (MovieCast movieCast : movieCastList) {
+                    if (address.getId().equals(movieCast.getActorId().getAddress().getId())) {
                         continue OUTER_LOOP;
                     }
                 }
-                for (int j=0; j < actorsList.size(); j++) {
-                    if (address.getId().equals(actorsList.get(j).getAddress().getId())) {
+                for (Actors actors : actorsList) {
+                    if (address.getId().equals(actors.getAddress().getId())) {
                         continue OUTER_LOOP;
                     }
-                    for (int k=0; k < directorsList.size(); k++) {
-                        if (address.getId().equals(directorsList.get(k).getAddress().getId())) {
+                    for (Director director : directorsList) {
+                        if (address.getId().equals(director.getAddress().getId())) {
                             continue OUTER_LOOP;
                         }
                     }
@@ -91,52 +113,36 @@ public class DatabaseJSONApp {
                 System.out.println(address);
             }
 
-                for (Genres genres : genresList) {
+            for (Genres genres : genresList) {
 
-                    entityManager.persist(genres);
-                    System.out.println(genres);
-                }
-            OUTER_LOOP5:
-            for (Movie movie : moviesList) {
-                for (int j=0; j < movieCastList.size(); j++) {
-                    if (movie.getId().equals(movieCastList.get(j).getMovieId().getId())) {
-                        continue OUTER_LOOP5;
-                    }
-                }
-                entityManager.persist(movie);
-                System.out.println(movie);
+                entityManager.persist(genres);
+                System.out.println(genres);
             }
 
 
-
-
-
-
-
-
             //READ FROM DATABASE AND CREATE JSON
-            List<Actors> readActors = null;
-            readActors = entityManager.createQuery("SELECT  a FROM Actors a", Actors.class).getResultList();
+            List<Actors> readActors=null;
+            readActors=entityManager.createQuery("SELECT  a FROM Actors a", Actors.class).getResultList();
             serialize(readActors, "actors", "src/main/resources/jsonR/jsonFromBase/");
 
-            List<Address> readAddress = null;
-            readAddress = entityManager.createQuery("SELECT  a FROM Address a", Address.class).getResultList();
+            List<Address> readAddress=null;
+            readAddress=entityManager.createQuery("SELECT  a FROM Address a", Address.class).getResultList();
             serialize(readAddress, "addresses", "src/main/resources/jsonR/jsonFromBase/");
 
-            List<Director> readDirector = null;
-            readDirector = entityManager.createQuery("SELECT  a FROM Director a", Director.class).getResultList();
+            List<Director> readDirector=null;
+            readDirector=entityManager.createQuery("SELECT  a FROM Director a", Director.class).getResultList();
             serialize(readDirector, "directors", "src/main/resources/jsonR/jsonFromBase/");
 
-            List<Genres> readGenres = null;
-            readGenres = entityManager.createQuery("SELECT  a FROM Genres a", Genres.class).getResultList();
+            List<Genres> readGenres=null;
+            readGenres=entityManager.createQuery("SELECT  a FROM Genres a", Genres.class).getResultList();
             serialize(readGenres, "genres", "src/main/resources/jsonR/jsonFromBase/");
 
-            List<Movie> readMovies = null;
-            readMovies = entityManager.createQuery("SELECT  a FROM Movie a", Movie.class).getResultList();
+            List<Movie> readMovies=null;
+            readMovies=entityManager.createQuery("SELECT  a FROM Movie a", Movie.class).getResultList();
             serialize(readMovies, "movie", "src/main/resources/jsonR/jsonFromBase/");
 
-            List<MovieCast> readMovieCast = null;
-            readMovieCast = entityManager.createQuery("SELECT  a FROM MovieCast a", MovieCast.class).getResultList();
+            List<MovieCast> readMovieCast=null;
+            readMovieCast=entityManager.createQuery("SELECT  a FROM MovieCast a", MovieCast.class).getResultList();
             serialize(readMovieCast, "movieCast", "src/main/resources/jsonR/jsonFromBase/");
 
             entityManager.close();

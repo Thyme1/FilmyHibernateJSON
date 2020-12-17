@@ -1,32 +1,30 @@
 package hibernate.model;
 
-import com.fasterxml.jackson.annotation.JsonManagedReference;
-
 import javax.persistence.*;
 import javax.persistence.Id;
 import javax.persistence.Table;
 import java.util.Set;
 
 @Entity
-@Table(name = "Directors")
+@Table(name="Directors")
 
 public class Director {
 
-    @Column(name = "id", nullable=false)
+    @Column(name="id", nullable=false)
     @Id
     private Long id;
 
-    @Column(nullable = false)
+    @Column(nullable=false)
     String name;
 
-    @Column(nullable = false)
+    @Column(nullable=false)
     String surname;
 
-    @OneToOne(cascade = CascadeType.PERSIST, fetch=FetchType.EAGER)
-    @JoinColumn(name="add_id", referencedColumnName = "idAdd")
+    @OneToOne(cascade=CascadeType.PERSIST, fetch=FetchType.EAGER)
+    @JoinColumn(name="add_id", referencedColumnName="idAdd")
     Address address;
 
-    @OneToMany(mappedBy="director",fetch=FetchType.EAGER)
+    @OneToMany(mappedBy="director", fetch=FetchType.EAGER)
     private Set<Movie> movies;
 
     Set<Movie> getMovies() {
@@ -42,7 +40,7 @@ public class Director {
     }
 
     public void setId(Long id) {
-        this.id = id;
+        this.id=id;
     }
 
     public String getName() {
@@ -50,7 +48,7 @@ public class Director {
     }
 
     public void setName(String name) {
-        this.name = name;
+        this.name=name;
     }
 
     public String getSurname() {
@@ -58,7 +56,7 @@ public class Director {
     }
 
     public void setSurname(String city) {
-        this.surname = city;
+        this.surname=city;
     }
 
     public Address getAddress() {
@@ -66,7 +64,7 @@ public class Director {
     }
 
     public void setAddress(Address address) {
-        this.address = address;
+        this.address=address;
     }
 
 }

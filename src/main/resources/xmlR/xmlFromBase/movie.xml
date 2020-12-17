@@ -7,7 +7,19 @@
     <releaseDate>2020-12-17</releaseDate>
     <releaseCountry>USA</releaseCountry>
     <movieGenre>comedy</movieGenre>
-    <director/>
+    <director>
+      <id>1</id>
+      <name>Martin</name>
+      <surname>Scorsese</surname>
+      <address>
+        <street>Cisowa</street>
+        <city>Warszawa</city>
+        <nr>11</nr>
+        <housenr>17</housenr>
+        <postcode>11111</postcode>
+        <AddressId>5</AddressId>
+      </address>
+    </director>
   </item>
   <item>
     <id>2</id>
@@ -17,6 +29,18 @@
     <releaseDate>2003-05-19</releaseDate>
     <releaseCountry>USA</releaseCountry>
     <movieGenre>drama</movieGenre>
-    <director/>
+    <director>
+      <id>2</id>
+      <name>Steven</name>
+      <surname>Spielberg</surname>
+      <address>
+        <street>Double</street>
+        <city>Toronto</city>
+        <nr>17</nr>
+        <housenr>12</housenr>
+        <postcode>12122</postcode>
+        <AddressId>6</AddressId>
+      </address>
+    </director>
   </item>
 </ArrayList>

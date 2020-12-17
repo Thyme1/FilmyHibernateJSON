@@ -6,12 +6,26 @@
   "postcode" : "56789",
   "AddressId" : 2
 }, {
+  "street" : "Cisowa",
+  "city" : "Warszawa",
+  "nr" : "11",
+  "housenr" : "17",
+  "postcode" : "11111",
+  "AddressId" : 5
+}, {
   "street" : "Angel",
   "city" : "Los Angeles",
   "nr" : "27",
   "housenr" : null,
   "postcode" : "34561",
   "AddressId" : 3
+}, {
+  "street" : "Double",
+  "city" : "Toronto",
+  "nr" : "17",
+  "housenr" : "12",
+  "postcode" : "12122",
+  "AddressId" : 6
 }, {
   "street" : "Lipowa",
   "city" : "Poznan",
@@ -26,18 +40,4 @@
   "housenr" : null,
   "postcode" : "22222",
   "AddressId" : 4
-}, {
-  "street" : "Cisowa",
-  "city" : "Warszawa",
-  "nr" : "11",
-  "housenr" : "17",
-  "postcode" : "11111",
-  "AddressId" : 5
-}, {
-  "street" : "Double",
-  "city" : "Toronto",
-  "nr" : "17",
-  "housenr" : "12",
-  "postcode" : "12122",
-  "AddressId" : 6
 } ]

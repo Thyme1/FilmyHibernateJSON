@@ -6,7 +6,19 @@
   "releaseDate" : "2020-12-17",
   "releaseCountry" : "USA",
   "movieGenre" : "comedy",
-  "actors" : null
+  "director" : {
+    "id" : 1,
+    "name" : "Martin",
+    "surname" : "Scorsese",
+    "address" : {
+      "street" : "Cisowa",
+      "city" : "Warszawa",
+      "nr" : "11",
+      "housenr" : "17",
+      "postcode" : "11111",
+      "AddressId" : 5
+    }
+  }
 }, {
   "id" : 2,
   "title" : "Mank",
@@ -15,5 +27,17 @@
   "releaseDate" : "2003-05-19",
   "releaseCountry" : "USA",
   "movieGenre" : "drama",
-  "actors" : null
+  "director" : {
+    "id" : 2,
+    "name" : "Steven",
+    "surname" : "Spielberg",
+    "address" : {
+      "street" : "Double",
+      "city" : "Toronto",
+      "nr" : "17",
+      "housenr" : "12",
+      "postcode" : "12122",
+      "AddressId" : 6
+    }
+  }
 } ]

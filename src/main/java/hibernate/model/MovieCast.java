@@ -1,32 +1,33 @@
 package hibernate.model;
 
-import com.fasterxml.jackson.annotation.JsonBackReference;
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.fasterxml.jackson.annotation.JsonManagedReference;
 
 import javax.persistence.*;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "MovieCast")
+@Table(name="MovieCast")
 
 public class MovieCast {
 
 
-    @Column(name = "id")
+    @Column(name="id")
     @Id
     private Long id;
 
-    @Column(nullable = false)
+    @Column(nullable=false)
     String role;
 
-    @ManyToOne(fetch = FetchType.EAGER,cascade=CascadeType.ALL)
+    @ManyToOne(fetch=FetchType.EAGER, cascade=CascadeType.ALL)
+//    @JsonManagedReference(value="act")
+    @JsonIgnore
     @JoinColumn(name="actorId", nullable=false)
     private Actors actorId;
 
-    @ManyToOne(cascade=CascadeType.ALL,fetch=FetchType.EAGER)
+    @ManyToOne(cascade=CascadeType.ALL, fetch=FetchType.EAGER)
     @JoinColumn(name="movieId", nullable=false)
+    @JsonIgnore
     private Movie movieId;
 
 
@@ -46,7 +47,9 @@ public class MovieCast {
         this.actorId=actor;
     }
 
-    public MovieCast() {}
+    public MovieCast() {
+    }
+
     public Actors getActorId() {
         return actorId;
     }
@@ -62,6 +65,7 @@ public class MovieCast {
     public void setMovieId(Movie movieId) {
         this.movieId=movieId;
     }
+
     public String getRole() {
         return role;
     }
@@ -69,6 +73,7 @@ public class MovieCast {
     public void setRole(String role) {
         this.role=role;
     }
+
     public Long getId() {
         return id;
     }

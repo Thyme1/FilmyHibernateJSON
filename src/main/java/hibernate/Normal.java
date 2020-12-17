@@ -3,6 +3,7 @@ package hibernate;
 import hibernate.model.*;
 import hibernate.queries.Queries;
 import org.joda.time.DateTime;
+
 import javax.persistence.*;
 import java.util.ArrayList;
 import java.util.HashSet;
@@ -11,7 +12,7 @@ import java.util.Set;
 
 import static hibernate.json.SerializeJSON.serialize;
 import static hibernate.xml.SerializeXML.serializexml;
-import hibernate.model.Actors.*;
+
 
 public class Normal {
 
@@ -19,25 +20,22 @@ public class Normal {
 
         System.out.println("Start");
 
-        EntityManager entityManager = null;
+        EntityManager entityManager=null;
 
-        EntityManagerFactory entityManagerFactory = null;
+        EntityManagerFactory entityManagerFactory=null;
 
         try {
 
             // FACTORY NAME HAS TO MATCHED THE ONE FROM PERSISTED.XML !!!
-            entityManagerFactory = Persistence.createEntityManagerFactory("hibernate-dynamic");
+            entityManagerFactory=Persistence.createEntityManagerFactory("hibernate-dynamic");
 
-            entityManager = entityManagerFactory.createEntityManager();
+            entityManager=entityManagerFactory.createEntityManager();
 
             entityManager.getTransaction().begin();
 
 
-
-
-
             //TWORZYMY ADRESY
-            Address address1 = new Address();
+            Address address1=new Address();
             address1.setCity("Poznan");
             address1.setStreet("Lipowa");
             address1.setNr("23");
@@ -46,8 +44,7 @@ public class Normal {
             address1.setId(1L);
 
 
-
-            Address address2 = new Address();
+            Address address2=new Address();
             address2.setCity("Nowy Jork");
             address2.setStreet("Oak");
             address2.setNr("12");
@@ -55,7 +52,7 @@ public class Normal {
             address2.setHousenr("122");
             address2.setId(2L);
 
-            Address address3 = new Address();
+            Address address3=new Address();
             address3.setCity("Los Angeles");
             address3.setStreet("Angel");
             address3.setNr("27");
@@ -63,7 +60,7 @@ public class Normal {
             address1.setHousenr("14");
             address3.setId(3L);
 
-            Address address4 = new Address();
+            Address address4=new Address();
             address4.setCity("Las Vegas");
             address4.setStreet("Sesame");
             address4.setNr("213");
@@ -71,7 +68,7 @@ public class Normal {
             address1.setHousenr("16");
             address4.setId(4L);
 
-            Address address5 = new Address();
+            Address address5=new Address();
             address5.setCity("Warszawa");
             address5.setStreet("Cisowa");
             address5.setNr("11");
@@ -80,7 +77,7 @@ public class Normal {
             address5.setId(5L);
 
 
-            Address address6 = new Address();
+            Address address6=new Address();
             address6.setCity("Toronto");
             address6.setStreet("Double");
             address6.setNr("17");
@@ -89,7 +86,7 @@ public class Normal {
             address6.setId(6L);
 
             //TWORZYMY AKTOROW
-            Actors actor1 = new Actors();
+            Actors actor1=new Actors();
             actor1.setName("Johnny");
             actor1.setSurname("Depp");
             actor1.setAge(35);
@@ -99,8 +96,7 @@ public class Normal {
             actor1.setId(1L);
 
 
-
-            Actors actor2 = new Actors();
+            Actors actor2=new Actors();
             actor2.setName("Morgan");
             actor2.setSurname("Freeman");
             actor2.setAge(56);
@@ -109,7 +105,7 @@ public class Normal {
             actor2.setAddress(address1);
             actor2.setId(2L);
 
-            Actors actor3 = new Actors();
+            Actors actor3=new Actors();
             actor3.setName("Brad");
             actor3.setSurname("Pitt");
             actor3.setAge(35);
@@ -119,7 +115,7 @@ public class Normal {
             actor3.setAddress(address3);
             actor3.setId(3L);
 
-            Actors actor4 = new Actors();
+            Actors actor4=new Actors();
             actor4.setName("Will");
             actor4.setSurname("Smith");
             actor4.setAge(41);
@@ -130,7 +126,7 @@ public class Normal {
             actor4.setId(4L);
 
             //TWORZYMY FILM
-            Movie movie = new Movie();
+            Movie movie=new Movie();
             movie.setTitle("Pirates of the Caribbean");
             movie.setLanguage("English");
             movie.setReleaseCountry("USA");
@@ -139,7 +135,8 @@ public class Normal {
             movie.setReleaseDate(DateTime.now());
             movie.setId(1L);
 
-            Movie movie2 = new Movie();
+
+            Movie movie2=new Movie();
             movie2.setTitle("Mank");
             movie2.setLanguage("English");
             movie2.setReleaseCountry("USA");
@@ -149,53 +146,61 @@ public class Normal {
             movie2.setId(2L);
 
             //TWORZYMY REZYSEROW
-            Director director = new Director();
+            Director director=new Director();
             director.setName("Martin");
             director.setSurname("Scorsese");
             director.setId(1L);
             director.setAddress(address5);
+            movie.setDirector(director);
 
-            Director director2 = new Director();
+
+            Director director2=new Director();
             director2.setName("Steven");
             director2.setSurname("Spielberg");
             director2.setId(2L);
             director2.setAddress(address6);
+            movie2.setDirector(director2);
 
 
             //TWORZYMY OBSADE
-            MovieCast cast = new MovieCast();
+            MovieCast cast=new MovieCast();
             cast.setActor(actor1);
             cast.setMovie(movie);
             cast.setRole("pirat");
             cast.setId(1L);
 
-            Set<MovieCast> castSet1 = new HashSet<>();
+            Set<MovieCast> castSet1=new HashSet<>();
             castSet1.add(cast);
             actor1.setMovies(castSet1);
+            movie.setActors(castSet1);
 
 
-            MovieCast cast2 = new MovieCast();
+
+            MovieCast cast2=new MovieCast();
             cast2.setActor(actor3);
             cast2.setMovie(movie2);
             cast2.setRole("monk");
             cast2.setId(2L);
+            Set<MovieCast> castSet2=new HashSet<>();
+            castSet2.add(cast2);
+            movie2.setActors(castSet2);
 
             //TWORZYMY GATUNEK
-            Genres genre = new Genres();
+            Genres genre=new Genres();
             genre.setName("comedy");
             genre.setId(1L);
 
-            Genres genre2 = new Genres();
+            Genres genre2=new Genres();
             genre2.setName("drama");
             genre2.setId(2L);
 
-            List<Actors> aktorzy= new ArrayList<>();
+            List<Actors> aktorzy=new ArrayList<>();
             aktorzy.add(actor1);
             aktorzy.add(actor2);
             aktorzy.add(actor3);
             aktorzy.add(actor4);
 
-            List<Address> adresy = new ArrayList<>();
+            List<Address> adresy=new ArrayList<>();
             adresy.add(address1);
             adresy.add(address2);
             adresy.add(address3);
@@ -203,35 +208,36 @@ public class Normal {
             adresy.add(address5);
             adresy.add(address6);
 
-            List<Director> rezyserowie = new ArrayList<>();
+            List<Director> rezyserowie=new ArrayList<>();
             rezyserowie.add(director);
             rezyserowie.add(director2);
 
-            List<Genres> gatunki = new ArrayList<>();
+            List<Genres> gatunki=new ArrayList<>();
             gatunki.add(genre);
             gatunki.add(genre2);
 
-            List<Movie> filmy = new ArrayList<>();
+            List<Movie> filmy=new ArrayList<>();
             filmy.add(movie);
             filmy.add(movie2);
 
-            List<MovieCast> obsada = new ArrayList<>();
+            List<MovieCast> obsada=new ArrayList<>();
             obsada.add(cast);
             obsada.add(cast2);
 
-            serialize(aktorzy, "actors", "src/main/resources/jsonR/");
-            serialize(adresy, "addresses","src/main/resources/jsonR/" );
-            serialize(rezyserowie, "directors","src/main/resources/jsonR/");
-            serialize(gatunki, "genres","src/main/resources/jsonR/");
-            serialize(filmy, "movies","src/main/resources/jsonR/");
-            serialize(obsada, "cast","src/main/resources/jsonR/");
 
-            serializexml(aktorzy, "actors","src/main/resources/xmlR/");
-            serializexml(adresy, "addresses","src/main/resources/xmlR/");
-            serializexml(rezyserowie, "directors","src/main/resources/xmlR/");
-            serializexml(gatunki, "genres","src/main/resources/xmlR/");
-            serializexml(filmy, "movies","src/main/resources/xmlR/");
-            serializexml(obsada, "cast","src/main/resources/xmlR/");
+            serialize(aktorzy, "actors", "src/main/resources/jsonR/");
+            serialize(adresy, "addresses", "src/main/resources/jsonR/");
+            serialize(rezyserowie, "directors", "src/main/resources/jsonR/");
+            serialize(gatunki, "genres", "src/main/resources/jsonR/");
+            serialize(filmy, "movies", "src/main/resources/jsonR/");
+            serialize(obsada, "cast", "src/main/resources/jsonR/");
+
+            serializexml(aktorzy, "actors", "src/main/resources/xmlR/");
+            serializexml(adresy, "addresses", "src/main/resources/xmlR/");
+            serializexml(rezyserowie, "directors", "src/main/resources/xmlR/");
+            serializexml(gatunki, "genres", "src/main/resources/xmlR/");
+            serializexml(filmy, "movies", "src/main/resources/xmlR/");
+            serializexml(obsada, "cast", "src/main/resources/xmlR/");
 
 
             for (Actors actors : aktorzy) {
@@ -268,7 +274,6 @@ public class Normal {
             getActorsWithSalaryHigherThan(entityManager, 100);
 
 
-
             entityManager.close();
 
         } catch (Throwable ex) {
@@ -280,40 +285,41 @@ public class Normal {
 
     }
 
-    public static void getActorByName(EntityManager entityManager, String name)  {
-        List<Actors> actors = new Queries(entityManager).getActorBySurname(name);
-        for (int i=0;i < actors.size() ; i++){
-       System.out.println("I got a person " + actors.get(i).getName());}
+    public static void getActorByName(EntityManager entityManager, String name) {
+        List<Actors> actors=new Queries(entityManager).getActorBySurname(name);
+        for (int i=0; i < actors.size(); i++) {
+            System.out.println("I got a person " + actors.get(i).getName());
+        }
     }
-    public static void getMoviesByGenre(EntityManager entityManager, String name)  {
-        List<Movie> movies = new Queries(entityManager).getMoviesByGenre(name);
+
+    public static void getMoviesByGenre(EntityManager entityManager, String name) {
+        List<Movie> movies=new Queries(entityManager).getMoviesByGenre(name);
         for (int i=0; i < movies.size(); i++) {
             Movie movie=movies.get(i);
             System.out.println("I got a movie " + movie.getTitle());
         }
     }
 
-    public static void getActorsByGender(EntityManager entityManager, String gender)  {
-        List<Actors> actors2 = new Queries(entityManager).getActorsByGender(gender);
+    public static void getActorsByGender(EntityManager entityManager, String gender) {
+        List<Actors> actors2=new Queries(entityManager).getActorsByGender(gender);
         for (Actors actors : actors2) {
-            System.out.println("I got a actor " + actors.getName() +" "+ actors.getSurname());
+            System.out.println("I got a actor " + actors.getName() + " " + actors.getSurname());
         }
     }
-    public static void getAllActorsByPage(EntityManager entityManager, int n)  {
-        List<Actors> actors = new Queries(entityManager).getAllActorsByPage(n);
+
+    public static void getAllActorsByPage(EntityManager entityManager, int n) {
+        List<Actors> actors=new Queries(entityManager).getAllActorsByPage(n);
         for (Actors actor : actors) {
             System.out.println("I got a person " + actor.getName());
         }
     }
 
-    public static void getActorsWithSalaryHigherThan(EntityManager entityManager, Integer salary)  {
-        List<Actors> actors2 = new Queries(entityManager).getActorsBySalaryHigherThan(salary);
+    public static void getActorsWithSalaryHigherThan(EntityManager entityManager, Integer salary) {
+        List<Actors> actors2=new Queries(entityManager).getActorsBySalaryHigherThan(salary);
         for (Actors actors : actors2) {
-            System.out.println("I got a actor " + actors.getName() +" "+ actors.getSurname());
+            System.out.println("I got a actor " + actors.getName() + " " + actors.getSurname());
         }
     }
-
-
 
 
 }
