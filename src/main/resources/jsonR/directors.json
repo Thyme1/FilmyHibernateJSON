@@ -1,9 +1,9 @@
 [ {
-  "refId" : 1,
+  "id" : 1,
   "name" : "Martin",
   "surname" : "Scorsese"
 }, {
-  "refId" : 2,
+  "id" : 2,
   "name" : "Steven",
   "surname" : "Spielberg"
 } ]

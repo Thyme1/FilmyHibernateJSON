@@ -15,16 +15,15 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name = "MovieCast")
-@JsonIdentityInfo(generator= ObjectIdGenerators.IntSequenceGenerator.class,
-        property="refId", scope=MovieCast.class)
+
 public class MovieCast {
+
+
 
 
     @Column(name = "id")
     @Id
-    @JsonIgnore
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int id;
+    private Long id;
 
 
     @Column(nullable = false)
@@ -32,17 +31,13 @@ public class MovieCast {
 
     @ManyToOne(fetch = FetchType.EAGER,cascade=CascadeType.ALL)
     @JoinColumn(name="actorId", nullable=false)
-    @JsonBackReference(value="mvCast")
-    @Fetch(FetchMode.SELECT)
 
     private Actors actorId;
 
 
 
-    @ManyToOne(fetch = FetchType.EAGER,cascade=CascadeType.ALL)
+    @ManyToOne(cascade=CascadeType.ALL,fetch=FetchType.EAGER)
     @JoinColumn(name="movieId", nullable=false)
-    @JsonBackReference(value="act")
-    @Fetch (FetchMode.SELECT)
     private Movie movieId;
 
 
@@ -70,8 +65,15 @@ public class MovieCast {
         return role;
     }
 
-   public void setRole(String role) {
+    public void setRole(String role) {
         this.role=role;
+    }
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id=id;
     }
 
 

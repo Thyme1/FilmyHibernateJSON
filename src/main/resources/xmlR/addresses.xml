@@ -1,34 +1,34 @@
 <ArrayList>
   <item>
-    <refId>1</refId>
     <street>Lipowa</street>
     <city>Poznan</city>
     <nr>23</nr>
     <housenr/>
     <postcode>12345</postcode>
+    <id>1</id>
   </item>
   <item>
-    <refId>2</refId>
     <street>Oak</street>
     <city>Nowy Jork</city>
     <nr>12</nr>
     <housenr/>
     <postcode>56789</postcode>
+    <id>2</id>
   </item>
   <item>
-    <refId>3</refId>
     <street>Angel</street>
     <city>Los Angeles</city>
     <nr>27</nr>
     <housenr/>
     <postcode>34561</postcode>
+    <id>3</id>
   </item>
   <item>
-    <refId>4</refId>
     <street>Sesame</street>
     <city>Las Vegas</city>
     <nr>213</nr>
     <housenr/>
     <postcode>22222</postcode>
+    <id>4</id>
   </item>
 </ArrayList>

@@ -13,16 +13,13 @@ import java.util.Set;
 
 @Entity
 @Table(name = "Directors")
-@JsonIdentityInfo(generator= ObjectIdGenerators.IntSequenceGenerator.class,
-        property="refId", scope=Director.class)
+
 public class Director {
 
 
     @Column(name = "id", nullable=false)
     @Id
-    @JsonIgnore
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int id;
+    private Long id;
 
     @Column(nullable = false)
     String name;
@@ -35,7 +32,7 @@ public class Director {
 //    @JoinColumn(name="add_id", referencedColumnName = "id")
 //    Address address;
 
-    @OneToMany(mappedBy="director")
+    @OneToMany(mappedBy="director",fetch=FetchType.EAGER)
     private Set<Movie> movies;
 
     Set<Movie> getMovies() {
@@ -46,11 +43,11 @@ public class Director {
         this.movies=movies;
     }
 
-    public int getId() {
+    public Long getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(Long id) {
         this.id = id;
     }
 

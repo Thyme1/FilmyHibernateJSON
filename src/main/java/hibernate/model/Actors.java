@@ -32,19 +32,15 @@ import java.util.*;
 @Table(name = "actors")
 
 
-@JsonIdentityInfo(generator= ObjectIdGenerators.IntSequenceGenerator.class,
-        property="idA", scope=Actors.class)
+
 
 
 public class Actors {
 
     @Id
-    @SequenceGenerator(name="generator")
-    @GeneratedValue
-    @Column(name = "id")
-    @XmlAttribute(name = "id", required = true)
-    @JsonIgnore
-    private int id;
+    @Column(name = "idAct", nullable=false)
+    @XmlAttribute(name = "idAct", required = true)
+    private Long idAct;
 
 
     @Column(nullable = false)
@@ -67,14 +63,11 @@ public class Actors {
     String favGenre;
 
 
-    @OneToOne(cascade = CascadeType.PERSIST, fetch=FetchType.EAGER)
-    @Fetch( FetchMode.SELECT)
-    @JoinColumn(name="address_id", referencedColumnName = "id")
+    @OneToOne(fetch=FetchType.EAGER,cascade=CascadeType.PERSIST)
+    @JoinColumn(name="address_id", referencedColumnName = "idAdd")
     Address address;
 
-    @OneToMany(mappedBy="actorId", fetch=FetchType.EAGER)
-    @Fetch (FetchMode.SELECT)
-    @JsonManagedReference(value="mvCast")
+    @OneToMany(mappedBy="actorId",fetch=FetchType.EAGER)
     private Set<MovieCast> movies;
 
 
@@ -100,12 +93,12 @@ public class Actors {
         this.favGenre=favGenre;
     }
 
-    public int getId() {
-        return id;
+    public Long getId() {
+        return idAct;
     }
 
-    public void setId(int id) {
-        this.id = id;
+    public void setId(Long id) {
+        this.idAct = id;
     }
 
     public String getName() {

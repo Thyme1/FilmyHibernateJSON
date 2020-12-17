@@ -5,7 +5,11 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
 import com.fasterxml.jackson.datatype.joda.JodaModule;
 import hibernate.model.*;
+import org.hibernate.Criteria;
+import org.hibernate.Session;
+
 import javax.persistence.*;
+import javax.persistence.criteria.CriteriaBuilder;
 import java.io.File;
 import java.io.IOException;
 import java.util.*;
@@ -30,68 +34,78 @@ public class DatabaseJSONApp {
 
             entityManager = entityManagerFactory.createEntityManager();
 
+
+
             entityManager.getTransaction().begin();
-            List<Address> addressList = objectMapper.readValue(new File("src/main/resources/jsonR/addresses.json"), objectMapper.getTypeFactory().constructCollectionType(List.class, Address.class));
+
+
             List<Actors> actorsList = objectMapper.readValue(new File("src/main/resources/jsonR/actors.json"), objectMapper.getTypeFactory().constructCollectionType(List.class, Actors.class));
+            List<Address> addressList = objectMapper.readValue(new File("src/main/resources/jsonR/addresses.json"), objectMapper.getTypeFactory().constructCollectionType(List.class, Address.class));
             List<Director> directorsList = objectMapper.readValue(new File("src/main/resources/jsonR/directors.json"), objectMapper.getTypeFactory().constructCollectionType(List.class, Director.class));
             List<Genres> genresList = objectMapper.readValue(new File("src/main/resources/jsonR/genres.json"), objectMapper.getTypeFactory().constructCollectionType(List.class, Genres.class));
             List<Movie> moviesList = objectMapper.readValue(new File("src/main/resources/jsonR/movies.json"), objectMapper.getTypeFactory().constructCollectionType(List.class, Movie.class));
             List<MovieCast> movieCastList = objectMapper.readValue(new File("src/main/resources/jsonR/cast.json"), objectMapper.getTypeFactory().constructCollectionType(List.class, MovieCast.class));
-            Collection result = new LinkedHashSet(addressList);
-            Collection result2 = new LinkedHashSet(actorsList);
 
 
 
+            try {
+                for (int i=0; i < actorsList.size(); i++) {
+                    Actors actors=actorsList.get(i);
+                    entityManager.persist(actors);
+                    System.out.println(actors);
+                }
+                for (int i=0; i < addressList.size(); i++) {
+                    Address address=addressList.get(i);
+                    entityManager.persist(address);
+                    System.out.println(address);
+                }
+                for (Director director : directorsList) {
+                    entityManager.persist(director);
+                    System.out.println(director);
+                }
+                for (Genres genres : genresList) {
+                    entityManager.persist(genres);
+                    System.out.println(genres);
+                }
+                for (Movie movie : moviesList) {
+                    entityManager.persist(movie);
+                    System.out.println(movie);
+                }
+                for (MovieCast movieCast : movieCastList) {
+                    entityManager.persist(movieCast);
+                    System.out.println(movieCast);
+                }
+            }catch(EntityExistsException e){
 
-            Enumeration e = new Vector(result).elements();
-            while (e.hasMoreElements()) {
-                entityManager.persist(e.nextElement());
+
+
             }
 
-            Enumeration e2 = new Vector(result).elements();
-            while (e2.hasMoreElements()) {
-                entityManager.persist(e2.nextElement());
-            }
-            for (Director director : directorsList) {
-                entityManager.persist(director);
-                System.out.println(director);
-            }
-            for (Genres genres : genresList) {
-                entityManager.persist(genres);
-                System.out.println(genres);
-            }
-            for (Movie movie : moviesList) {
-                entityManager.persist(movie);
-                System.out.println(movie);
-            }
-            for (MovieCast movieCast : movieCastList) {
-                entityManager.persist(movieCast);
-                System.out.println(movieCast);
-            }
+
 
             //READ FROM DATABASE AND CREATE JSON
             List<Actors> readActors = null;
-            readActors = entityManager.createQuery("SELECT a FROM Actors a", Actors.class).getResultList();
+            readActors = entityManager.createQuery("SELECT  a FROM Actors a", Actors.class).getResultList();
             serialize(readActors, "actors", "src/main/resources/jsonR/jsonFromBase/");
 
             List<Address> readAddress = null;
-            readAddress = entityManager.createQuery("SELECT a FROM Address a", Address.class).getResultList();
+            readAddress = entityManager.createQuery("SELECT  a FROM Address a", Address.class).getResultList();
             serialize(readAddress, "addresses", "src/main/resources/jsonR/jsonFromBase/");
 
             List<Director> readDirector = null;
-            readDirector = entityManager.createQuery("SELECT a FROM Director a", Director.class).getResultList();
+            readDirector = entityManager.createQuery("SELECT  a FROM Director a", Director.class).getResultList();
             serialize(readDirector, "directors", "src/main/resources/jsonR/jsonFromBase/");
 
             List<Genres> readGenres = null;
-            readGenres = entityManager.createQuery("SELECT a FROM Genres a", Genres.class).getResultList();
+            readGenres = entityManager.createQuery("SELECT  a FROM Genres a", Genres.class).getResultList();
             serialize(readGenres, "genres", "src/main/resources/jsonR/jsonFromBase/");
 
             List<Movie> readMovies = null;
-            readMovies = entityManager.createQuery("SELECT a FROM Movie a", Movie.class).getResultList();
+            readMovies = entityManager.createQuery("SELECT  a FROM Movie a", Movie.class).getResultList();
             serialize(readMovies, "movie", "src/main/resources/jsonR/jsonFromBase/");
 
             List<MovieCast> readMovieCast = null;
-            readMovieCast = entityManager.createQuery("SELECT a FROM MovieCast a", MovieCast.class).getResultList();
+            readMovieCast = entityManager.createQuery("SELECT  a FROM MovieCast a", MovieCast.class).getResultList();
             serialize(readMovieCast, "movieCast", "src/main/resources/jsonR/jsonFromBase/");
 
             entityManager.close();

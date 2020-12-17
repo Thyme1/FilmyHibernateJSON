@@ -16,7 +16,7 @@ import javax.xml.bind.annotation.XmlType;
 
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "address", propOrder = {
-        "id",
+        "idAdd",
         "street",
         "city",
         "nr",
@@ -26,16 +26,11 @@ import javax.xml.bind.annotation.XmlType;
 
 @Entity
 @Table(name = "ADDRESSES")
-@JsonIdentityInfo(generator= ObjectIdGenerators.IntSequenceGenerator.class,
-        property="refId")
-public class Address {
-    @Fetch( FetchMode.SELECT)
-    @Id
-    @JsonIgnore
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "id")
 
-    private int id;
+public class Address {
+    @Id
+    @Column(name = "idAdd", nullable=false)
+    private Long idAdd;
 
     @Column(nullable = false)
     String street;
@@ -52,12 +47,12 @@ public class Address {
     @Column(length = 5, nullable = false)
     String postcode;
 
-    public int getId() {
-        return id;
+    public Long getId() {
+        return idAdd;
     }
 
-    public void setId(int id) {
-        this.id = id;
+    public void setId(Long id) {
+        this.idAdd = id;
     }
 
     public String getStreet() {

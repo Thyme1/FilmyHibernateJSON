@@ -1,11 +1,11 @@
 <ArrayList>
   <item>
-    <refId>1</refId>
+    <id>1</id>
     <name>Martin</name>
     <surname>Scorsese</surname>
   </item>
   <item>
-    <refId>2</refId>
+    <id>2</id>
     <name>Steven</name>
     <surname>Spielberg</surname>
   </item>

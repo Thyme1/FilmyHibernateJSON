@@ -1,20 +1,20 @@
 <ArrayList>
   <item>
-    <refId>1</refId>
+    <id>1</id>
     <title>Pirates of the Caribbean</title>
     <time>134</time>
     <language>English</language>
-    <releaseDate>2020-12-16 21:07:47.345+0000</releaseDate>
+    <releaseDate>2020-12-16 23:12:35.285+0000</releaseDate>
     <releaseCountry>USA</releaseCountry>
     <movieGenre>comedy</movieGenre>
     <director/>
   </item>
   <item>
-    <refId>2</refId>
+    <id>2</id>
     <title>Mank</title>
     <time>134</time>
     <language>English</language>
-    <releaseDate>2020-12-16 21:07:47.365+0000</releaseDate>
+    <releaseDate>2020-12-16 23:12:35.306+0000</releaseDate>
     <releaseCountry>USA</releaseCountry>
     <movieGenre>drama</movieGenre>
     <director/>

@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import java.util.List;
 import static hibernate.json.SerializeJSON.serialize;
 import static hibernate.xml.SerializeXML.serializexml;
-
+import hibernate.model.Actors.*;
 
 public class Normal {
 
@@ -39,24 +39,28 @@ public class Normal {
             address1.setStreet("Lipowa");
             address1.setNr("23");
             address1.setPostcode("12345");
+            address1.setId(1L);
 
             Address address2 = new Address();
             address2.setCity("Nowy Jork");
             address2.setStreet("Oak");
             address2.setNr("12");
             address2.setPostcode("56789");
+            address2.setId(2L);
 
             Address address3 = new Address();
             address3.setCity("Los Angeles");
             address3.setStreet("Angel");
             address3.setNr("27");
             address3.setPostcode("34561");
+            address3.setId(3L);
 
             Address address4 = new Address();
             address4.setCity("Las Vegas");
             address4.setStreet("Sesame");
             address4.setNr("213");
             address4.setPostcode("22222");
+            address4.setId(4L);
 
             //TWORZYMY AKTOROW
             Actors actor1 = new Actors();
@@ -66,6 +70,7 @@ public class Normal {
             actor1.setSalary(231);
             actor1.setGender("male");
             actor1.setAddress(address1);
+            actor1.setId(1L);
 
             Actors actor2 = new Actors();
             actor2.setName("Morgan");
@@ -73,6 +78,7 @@ public class Normal {
             actor2.setAge(56);
             actor2.setSalary(1142);
             actor2.setGender("male");
+            actor2.setId(2L);
 
             Actors actor3 = new Actors();
             actor3.setName("Brad");
@@ -82,6 +88,7 @@ public class Normal {
             actor3.setGender("male");
             actor3.setFavGenre("comedy");
             actor3.setAddress(address2);
+            actor3.setId(3L);
 
             Actors actor4 = new Actors();
             actor4.setName("Will");
@@ -91,6 +98,7 @@ public class Normal {
             actor4.setGender("male");
             actor4.setFavGenre("drama");
             actor4.setAddress(address3);
+            actor4.setId(4L);
 
             //TWORZYMY FILM
             Movie movie = new Movie();
@@ -100,6 +108,7 @@ public class Normal {
             movie.setTime("134");
             movie.setMovieGenre("comedy");
             movie.setReleaseDate(DateTime.now());
+            movie.setId(1L);
 
             Movie movie2 = new Movie();
             movie2.setTitle("Mank");
@@ -108,37 +117,43 @@ public class Normal {
             movie2.setTime("134");
             movie2.setMovieGenre("drama");
             movie2.setReleaseDate(DateTime.now());
+            movie2.setId(2L);
 
             //TWORZYMY REZYSEROW
             Director director = new Director();
             director.setName("Martin");
             director.setSurname("Scorsese");
+            director.setId(1L);
 //            director.setAddress(address4);
 
             Director director2 = new Director();
             director2.setName("Steven");
             director2.setSurname("Spielberg");
+            director2.setId(2L);
 
 
             //TWORZYMY OBSADE
             MovieCast cast = new MovieCast();
             cast.setActor(actor1);
-            cast.setActor(actor2);
             cast.setMovie(movie);
             cast.setRole("pirat");
+            cast.setId(1L);
+
 
             MovieCast cast2 = new MovieCast();
             cast2.setActor(actor3);
-            cast2.setActor(actor4);
             cast2.setMovie(movie2);
             cast2.setRole("monk");
+            cast2.setId(2L);
 
             //TWORZYMY GATUNEK
             Genres genre = new Genres();
             genre.setName("comedy");
+            genre.setId(1L);
 
             Genres genre2 = new Genres();
             genre2.setName("drama");
+            genre2.setId(2L);
 
             List<Actors> aktorzy= new ArrayList<>();
             aktorzy.add(actor1);

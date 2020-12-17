@@ -11,16 +11,13 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name = "Genres")
-@JsonIdentityInfo(generator= ObjectIdGenerators.IntSequenceGenerator.class,
-        property="refId", scope=Genres.class)
+
 public class Genres {
 
 
     @Column(name = "id",nullable = false)
     @Id
-    @JsonIgnore
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int id;
+    private Long id;
 
     @Column(nullable = false)
     String name;
@@ -28,11 +25,11 @@ public class Genres {
 
 
 
-    public int getId() {
+    public Long getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(Long id) {
         this.id = id;
     }
 
