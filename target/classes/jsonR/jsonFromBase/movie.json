@@ -1,1 +1,19 @@
-[ ]
+[ {
+  "id" : 1,
+  "title" : "Pirates of the Caribbean",
+  "time" : "134",
+  "language" : "English",
+  "releaseDate" : "2020-12-17",
+  "releaseCountry" : "USA",
+  "movieGenre" : "comedy",
+  "actors" : null
+}, {
+  "id" : 2,
+  "title" : "Mank",
+  "time" : "134",
+  "language" : "English",
+  "releaseDate" : "2003-05-19",
+  "releaseCountry" : "USA",
+  "movieGenre" : "drama",
+  "actors" : null
+} ]

@@ -1,15 +1,14 @@
 [ {
   "id" : 1,
   "role" : "pirat",
-  "movie" : {
+  "movieId" : {
     "id" : 1,
     "title" : "Pirates of the Caribbean",
     "time" : "134",
     "language" : "English",
-    "releaseDate" : "2020-12-17 01:28:51.662+0000",
+    "releaseDate" : "2020-12-17",
     "releaseCountry" : "USA",
-    "movieGenre" : "comedy",
-    "director" : null
+    "movieGenre" : "comedy"
   },
   "actor" : {
     "name" : "Johnny",
@@ -18,27 +17,35 @@
     "gender" : "male",
     "salary" : 231,
     "address" : {
-      "street" : "Lipowa",
-      "city" : "Poznan",
-      "nr" : "23",
-      "housenr" : null,
-      "postcode" : "12345",
-      "id" : 1
+      "street" : "Oak",
+      "city" : "Nowy Jork",
+      "nr" : "12",
+      "housenr" : "122",
+      "postcode" : "56789",
+      "AddressId" : 2
     },
-    "id" : 1
+    "ActorId" : 1
+  },
+  "movie" : {
+    "id" : 1,
+    "title" : "Pirates of the Caribbean",
+    "time" : "134",
+    "language" : "English",
+    "releaseDate" : "2020-12-17",
+    "releaseCountry" : "USA",
+    "movieGenre" : "comedy"
   }
 }, {
   "id" : 2,
   "role" : "monk",
-  "movie" : {
+  "movieId" : {
     "id" : 2,
     "title" : "Mank",
     "time" : "134",
     "language" : "English",
-    "releaseDate" : "2020-12-17 01:28:51.686+0000",
+    "releaseDate" : "2003-05-19",
     "releaseCountry" : "USA",
-    "movieGenre" : "drama",
-    "director" : null
+    "movieGenre" : "drama"
   },
   "actor" : {
     "name" : "Brad",
@@ -47,13 +54,22 @@
     "gender" : "male",
     "salary" : 1234,
     "address" : {
-      "street" : "Oak",
-      "city" : "Nowy Jork",
-      "nr" : "12",
+      "street" : "Angel",
+      "city" : "Los Angeles",
+      "nr" : "27",
       "housenr" : null,
-      "postcode" : "56789",
-      "id" : 2
+      "postcode" : "34561",
+      "AddressId" : 3
     },
-    "id" : 3
+    "ActorId" : 3
+  },
+  "movie" : {
+    "id" : 2,
+    "title" : "Mank",
+    "time" : "134",
+    "language" : "English",
+    "releaseDate" : "2003-05-19",
+    "releaseCountry" : "USA",
+    "movieGenre" : "drama"
   }
 } ]

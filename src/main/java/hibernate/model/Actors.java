@@ -1,11 +1,10 @@
 package hibernate.model;
 
-
-
-
-
+import com.fasterxml.jackson.annotation.JsonBackReference;
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonManagedReference;
+import com.fasterxml.jackson.annotation.JsonProperty;
 import javax.persistence.*;
-
 import javax.persistence.Id;
 import javax.persistence.Table;
 import javax.xml.bind.annotation.*;
@@ -27,18 +26,12 @@ import java.util.*;
 
 @Entity(name = "Actors")
 @Table(name = "actors")
-
-
-
-
-
 public class Actors {
 
     @Id
     @Column(name = "idAct", nullable=false)
     @XmlAttribute(name = "idAct", required = true)
     private Long idAct;
-
 
     @Column(nullable = false)
     String name;
@@ -48,7 +41,6 @@ public class Actors {
 
     @Column(nullable = false)
     Integer age;
-
 
     @Column
     String gender;
@@ -65,12 +57,8 @@ public class Actors {
     Address address;
 
     @OneToMany(mappedBy="actorId",fetch=FetchType.EAGER)
+    @JsonIgnore
     private Set<MovieCast> movies;
-
-
-
-
-
 
 
 
@@ -90,6 +78,7 @@ public class Actors {
         this.favGenre=favGenre;
     }
 
+    @JsonProperty("ActorId")
     public Long getId() {
         return idAct;
     }
@@ -142,10 +131,8 @@ public class Actors {
     public void setAddress(Address address1) {
         this.address = address1;
     }
+    @JsonIgnore
     public Long counter = 50L;
-
-
-
 
 
     public Address getAddress() {

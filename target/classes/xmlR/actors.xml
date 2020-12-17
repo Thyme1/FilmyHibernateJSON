@@ -6,14 +6,14 @@
     <gender>male</gender>
     <salary>231</salary>
     <address>
-      <street>Lipowa</street>
-      <city>Poznan</city>
-      <nr>23</nr>
-      <housenr/>
-      <postcode>12345</postcode>
-      <id>1</id>
+      <street>Oak</street>
+      <city>Nowy Jork</city>
+      <nr>12</nr>
+      <housenr>122</housenr>
+      <postcode>56789</postcode>
+      <AddressId>2</AddressId>
     </address>
-    <id>1</id>
+    <ActorId>1</ActorId>
   </item>
   <item>
     <name>Morgan</name>
@@ -21,8 +21,15 @@
     <age>56</age>
     <gender>male</gender>
     <salary>1142</salary>
-    <address/>
-    <id>2</id>
+    <address>
+      <street>Lipowa</street>
+      <city>Poznan</city>
+      <nr>23</nr>
+      <housenr>16</housenr>
+      <postcode>12345</postcode>
+      <AddressId>1</AddressId>
+    </address>
+    <ActorId>2</ActorId>
   </item>
   <item>
     <name>Brad</name>
@@ -31,14 +38,14 @@
     <gender>male</gender>
     <salary>1234</salary>
     <address>
-      <street>Oak</street>
-      <city>Nowy Jork</city>
-      <nr>12</nr>
+      <street>Angel</street>
+      <city>Los Angeles</city>
+      <nr>27</nr>
       <housenr/>
-      <postcode>56789</postcode>
-      <id>2</id>
+      <postcode>34561</postcode>
+      <AddressId>3</AddressId>
     </address>
-    <id>3</id>
+    <ActorId>3</ActorId>
   </item>
   <item>
     <name>Will</name>
@@ -47,13 +54,13 @@
     <gender>male</gender>
     <salary>2345</salary>
     <address>
-      <street>Angel</street>
-      <city>Los Angeles</city>
-      <nr>27</nr>
+      <street>Sesame</street>
+      <city>Las Vegas</city>
+      <nr>213</nr>
       <housenr/>
-      <postcode>34561</postcode>
-      <id>3</id>
+      <postcode>22222</postcode>
+      <AddressId>4</AddressId>
     </address>
-    <id>4</id>
+    <ActorId>4</ActorId>
   </item>
 </ArrayList>

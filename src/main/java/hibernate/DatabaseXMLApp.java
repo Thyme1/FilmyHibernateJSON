@@ -37,29 +37,67 @@ public class DatabaseXMLApp {
             List<MovieCast> movieCastList = objectMapper.readValue(new File("src/main/resources/xmlR/cast.xml"), new TypeReference<List<MovieCast>>(){});
 
 
-            for (Actors actors : actorsList) {
+            for (int i=0; i < movieCastList.size(); i++) {
+                MovieCast movieCast=movieCastList.get(i);
+                entityManager.persist(movieCast);
+                System.out.println(movieCast);
+            }
+
+            OUTER_LOOP2:
+            for (int i=0; i < actorsList.size(); i++) {
+                Actors actors=actorsList.get(i);
+                for (int j=0; j < movieCastList.size(); j++) {
+                    if (actors.getId().equals(movieCastList.get(j).getActorId().getId())) {
+                        continue OUTER_LOOP2;
+                    }
+                }
                 entityManager.persist(actors);
                 System.out.println(actors);
             }
-            for (Address address : addressList) {
-                entityManager.persist(address);
-                System.out.println(address);
-            }
+
             for (Director director : directorList) {
                 entityManager.persist(director);
                 System.out.println(director);
             }
+
+
+            OUTER_LOOP:
+            for (int i=0; i < addressList.size(); i++) {
+                Address address=addressList.get(i);
+                for (int j=0; j < movieCastList.size(); j++) {
+                    if (address.getId().equals(movieCastList.get(j).getActorId().getAddress().getId())) {
+                        continue OUTER_LOOP;
+                    }
+                }
+                for (int j=0; j < actorsList.size(); j++) {
+                    if (address.getId().equals(actorsList.get(j).getAddress().getId())) {
+                        continue OUTER_LOOP;
+                    }
+                    for (int k=0; k < directorList.size(); k++) {
+                        if (address.getId().equals(directorList.get(k).getAddress().getId())) {
+                            continue OUTER_LOOP;
+                        }
+                    }
+                }
+
+                entityManager.persist(address);
+                System.out.println(address);
+            }
+
             for (Genres genres : genresList) {
+
                 entityManager.persist(genres);
                 System.out.println(genres);
             }
+            OUTER_LOOP5:
             for (Movie movie : movieList) {
+                for (int j=0; j < movieCastList.size(); j++) {
+                    if (movie.getId().equals(movieCastList.get(j).getMovieId().getId())) {
+                        continue OUTER_LOOP5;
+                    }
+                }
                 entityManager.persist(movie);
                 System.out.println(movie);
-            }
-            for (MovieCast movieCast : movieCastList) {
-                entityManager.persist(movieCast);
-                System.out.println(movieCast);
             }
 
             //READ FROM DATABASE AND CREATE XML

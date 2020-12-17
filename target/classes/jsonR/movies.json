@@ -3,17 +3,15 @@
   "title" : "Pirates of the Caribbean",
   "time" : "134",
   "language" : "English",
-  "releaseDate" : "2020-12-17 01:28:51.662+0000",
+  "releaseDate" : "2020-12-17",
   "releaseCountry" : "USA",
-  "movieGenre" : "comedy",
-  "director" : null
+  "movieGenre" : "comedy"
 }, {
   "id" : 2,
   "title" : "Mank",
   "time" : "134",
   "language" : "English",
-  "releaseDate" : "2020-12-17 01:28:51.686+0000",
+  "releaseDate" : "2003-05-19",
   "releaseCountry" : "USA",
-  "movieGenre" : "drama",
-  "director" : null
+  "movieGenre" : "drama"
 } ]

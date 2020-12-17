@@ -5,22 +5,29 @@
   "gender" : "male",
   "salary" : 231,
   "address" : {
-    "street" : "Lipowa",
-    "city" : "Poznan",
-    "nr" : "23",
-    "housenr" : null,
-    "postcode" : "12345",
-    "id" : 1
+    "street" : "Oak",
+    "city" : "Nowy Jork",
+    "nr" : "12",
+    "housenr" : "122",
+    "postcode" : "56789",
+    "AddressId" : 2
   },
-  "id" : 1
+  "ActorId" : 1
 }, {
   "name" : "Morgan",
   "surname" : "Freeman",
   "age" : 56,
   "gender" : "male",
   "salary" : 1142,
-  "address" : null,
-  "id" : 2
+  "address" : {
+    "street" : "Lipowa",
+    "city" : "Poznan",
+    "nr" : "23",
+    "housenr" : "16",
+    "postcode" : "12345",
+    "AddressId" : 1
+  },
+  "ActorId" : 2
 }, {
   "name" : "Brad",
   "surname" : "Pitt",
@@ -28,14 +35,14 @@
   "gender" : "male",
   "salary" : 1234,
   "address" : {
-    "street" : "Oak",
-    "city" : "Nowy Jork",
-    "nr" : "12",
+    "street" : "Angel",
+    "city" : "Los Angeles",
+    "nr" : "27",
     "housenr" : null,
-    "postcode" : "56789",
-    "id" : 2
+    "postcode" : "34561",
+    "AddressId" : 3
   },
-  "id" : 3
+  "ActorId" : 3
 }, {
   "name" : "Will",
   "surname" : "Smith",
@@ -43,12 +50,12 @@
   "gender" : "male",
   "salary" : 2345,
   "address" : {
-    "street" : "Angel",
-    "city" : "Los Angeles",
-    "nr" : "27",
+    "street" : "Sesame",
+    "city" : "Las Vegas",
+    "nr" : "213",
     "housenr" : null,
-    "postcode" : "34561",
-    "id" : 3
+    "postcode" : "22222",
+    "AddressId" : 4
   },
-  "id" : 4
+  "ActorId" : 4
 } ]

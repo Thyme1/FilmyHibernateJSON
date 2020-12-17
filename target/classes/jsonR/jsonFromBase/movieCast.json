@@ -1,1 +1,61 @@
-[ ]
+[ {
+  "id" : 1,
+  "role" : "pirat",
+  "movie" : {
+    "id" : 1,
+    "title" : "Pirates of the Caribbean",
+    "time" : "134",
+    "language" : "English",
+    "releaseDate" : "2020-12-17",
+    "releaseCountry" : "USA",
+    "movieGenre" : "comedy",
+    "actors" : null
+  },
+  "actor" : {
+    "name" : "Johnny",
+    "surname" : "Depp",
+    "age" : 35,
+    "gender" : "male",
+    "salary" : 231,
+    "address" : {
+      "street" : "Oak",
+      "city" : "Nowy Jork",
+      "nr" : "12",
+      "housenr" : "122",
+      "postcode" : "56789",
+      "AddressId" : 2
+    },
+    "movies" : null,
+    "ActorId" : 1
+  }
+}, {
+  "id" : 2,
+  "role" : "monk",
+  "movie" : {
+    "id" : 2,
+    "title" : "Mank",
+    "time" : "134",
+    "language" : "English",
+    "releaseDate" : "2003-05-19",
+    "releaseCountry" : "USA",
+    "movieGenre" : "drama",
+    "actors" : null
+  },
+  "actor" : {
+    "name" : "Brad",
+    "surname" : "Pitt",
+    "age" : 35,
+    "gender" : "male",
+    "salary" : 1234,
+    "address" : {
+      "street" : "Angel",
+      "city" : "Los Angeles",
+      "nr" : "27",
+      "housenr" : null,
+      "postcode" : "34561",
+      "AddressId" : 3
+    },
+    "movies" : null,
+    "ActorId" : 3
+  }
+} ]

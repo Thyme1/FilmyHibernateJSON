@@ -1,9 +1,25 @@
 [ {
   "id" : 1,
   "name" : "Martin",
-  "surname" : "Scorsese"
+  "surname" : "Scorsese",
+  "address" : {
+    "street" : "Cisowa",
+    "city" : "Warszawa",
+    "nr" : "11",
+    "housenr" : "17",
+    "postcode" : "11111",
+    "AddressId" : 5
+  }
 }, {
   "id" : 2,
   "name" : "Steven",
-  "surname" : "Spielberg"
+  "surname" : "Spielberg",
+  "address" : {
+    "street" : "Double",
+    "city" : "Toronto",
+    "nr" : "17",
+    "housenr" : "12",
+    "postcode" : "12122",
+    "AddressId" : 6
+  }
 } ]

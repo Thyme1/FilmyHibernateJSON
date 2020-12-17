@@ -1,74 +1,50 @@
 <ArrayList>
   <item>
-    <refId>1</refId>
-    <street>Lipowa</street>
-    <city>Poznan</city>
-    <nr>23</nr>
-    <housenr/>
-    <postcode>12345</postcode>
-  </item>
-  <item>
-    <refId>2</refId>
     <street>Oak</street>
     <city>Nowy Jork</city>
     <nr>12</nr>
-    <housenr/>
+    <housenr>122</housenr>
     <postcode>56789</postcode>
+    <AddressId>2</AddressId>
   </item>
   <item>
-    <refId>3</refId>
     <street>Angel</street>
     <city>Los Angeles</city>
     <nr>27</nr>
     <housenr/>
     <postcode>34561</postcode>
+    <AddressId>3</AddressId>
   </item>
   <item>
-    <refId>4</refId>
     <street>Lipowa</street>
     <city>Poznan</city>
     <nr>23</nr>
-    <housenr/>
+    <housenr>16</housenr>
     <postcode>12345</postcode>
+    <AddressId>1</AddressId>
   </item>
   <item>
-    <refId>5</refId>
-    <street>Oak</street>
-    <city>Nowy Jork</city>
-    <nr>12</nr>
+    <street>Sesame</street>
+    <city>Las Vegas</city>
+    <nr>213</nr>
     <housenr/>
-    <postcode>56789</postcode>
+    <postcode>22222</postcode>
+    <AddressId>4</AddressId>
   </item>
   <item>
-    <refId>6</refId>
-    <street>Angel</street>
-    <city>Los Angeles</city>
-    <nr>27</nr>
-    <housenr/>
-    <postcode>34561</postcode>
+    <street>Cisowa</street>
+    <city>Warszawa</city>
+    <nr>11</nr>
+    <housenr>17</housenr>
+    <postcode>11111</postcode>
+    <AddressId>5</AddressId>
   </item>
   <item>
-    <refId>7</refId>
-    <street>Lipowa</street>
-    <city>Poznan</city>
-    <nr>23</nr>
-    <housenr/>
-    <postcode>12345</postcode>
-  </item>
-  <item>
-    <refId>8</refId>
-    <street>Oak</street>
-    <city>Nowy Jork</city>
-    <nr>12</nr>
-    <housenr/>
-    <postcode>56789</postcode>
-  </item>
-  <item>
-    <refId>9</refId>
-    <street>Angel</street>
-    <city>Los Angeles</city>
-    <nr>27</nr>
-    <housenr/>
-    <postcode>34561</postcode>
+    <street>Double</street>
+    <city>Toronto</city>
+    <nr>17</nr>
+    <housenr>12</housenr>
+    <postcode>12122</postcode>
+    <AddressId>6</AddressId>
   </item>
 </ArrayList>

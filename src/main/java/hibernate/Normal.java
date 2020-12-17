@@ -5,7 +5,10 @@ import hibernate.queries.Queries;
 import org.joda.time.DateTime;
 import javax.persistence.*;
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
+
 import static hibernate.json.SerializeJSON.serialize;
 import static hibernate.xml.SerializeXML.serializexml;
 import hibernate.model.Actors.*;
@@ -39,13 +42,17 @@ public class Normal {
             address1.setStreet("Lipowa");
             address1.setNr("23");
             address1.setPostcode("12345");
+            address1.setHousenr("12");
             address1.setId(1L);
+
+
 
             Address address2 = new Address();
             address2.setCity("Nowy Jork");
             address2.setStreet("Oak");
             address2.setNr("12");
             address2.setPostcode("56789");
+            address2.setHousenr("122");
             address2.setId(2L);
 
             Address address3 = new Address();
@@ -53,6 +60,7 @@ public class Normal {
             address3.setStreet("Angel");
             address3.setNr("27");
             address3.setPostcode("34561");
+            address1.setHousenr("14");
             address3.setId(3L);
 
             Address address4 = new Address();
@@ -60,7 +68,25 @@ public class Normal {
             address4.setStreet("Sesame");
             address4.setNr("213");
             address4.setPostcode("22222");
+            address1.setHousenr("16");
             address4.setId(4L);
+
+            Address address5 = new Address();
+            address5.setCity("Warszawa");
+            address5.setStreet("Cisowa");
+            address5.setNr("11");
+            address5.setHousenr("17");
+            address5.setPostcode("11111");
+            address5.setId(5L);
+
+
+            Address address6 = new Address();
+            address6.setCity("Toronto");
+            address6.setStreet("Double");
+            address6.setNr("17");
+            address6.setHousenr("12");
+            address6.setPostcode("12122");
+            address6.setId(6L);
 
             //TWORZYMY AKTOROW
             Actors actor1 = new Actors();
@@ -69,8 +95,10 @@ public class Normal {
             actor1.setAge(35);
             actor1.setSalary(231);
             actor1.setGender("male");
-            actor1.setAddress(address1);
+            actor1.setAddress(address2);
             actor1.setId(1L);
+
+
 
             Actors actor2 = new Actors();
             actor2.setName("Morgan");
@@ -78,6 +106,7 @@ public class Normal {
             actor2.setAge(56);
             actor2.setSalary(1142);
             actor2.setGender("male");
+            actor2.setAddress(address1);
             actor2.setId(2L);
 
             Actors actor3 = new Actors();
@@ -87,7 +116,7 @@ public class Normal {
             actor3.setSalary(1234);
             actor3.setGender("male");
             actor3.setFavGenre("comedy");
-            actor3.setAddress(address2);
+            actor3.setAddress(address3);
             actor3.setId(3L);
 
             Actors actor4 = new Actors();
@@ -97,7 +126,7 @@ public class Normal {
             actor4.setSalary(2345);
             actor4.setGender("male");
             actor4.setFavGenre("drama");
-            actor4.setAddress(address3);
+            actor4.setAddress(address4);
             actor4.setId(4L);
 
             //TWORZYMY FILM
@@ -116,7 +145,7 @@ public class Normal {
             movie2.setReleaseCountry("USA");
             movie2.setTime("134");
             movie2.setMovieGenre("drama");
-            movie2.setReleaseDate(DateTime.now());
+            movie2.setReleaseDate(DateTime.parse("2003-05-20"));
             movie2.setId(2L);
 
             //TWORZYMY REZYSEROW
@@ -124,12 +153,13 @@ public class Normal {
             director.setName("Martin");
             director.setSurname("Scorsese");
             director.setId(1L);
-//            director.setAddress(address4);
+            director.setAddress(address5);
 
             Director director2 = new Director();
             director2.setName("Steven");
             director2.setSurname("Spielberg");
             director2.setId(2L);
+            director2.setAddress(address6);
 
 
             //TWORZYMY OBSADE
@@ -166,6 +196,8 @@ public class Normal {
             adresy.add(address2);
             adresy.add(address3);
             adresy.add(address4);
+            adresy.add(address5);
+            adresy.add(address6);
 
             List<Director> rezyserowie = new ArrayList<>();
             rezyserowie.add(director);

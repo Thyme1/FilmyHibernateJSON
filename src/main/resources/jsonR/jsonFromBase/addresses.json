@@ -1,0 +1,43 @@
+[ {
+  "street" : "Oak",
+  "city" : "Nowy Jork",
+  "nr" : "12",
+  "housenr" : "122",
+  "postcode" : "56789",
+  "AddressId" : 2
+}, {
+  "street" : "Angel",
+  "city" : "Los Angeles",
+  "nr" : "27",
+  "housenr" : null,
+  "postcode" : "34561",
+  "AddressId" : 3
+}, {
+  "street" : "Lipowa",
+  "city" : "Poznan",
+  "nr" : "23",
+  "housenr" : "16",
+  "postcode" : "12345",
+  "AddressId" : 1
+}, {
+  "street" : "Sesame",
+  "city" : "Las Vegas",
+  "nr" : "213",
+  "housenr" : null,
+  "postcode" : "22222",
+  "AddressId" : 4
+}, {
+  "street" : "Cisowa",
+  "city" : "Warszawa",
+  "nr" : "11",
+  "housenr" : "17",
+  "postcode" : "11111",
+  "AddressId" : 5
+}, {
+  "street" : "Double",
+  "city" : "Toronto",
+  "nr" : "17",
+  "housenr" : "12",
+  "postcode" : "12122",
+  "AddressId" : 6
+} ]

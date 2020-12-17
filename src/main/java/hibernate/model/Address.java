@@ -1,9 +1,7 @@
 package hibernate.model;
 
-
-
+import com.fasterxml.jackson.annotation.JsonProperty;
 import javax.persistence.*;
-import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.Table;
 import javax.xml.bind.annotation.XmlAccessType;
@@ -43,13 +41,14 @@ public class Address {
     @Column(length = 5, nullable = false)
     String postcode;
 
+    @JsonProperty("AddressId")
     public Long getId() {
         return idAdd;
 
     }
 
-    public void setId(Long id) {
-        this.idAdd = id;
+    public void setId(Long idAdd) {
+        this.idAdd = idAdd;
     }
 
     public String getStreet() {
@@ -91,10 +90,6 @@ public class Address {
     public void setPostcode(String postcode) {
         this.postcode = postcode;
     }
-
-
-
-
 
 }
 

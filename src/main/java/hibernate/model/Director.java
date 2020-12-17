@@ -1,12 +1,8 @@
 package hibernate.model;
 
-import com.fasterxml.jackson.annotation.JsonIdentityInfo;
-import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonManagedReference;
-import com.fasterxml.jackson.annotation.ObjectIdGenerators;
 
 import javax.persistence.*;
-import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.Table;
 import java.util.Set;
@@ -15,7 +11,6 @@ import java.util.Set;
 @Table(name = "Directors")
 
 public class Director {
-
 
     @Column(name = "id", nullable=false)
     @Id
@@ -27,10 +22,9 @@ public class Director {
     @Column(nullable = false)
     String surname;
 
-
-//    @OneToOne(cascade = CascadeType.PERSIST)
-//    @JoinColumn(name="add_id", referencedColumnName = "id")
-//    Address address;
+    @OneToOne(cascade = CascadeType.PERSIST, fetch=FetchType.EAGER)
+    @JoinColumn(name="add_id", referencedColumnName = "idAdd")
+    Address address;
 
     @OneToMany(mappedBy="director",fetch=FetchType.EAGER)
     private Set<Movie> movies;
@@ -67,15 +61,12 @@ public class Director {
         this.surname = city;
     }
 
-//    public Address getAddress() {
-//        return address;
-//    }
-//
-//    public void setAddress(Address address) {
-//        this.address = address;
-//    }
+    public Address getAddress() {
+        return address;
+    }
 
-
-
+    public void setAddress(Address address) {
+        this.address = address;
+    }
 
 }

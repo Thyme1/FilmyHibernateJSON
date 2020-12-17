@@ -44,46 +44,70 @@ public class DatabaseJSONApp {
 
 
 
+            for (int i=0; i < movieCastList.size(); i++) {
+                MovieCast movieCast=movieCastList.get(i);
+                entityManager.persist(movieCast);
+                System.out.println(movieCast);
+            }
 
-                for (int i=0; i < actorsList.size(); i++) {
-                    Actors actors=actorsList.get(i);
-                    System.out.println(actors.getAddress().getId());
-                    entityManager.persist(actors);
-                    System.out.println(actors);}
-
-
-            OUTER_LOOP:for (int i=0; i < addressList.size(); i++) {
-                    Address address=addressList.get(i);
-                    for(int j=0;j<actorsList.size();j++){
-                    if(address.getId().equals(actorsList.get(j).getAddress().getId())){
-                        continue OUTER_LOOP;}}
-                    entityManager.persist(address);
-                    System.out.println(address);
+            OUTER_LOOP2:
+            for (int i=0; i < actorsList.size(); i++) {
+                Actors actors=actorsList.get(i);
+                for (int j=0; j < movieCastList.size(); j++) {
+                    if (actors.getId().equals(movieCastList.get(j).getActorId().getId())) {
+                        continue OUTER_LOOP2;
+                    }
                 }
-                for (Director director : directorsList) {
-                        entityManager.persist(director);
+                entityManager.persist(actors);
+                System.out.println(actors);
+            }
+
+            for (Director director : directorsList) {
+                entityManager.persist(director);
+                System.out.println(director);
+            }
 
 
-                    System.out.println(director);
+            OUTER_LOOP:
+            for (int i=0; i < addressList.size(); i++) {
+                Address address=addressList.get(i);
+                for (int j=0; j < movieCastList.size(); j++) {
+                    if (address.getId().equals(movieCastList.get(j).getActorId().getAddress().getId())) {
+                        continue OUTER_LOOP;
+                    }
                 }
+                for (int j=0; j < actorsList.size(); j++) {
+                    if (address.getId().equals(actorsList.get(j).getAddress().getId())) {
+                        continue OUTER_LOOP;
+                    }
+                    for (int k=0; k < directorsList.size(); k++) {
+                        if (address.getId().equals(directorsList.get(k).getAddress().getId())) {
+                            continue OUTER_LOOP;
+                        }
+                    }
+                }
+
+                entityManager.persist(address);
+                System.out.println(address);
+            }
+
                 for (Genres genres : genresList) {
 
                     entityManager.persist(genres);
                     System.out.println(genres);
                 }
-                for (Movie movie : moviesList) {
-                    entityManager.persist(movie);
-                    System.out.println(movie);
+            OUTER_LOOP5:
+            for (Movie movie : moviesList) {
+                for (int j=0; j < movieCastList.size(); j++) {
+                    if (movie.getId().equals(movieCastList.get(j).getMovieId().getId())) {
+                        continue OUTER_LOOP5;
+                    }
                 }
+                entityManager.persist(movie);
+                System.out.println(movie);
+            }
 
-                OUTER_LOOP2:for (int i=0; i < movieCastList.size(); i++) {
-                MovieCast movieCast=movieCastList.get(i);
-                for(int j=0;j<actorsList.size();j++){
-                    if(movieCast.getId().equals(actorsList.get(j).getAddress().getId())){
-                        continue OUTER_LOOP;}}
-                    entityManager.persist(movieCast);
-                    System.out.println(movieCast);
-                }
+
 
 
 

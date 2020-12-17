@@ -1,11 +1,12 @@
 package hibernate.model;
 
 import com.fasterxml.jackson.annotation.*;
-import org.hibernate.annotations.Fetch;
-import org.hibernate.annotations.FetchMode;
+import org.hibernate.annotations.Type;
 import org.joda.time.DateTime;
 import javax.persistence.*;
-import javax.persistence.GeneratedValue;
+import com.fasterxml.jackson.datatype.joda.JodaModule;
+
+
 import javax.persistence.Id;
 import javax.persistence.Table;
 import java.util.Set;
@@ -30,7 +31,8 @@ public class Movie {
     @Column(nullable = false)
     String language;
 
-    @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd HH:mm:ss.SSSZ")
+
+    @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd")
     @Column(length = 1000)
     DateTime releaseDate;
 
@@ -41,16 +43,15 @@ public class Movie {
     String movieGenre;
 
 
-
     @ManyToOne(cascade=CascadeType.ALL,fetch=FetchType.EAGER)
+    @JsonBackReference(value="dir_mv")
     @JoinColumn(name="dir")
 
     private Director director;
 
 
-
     @OneToMany(mappedBy="movieId",cascade=CascadeType.ALL)
-
+    @JsonIgnore
     private Set<MovieCast> actors;
 
     Set<MovieCast> getActors() {
@@ -68,7 +69,6 @@ public class Movie {
     public void setMovieGenre(String movieGenre) {
         this.movieGenre=movieGenre;
     }
-
 
 
     public Long getId() {
@@ -124,8 +124,5 @@ public class Movie {
     public void setDirector(Director director) {
         this.director = director;
     }
-
-
-
 
 }

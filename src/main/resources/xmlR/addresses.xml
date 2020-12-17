@@ -3,17 +3,17 @@
     <street>Lipowa</street>
     <city>Poznan</city>
     <nr>23</nr>
-    <housenr/>
+    <housenr>16</housenr>
     <postcode>12345</postcode>
-    <id>1</id>
+    <AddressId>1</AddressId>
   </item>
   <item>
     <street>Oak</street>
     <city>Nowy Jork</city>
     <nr>12</nr>
-    <housenr/>
+    <housenr>122</housenr>
     <postcode>56789</postcode>
-    <id>2</id>
+    <AddressId>2</AddressId>
   </item>
   <item>
     <street>Angel</street>
@@ -21,7 +21,7 @@
     <nr>27</nr>
     <housenr/>
     <postcode>34561</postcode>
-    <id>3</id>
+    <AddressId>3</AddressId>
   </item>
   <item>
     <street>Sesame</street>
@@ -29,6 +29,22 @@
     <nr>213</nr>
     <housenr/>
     <postcode>22222</postcode>
-    <id>4</id>
+    <AddressId>4</AddressId>
+  </item>
+  <item>
+    <street>Cisowa</street>
+    <city>Warszawa</city>
+    <nr>11</nr>
+    <housenr>17</housenr>
+    <postcode>11111</postcode>
+    <AddressId>5</AddressId>
+  </item>
+  <item>
+    <street>Double</street>
+    <city>Toronto</city>
+    <nr>17</nr>
+    <housenr>12</housenr>
+    <postcode>12122</postcode>
+    <AddressId>6</AddressId>
   </item>
 </ArrayList>

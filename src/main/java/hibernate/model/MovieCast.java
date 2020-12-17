@@ -1,24 +1,17 @@
 package hibernate.model;
 
 import com.fasterxml.jackson.annotation.JsonBackReference;
-import com.fasterxml.jackson.annotation.JsonIdentityInfo;
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.fasterxml.jackson.annotation.ObjectIdGenerators;
-import org.hibernate.annotations.Fetch;
-import org.hibernate.annotations.FetchMode;
+import com.fasterxml.jackson.annotation.JsonManagedReference;
 
 import javax.persistence.*;
-import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.Table;
-
 
 @Entity
 @Table(name = "MovieCast")
 
 public class MovieCast {
-
-
 
 
     @Column(name = "id")
@@ -29,34 +22,31 @@ public class MovieCast {
     @Column(nullable = false)
     String role;
 
-    Actors getActorId() {
+    public Actors getActorId() {
         return actorId;
     }
 
-    void setActorId(Actors actorId) {
+    public void setActorId(Actors actorId) {
         this.actorId=actorId;
     }
 
-    Movie getMovieId() {
+    public Movie getMovieId() {
         return movieId;
     }
 
-    void setMovieId(Movie movieId) {
+    public void setMovieId(Movie movieId) {
         this.movieId=movieId;
     }
 
     @ManyToOne(fetch = FetchType.EAGER,cascade=CascadeType.ALL)
+    @JsonIgnore
     @JoinColumn(name="actorId", nullable=false)
-
     private Actors actorId;
-
 
 
     @ManyToOne(cascade=CascadeType.ALL,fetch=FetchType.EAGER)
     @JoinColumn(name="movieId", nullable=false)
     private Movie movieId;
-
-
 
 
     public Movie getMovie() {
@@ -91,14 +81,5 @@ public class MovieCast {
     public void setId(Long id) {
         this.id=id;
     }
-
-
-
-
-
-
-
-
-
 
 }

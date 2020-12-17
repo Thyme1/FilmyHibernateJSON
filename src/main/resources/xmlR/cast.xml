@@ -2,15 +2,23 @@
   <item>
     <id>1</id>
     <role>pirat</role>
+    <movieId>
+      <id>1</id>
+      <title>Pirates of the Caribbean</title>
+      <time>134</time>
+      <language>English</language>
+      <releaseDate>2020-12-17</releaseDate>
+      <releaseCountry>USA</releaseCountry>
+      <movieGenre>comedy</movieGenre>
+    </movieId>
     <movie>
       <id>1</id>
       <title>Pirates of the Caribbean</title>
       <time>134</time>
       <language>English</language>
-      <releaseDate>2020-12-17 01:28:51.662+0000</releaseDate>
+      <releaseDate>2020-12-17</releaseDate>
       <releaseCountry>USA</releaseCountry>
       <movieGenre>comedy</movieGenre>
-      <director/>
     </movie>
     <actor>
       <name>Johnny</name>
@@ -19,28 +27,36 @@
       <gender>male</gender>
       <salary>231</salary>
       <address>
-        <street>Lipowa</street>
-        <city>Poznan</city>
-        <nr>23</nr>
-        <housenr/>
-        <postcode>12345</postcode>
-        <id>1</id>
+        <street>Oak</street>
+        <city>Nowy Jork</city>
+        <nr>12</nr>
+        <housenr>122</housenr>
+        <postcode>56789</postcode>
+        <AddressId>2</AddressId>
       </address>
-      <id>1</id>
+      <ActorId>1</ActorId>
     </actor>
   </item>
   <item>
     <id>2</id>
     <role>monk</role>
+    <movieId>
+      <id>2</id>
+      <title>Mank</title>
+      <time>134</time>
+      <language>English</language>
+      <releaseDate>2003-05-19</releaseDate>
+      <releaseCountry>USA</releaseCountry>
+      <movieGenre>drama</movieGenre>
+    </movieId>
     <movie>
       <id>2</id>
       <title>Mank</title>
       <time>134</time>
       <language>English</language>
-      <releaseDate>2020-12-17 01:28:51.686+0000</releaseDate>
+      <releaseDate>2003-05-19</releaseDate>
       <releaseCountry>USA</releaseCountry>
       <movieGenre>drama</movieGenre>
-      <director/>
     </movie>
     <actor>
       <name>Brad</name>
@@ -49,14 +65,14 @@
       <gender>male</gender>
       <salary>1234</salary>
       <address>
-        <street>Oak</street>
-        <city>Nowy Jork</city>
-        <nr>12</nr>
+        <street>Angel</street>
+        <city>Los Angeles</city>
+        <nr>27</nr>
         <housenr/>
-        <postcode>56789</postcode>
-        <id>2</id>
+        <postcode>34561</postcode>
+        <AddressId>3</AddressId>
       </address>
-      <id>3</id>
+      <ActorId>3</ActorId>
     </actor>
   </item>
 </ArrayList>

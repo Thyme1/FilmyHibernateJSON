@@ -1,11 +1,6 @@
 package hibernate.model;
 
-import com.fasterxml.jackson.annotation.JsonIdentityInfo;
-import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.fasterxml.jackson.annotation.ObjectIdGenerators;
-
 import javax.persistence.*;
-import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
@@ -22,9 +17,6 @@ public class Genres {
     @Column(nullable = false)
     String name;
 
-
-
-
     public Long getId() {
         return id;
     }
@@ -40,8 +32,5 @@ public class Genres {
     public void setName(String name) {
         this.name = name;
     }
-
-
-
 
 }

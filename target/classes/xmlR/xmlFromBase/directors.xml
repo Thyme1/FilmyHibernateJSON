@@ -1,28 +1,28 @@
 <ArrayList>
   <item>
-    <refId>1</refId>
+    <id>1</id>
     <name>Martin</name>
     <surname>Scorsese</surname>
     <address>
-      <refId>1</refId>
-      <street>Lipowa</street>
-      <city>Poznan</city>
-      <nr>23</nr>
-      <housenr/>
-      <postcode>12345</postcode>
+      <street>Cisowa</street>
+      <city>Warszawa</city>
+      <nr>11</nr>
+      <housenr>17</housenr>
+      <postcode>11111</postcode>
+      <AddressId>5</AddressId>
     </address>
   </item>
   <item>
-    <refId>2</refId>
+    <id>2</id>
     <name>Steven</name>
     <surname>Spielberg</surname>
     <address>
-      <refId>2</refId>
-      <street>Oak</street>
-      <city>Nowy Jork</city>
-      <nr>12</nr>
-      <housenr/>
-      <postcode>56789</postcode>
+      <street>Double</street>
+      <city>Toronto</city>
+      <nr>17</nr>
+      <housenr>12</housenr>
+      <postcode>12122</postcode>
+      <AddressId>6</AddressId>
     </address>
   </item>
 </ArrayList>
