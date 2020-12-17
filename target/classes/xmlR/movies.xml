@@ -7,6 +7,7 @@
     <releaseDate>2020-12-17</releaseDate>
     <releaseCountry>USA</releaseCountry>
     <movieGenre>comedy</movieGenre>
+    <director/>
   </item>
   <item>
     <id>2</id>
@@ -16,5 +17,6 @@
     <releaseDate>2003-05-19</releaseDate>
     <releaseCountry>USA</releaseCountry>
     <movieGenre>drama</movieGenre>
+    <director/>
   </item>
 </ArrayList>

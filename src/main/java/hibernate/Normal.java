@@ -169,6 +169,10 @@ public class Normal {
             cast.setRole("pirat");
             cast.setId(1L);
 
+            Set<MovieCast> castSet1 = new HashSet<>();
+            castSet1.add(cast);
+            actor1.setMovies(castSet1);
+
 
             MovieCast cast2 = new MovieCast();
             cast2.setActor(actor3);

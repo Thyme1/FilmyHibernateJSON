@@ -2,6 +2,22 @@
   <item>
     <id>1</id>
     <role>pirat</role>
+    <actorId>
+      <name>Johnny</name>
+      <surname>Depp</surname>
+      <age>35</age>
+      <gender>male</gender>
+      <salary>231</salary>
+      <address>
+        <street>Oak</street>
+        <city>Nowy Jork</city>
+        <nr>12</nr>
+        <housenr>122</housenr>
+        <postcode>56789</postcode>
+        <AddressId>2</AddressId>
+      </address>
+      <ActorId>1</ActorId>
+    </actorId>
     <movieId>
       <id>1</id>
       <title>Pirates of the Caribbean</title>
@@ -10,16 +26,8 @@
       <releaseDate>2020-12-17</releaseDate>
       <releaseCountry>USA</releaseCountry>
       <movieGenre>comedy</movieGenre>
+      <director/>
     </movieId>
-    <movie>
-      <id>1</id>
-      <title>Pirates of the Caribbean</title>
-      <time>134</time>
-      <language>English</language>
-      <releaseDate>2020-12-17</releaseDate>
-      <releaseCountry>USA</releaseCountry>
-      <movieGenre>comedy</movieGenre>
-    </movie>
     <actor>
       <name>Johnny</name>
       <surname>Depp</surname>
@@ -36,10 +44,36 @@
       </address>
       <ActorId>1</ActorId>
     </actor>
+    <movie>
+      <id>1</id>
+      <title>Pirates of the Caribbean</title>
+      <time>134</time>
+      <language>English</language>
+      <releaseDate>2020-12-17</releaseDate>
+      <releaseCountry>USA</releaseCountry>
+      <movieGenre>comedy</movieGenre>
+      <director/>
+    </movie>
   </item>
   <item>
     <id>2</id>
     <role>monk</role>
+    <actorId>
+      <name>Brad</name>
+      <surname>Pitt</surname>
+      <age>35</age>
+      <gender>male</gender>
+      <salary>1234</salary>
+      <address>
+        <street>Angel</street>
+        <city>Los Angeles</city>
+        <nr>27</nr>
+        <housenr/>
+        <postcode>34561</postcode>
+        <AddressId>3</AddressId>
+      </address>
+      <ActorId>3</ActorId>
+    </actorId>
     <movieId>
       <id>2</id>
       <title>Mank</title>
@@ -48,16 +82,8 @@
       <releaseDate>2003-05-19</releaseDate>
       <releaseCountry>USA</releaseCountry>
       <movieGenre>drama</movieGenre>
+      <director/>
     </movieId>
-    <movie>
-      <id>2</id>
-      <title>Mank</title>
-      <time>134</time>
-      <language>English</language>
-      <releaseDate>2003-05-19</releaseDate>
-      <releaseCountry>USA</releaseCountry>
-      <movieGenre>drama</movieGenre>
-    </movie>
     <actor>
       <name>Brad</name>
       <surname>Pitt</surname>
@@ -74,5 +100,15 @@
       </address>
       <ActorId>3</ActorId>
     </actor>
+    <movie>
+      <id>2</id>
+      <title>Mank</title>
+      <time>134</time>
+      <language>English</language>
+      <releaseDate>2003-05-19</releaseDate>
+      <releaseCountry>USA</releaseCountry>
+      <movieGenre>drama</movieGenre>
+      <director/>
+    </movie>
   </item>
 </ArrayList>

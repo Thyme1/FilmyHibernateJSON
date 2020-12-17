@@ -5,7 +5,8 @@
   "language" : "English",
   "releaseDate" : "2020-12-17",
   "releaseCountry" : "USA",
-  "movieGenre" : "comedy"
+  "movieGenre" : "comedy",
+  "director" : null
 }, {
   "id" : 2,
   "title" : "Mank",
@@ -13,5 +14,6 @@
   "language" : "English",
   "releaseDate" : "2003-05-19",
   "releaseCountry" : "USA",
-  "movieGenre" : "drama"
+  "movieGenre" : "drama",
+  "director" : null
 } ]

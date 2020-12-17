@@ -57,7 +57,6 @@ public class Actors {
     Address address;
 
     @OneToMany(mappedBy="actorId",fetch=FetchType.EAGER)
-    @JsonIgnore
     private Set<MovieCast> movies;
 
 

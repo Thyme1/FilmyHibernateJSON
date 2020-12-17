@@ -1,6 +1,22 @@
 [ {
   "id" : 1,
   "role" : "pirat",
+  "actorId" : {
+    "name" : "Johnny",
+    "surname" : "Depp",
+    "age" : 35,
+    "gender" : "male",
+    "salary" : 231,
+    "address" : {
+      "street" : "Oak",
+      "city" : "Nowy Jork",
+      "nr" : "12",
+      "housenr" : "122",
+      "postcode" : "56789",
+      "AddressId" : 2
+    },
+    "ActorId" : 1
+  },
   "movieId" : {
     "id" : 1,
     "title" : "Pirates of the Caribbean",
@@ -8,16 +24,8 @@
     "language" : "English",
     "releaseDate" : "2020-12-17",
     "releaseCountry" : "USA",
-    "movieGenre" : "comedy"
-  },
-  "movie" : {
-    "id" : 1,
-    "title" : "Pirates of the Caribbean",
-    "time" : "134",
-    "language" : "English",
-    "releaseDate" : "2020-12-17",
-    "releaseCountry" : "USA",
-    "movieGenre" : "comedy"
+    "movieGenre" : "comedy",
+    "director" : null
   },
   "actor" : {
     "name" : "Johnny",
@@ -34,10 +42,36 @@
       "AddressId" : 2
     },
     "ActorId" : 1
+  },
+  "movie" : {
+    "id" : 1,
+    "title" : "Pirates of the Caribbean",
+    "time" : "134",
+    "language" : "English",
+    "releaseDate" : "2020-12-17",
+    "releaseCountry" : "USA",
+    "movieGenre" : "comedy",
+    "director" : null
   }
 }, {
   "id" : 2,
   "role" : "monk",
+  "actorId" : {
+    "name" : "Brad",
+    "surname" : "Pitt",
+    "age" : 35,
+    "gender" : "male",
+    "salary" : 1234,
+    "address" : {
+      "street" : "Angel",
+      "city" : "Los Angeles",
+      "nr" : "27",
+      "housenr" : null,
+      "postcode" : "34561",
+      "AddressId" : 3
+    },
+    "ActorId" : 3
+  },
   "movieId" : {
     "id" : 2,
     "title" : "Mank",
@@ -45,16 +79,8 @@
     "language" : "English",
     "releaseDate" : "2003-05-19",
     "releaseCountry" : "USA",
-    "movieGenre" : "drama"
-  },
-  "movie" : {
-    "id" : 2,
-    "title" : "Mank",
-    "time" : "134",
-    "language" : "English",
-    "releaseDate" : "2003-05-19",
-    "releaseCountry" : "USA",
-    "movieGenre" : "drama"
+    "movieGenre" : "drama",
+    "director" : null
   },
   "actor" : {
     "name" : "Brad",
@@ -71,5 +97,15 @@
       "AddressId" : 3
     },
     "ActorId" : 3
+  },
+  "movie" : {
+    "id" : 2,
+    "title" : "Mank",
+    "time" : "134",
+    "language" : "English",
+    "releaseDate" : "2003-05-19",
+    "releaseCountry" : "USA",
+    "movieGenre" : "drama",
+    "director" : null
   }
 } ]

@@ -18,31 +18,12 @@ public class MovieCast {
     @Id
     private Long id;
 
-
     @Column(nullable = false)
     String role;
 
-    public Actors getActorId() {
-        return actorId;
-    }
-
-    public void setActorId(Actors actorId) {
-        this.actorId=actorId;
-    }
-
-    public Movie getMovieId() {
-        return movieId;
-    }
-
-    public void setMovieId(Movie movieId) {
-        this.movieId=movieId;
-    }
-
     @ManyToOne(fetch = FetchType.EAGER,cascade=CascadeType.ALL)
-    @JsonIgnore
     @JoinColumn(name="actorId", nullable=false)
     private Actors actorId;
-
 
     @ManyToOne(cascade=CascadeType.ALL,fetch=FetchType.EAGER)
     @JoinColumn(name="movieId", nullable=false)
@@ -66,7 +47,21 @@ public class MovieCast {
     }
 
     public MovieCast() {}
+    public Actors getActorId() {
+        return actorId;
+    }
 
+    public void setActorId(Actors actorId) {
+        this.actorId=actorId;
+    }
+
+    public Movie getMovieId() {
+        return movieId;
+    }
+
+    public void setMovieId(Movie movieId) {
+        this.movieId=movieId;
+    }
     public String getRole() {
         return role;
     }

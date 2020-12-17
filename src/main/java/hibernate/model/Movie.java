@@ -44,14 +44,12 @@ public class Movie {
 
 
     @ManyToOne(cascade=CascadeType.ALL,fetch=FetchType.EAGER)
-    @JsonBackReference(value="dir_mv")
     @JoinColumn(name="dir")
 
     private Director director;
 
 
     @OneToMany(mappedBy="movieId",cascade=CascadeType.ALL)
-    @JsonIgnore
     private Set<MovieCast> actors;
 
     Set<MovieCast> getActors() {
